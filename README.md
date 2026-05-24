@@ -2,7 +2,7 @@
 
 # Hi, I'm Roshan 👋
 
-### Indie developer building small, polished tools — mostly for the Mac.
+### Web developer & no-code expert — building web apps, AI tools, and n8n automations.
 
 📍 Surat, India
 
@@ -18,24 +18,23 @@
 
 ## 🌟 Featured project
 
-### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/)
-
-[![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
+### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
 
 A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code)
 permission prompts, questions, and notifications on macOS — read the diff, approve
 with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
 
-## 📦 Other projects
+## 🚀 Things I've built
 
-| Project | Tech | What it is |
+| Project | Live | What it is |
 | --- | --- | --- |
-| [web-chat-application](https://github.com/rawsun007/web-chat-application) | Python | A real-time web chat app |
-| [Social-lens_backend](https://github.com/rawsun007/Social-lens_backend) | Python | Backend API for a social app |
-| [Recipe-Box](https://github.com/rawsun007/Recipe-Box) | CSS | A recipe collection web app |
-| [sutex-frontend](https://github.com/rawsun007/sutex-frontend) | JavaScript | A frontend web app |
+| **GodPrompter** | [godprompter.com ↗](https://godprompter.com/) | A tool for crafting better AI prompts |
+| **QR Code** | [qr-done ↗](https://qr-done-five.vercel.app/) | Generate custom QR codes |
+| **GitHub Wrapped** | [demo ↗](https://github-wrapped-2026-steel.vercel.app/) | Your GitHub year, wrapped up |
+| **PDF Toolbox** | [demo ↗](https://pdf-toolbox-eight-beryl.vercel.app/) | Merge, split & convert PDFs in the browser |
+| **iloveinvoice** | [iloveinvoice.live ↗](http://iloveinvoice.live/) | Create and download invoices |
 
-→ [See all my repositories](https://github.com/rawsun007?tab=repositories)
+⚡ I also build no-code automations — find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a [Needle content partner](https://needle.app/partners-directory/roshan-ramani).
 
 ## 🛠️ Tech I work with
 
@@ -48,6 +47,7 @@ with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ---
 
