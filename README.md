@@ -16,17 +16,32 @@
 
 ---
 
-## 🚀 What I'm building
+## 🌟 Featured project
 
-- **[ClaudeNotch](https://github.com/rawsun007/claude-notch)** — a Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code) permission prompts, questions, and notifications on macOS. Approve with one key, never leave your editor. → [**website**](https://rawsun007.github.io/claude-notch/)
-- Plus a steady stream of small utilities: a QR generator, a PDF toolbox, a webcam game, a GitHub-Wrapped, and more.
+### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/)
 
-I like shipping focused tools that do one thing well, with care put into the details.
+[![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
+
+A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code)
+permission prompts, questions, and notifications on macOS — read the diff, approve
+with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
+
+## 📦 Other projects
+
+| Project | Tech | What it is |
+| --- | --- | --- |
+| [web-chat-application](https://github.com/rawsun007/web-chat-application) | Python | A real-time web chat app |
+| [Social-lens_backend](https://github.com/rawsun007/Social-lens_backend) | Python | Backend API for a social app |
+| [Recipe-Box](https://github.com/rawsun007/Recipe-Box) | CSS | A recipe collection web app |
+| [sutex-frontend](https://github.com/rawsun007/sutex-frontend) | JavaScript | A frontend web app |
+
+→ [See all my repositories](https://github.com/rawsun007?tab=repositories)
 
 ## 🛠️ Tech I work with
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=for-the-badge&logo=swift&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -36,12 +51,21 @@ I like shipping focused tools that do one thing well, with care put into the det
 
 ---
 
+## 📊 GitHub stats
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rawsun007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=graywhite" alt="Roshan's GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rawsun007&layout=compact&hide_border=true&langs_count=8&theme=graywhite" alt="Top languages" />
+<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default" alt="Profile summary" />
+
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default" alt="Stats" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default" alt="Repos per language" />
 
 <br/>
+
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default" alt="Most-used languages" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5" alt="Productive time" />
+
+<br/><br/>
 
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="GitHub streak" />
 
