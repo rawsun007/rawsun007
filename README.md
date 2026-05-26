@@ -55,23 +55,19 @@ with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**
 
 <div align="center">
 
-<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default" alt="Profile summary" />
+<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default&v=2" alt="Profile summary" />
 
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default" alt="Stats" />
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default" alt="Repos per language" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Stats" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Repos per language" />
 
 <br/>
 
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default" alt="Most-used languages" />
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5" alt="Productive time" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default&v=2" alt="Most-used languages" />
+<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5&v=2" alt="Productive time" />
 
 <br/><br/>
 
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="GitHub streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=rawsun007&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
 
 </div>
 
