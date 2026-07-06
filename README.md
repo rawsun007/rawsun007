@@ -2,7 +2,7 @@
 
 # Hi, I'm Roshan 👋
 
-### Web developer & no-code expert — building web apps, AI tools, and n8n automations.
+### Web developer & no-code expert, building web apps, AI tools, and n8n automations.
 
 📍 Surat, India
 &nbsp;·&nbsp;
@@ -25,16 +25,16 @@
 ### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
 
 A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code)
-permission prompts, questions, and notifications on macOS — read the diff, approve
+permission prompts, questions, and notifications on macOS. Read the diff, approve
 with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
 
 ### [MetaStrip](https://metastrip.vercel.app/) &nbsp;·&nbsp; [changelog ↗](https://metastrip.vercel.app/changelog.html)
 
-Shows you exactly what a photo secretly carries — GPS location, device details, timestamps —
+Shows you exactly what a photo secretly carries, GPS location, device details, timestamps,
 then strips it losslessly, byte by byte, entirely in your browser. No upload, no server, no
 account. Includes selective field redaction, HEIC support, and an installable PWA with
-Android share-target support. Built with vanilla JS, shipped one tested feature at a time
-with a public [changelog](https://metastrip.vercel.app/changelog.html).
+Android share-target support. Built with vanilla JS and shipped one tested feature at a time,
+with a changelog to prove it.
 
 ## 🚀 Things I've built
 
@@ -46,7 +46,7 @@ with a public [changelog](https://metastrip.vercel.app/changelog.html).
 | **PDF Toolbox** | [demo ↗](https://pdf-toolbox-eight-beryl.vercel.app/) | Merge, split & convert PDFs in the browser |
 | **iloveinvoice** | [iloveinvoice.live ↗](http://iloveinvoice.live/) | Create and download invoices |
 
-⚡ I also build no-code automations — 30+ published templates and 32k+ template uses across
+⚡ I also build no-code automations. 30+ published templates and 32k+ template uses across
 n8n and Needle. My survey-report generator built with Jotform and Gemini alone has crossed
 240+ views. Find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle
 content partner.
@@ -90,5 +90,5 @@ content partner.
 ---
 
 <div align="center">
-<sub>Building in public, one shipped feature at a time — see the <a href="https://metastrip.vercel.app/changelog.html">MetaStrip changelog</a> for an example. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
+<sub>Building in public, one shipped feature at a time. See the <a href="https://metastrip.vercel.app/changelog.html">MetaStrip changelog</a> for an example. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
 </div>
