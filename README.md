@@ -87,5 +87,5 @@ n8n and Needle, some individually crossing 200+ views. Find me as an
 ---
 
 <div align="center">
-<sub>Building in public — say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
+<sub>Building in public, one shipped feature at a time — see the <a href="https://metastrip.vercel.app/changelog.html">MetaStrip changelog</a> for an example. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
 </div>
