@@ -34,7 +34,7 @@ with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**
 | **PDF Toolbox** | [demo ↗](https://pdf-toolbox-eight-beryl.vercel.app/) | Merge, split & convert PDFs in the browser |
 | **iloveinvoice** | [iloveinvoice.live ↗](http://iloveinvoice.live/) | Create and download invoices |
 
-⚡ I also build no-code automations — find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a [Needle content partner](https://needle.app/partners-directory/roshan-ramani).
+⚡ I also build no-code automations — find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
 
 ## 🛠️ Tech I work with
 
