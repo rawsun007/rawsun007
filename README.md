@@ -5,6 +5,8 @@
 ### Web developer & no-code expert — building web apps, AI tools, and n8n automations.
 
 📍 Surat, India
+&nbsp;·&nbsp;
+🔭 Currently building privacy-first browser tools and shipping n8n/AI automations
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Ramani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 &nbsp;
