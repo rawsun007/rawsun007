@@ -44,7 +44,9 @@ with a public [changelog](https://metastrip.vercel.app/changelog.html).
 | **PDF Toolbox** | [demo ↗](https://pdf-toolbox-eight-beryl.vercel.app/) | Merge, split & convert PDFs in the browser |
 | **iloveinvoice** | [iloveinvoice.live ↗](http://iloveinvoice.live/) | Create and download invoices |
 
-⚡ I also build no-code automations — find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
+⚡ I also build no-code automations — 30+ published templates and 32k+ template uses across
+n8n and Needle, some individually crossing 200+ views. Find me as an
+[n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
 
 ## 🛠️ Tech I work with
 
