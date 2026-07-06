@@ -18,13 +18,21 @@
 
 ---
 
-## 🌟 Featured project
+## 🌟 Featured projects
 
 ### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
 
 A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code)
 permission prompts, questions, and notifications on macOS — read the diff, approve
 with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
+
+### [MetaStrip](https://github.com/rawsun007/metastrip) &nbsp;·&nbsp; [live ↗](https://metastrip.vercel.app/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/metastrip?style=social)](https://github.com/rawsun007/metastrip/stargazers)
+
+Shows you exactly what a photo secretly carries — GPS location, device details, timestamps —
+then strips it losslessly, byte by byte, entirely in your browser. No upload, no server, no
+account. Includes selective field redaction, HEIC support, and an installable PWA with
+Android share-target support. Built with vanilla JS, shipped one tested feature at a time
+with a public [changelog](https://metastrip.vercel.app/changelog.html).
 
 ## 🚀 Things I've built
 
