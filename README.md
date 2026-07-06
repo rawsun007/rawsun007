@@ -28,7 +28,7 @@ A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.
 permission prompts, questions, and notifications on macOS — read the diff, approve
 with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
 
-### [MetaStrip](https://github.com/rawsun007/metastrip) &nbsp;·&nbsp; [live ↗](https://metastrip.vercel.app/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/metastrip?style=social)](https://github.com/rawsun007/metastrip/stargazers)
+### [MetaStrip](https://metastrip.vercel.app/) &nbsp;·&nbsp; [changelog ↗](https://metastrip.vercel.app/changelog.html)
 
 Shows you exactly what a photo secretly carries — GPS location, device details, timestamps —
 then strips it losslessly, byte by byte, entirely in your browser. No upload, no server, no
