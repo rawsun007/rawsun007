@@ -8,6 +8,8 @@
 &nbsp;·&nbsp;
 🔭 Currently building privacy-first browser tools and shipping n8n/AI automations
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-roshan--ramani.vercel.app-fb4903?style=for-the-badge&logo=vercel&logoColor=white)](https://roshan-ramani.vercel.app/)
+&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Ramani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 &nbsp;
 [![X](https://img.shields.io/badge/X-@roshanramani007-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/roshanramani007)
