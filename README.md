@@ -92,13 +92,18 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 **Languages**
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Frameworks**
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=for-the-badge&logo=swift&logoColor=white)
+![AppKit](https://img.shields.io/badge/AppKit-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -107,7 +112,11 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 **Tools and platforms**
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Jotform](https://img.shields.io/badge/Jotform-FF6100?style=for-the-badge&logo=jotform&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=for-the-badge&logo=homebrew&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
@@ -116,8 +125,19 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub statistics" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Most-used programming languages across Roshan Ramani's repositories" />
+<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub profile summary: commits, stars and contributions" />
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub statistics" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Repositories per programming language, mostly Swift and Python" />
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default&v=2" alt="Languages by commit volume across Roshan Ramani's repositories" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5&v=2" alt="Time of day Roshan Ramani commits most, in IST" />
+
+<br/>
+
+<img height="180" src="https://streak-stats.demolab.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="Roshan Ramani's GitHub contribution streak" />
+
+<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=rawsun007&theme=github-compact&hide_border=true&area=true" alt="Roshan Ramani's contribution activity over the past year" />
 
 </div>
 
