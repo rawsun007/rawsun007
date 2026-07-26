@@ -146,13 +146,7 @@ agent wants to run.
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Repositories per programming language, mostly Swift and Python" />
 
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default&v=2" alt="Languages by commit volume across Roshan Ramani's repositories" />
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5&v=2" alt="Time of day Roshan Ramani commits most, in IST" />
-
-<br/>
-
-<img height="180" src="https://streak-stats.demolab.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="Roshan Ramani's GitHub contribution streak" />
-
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=rawsun007&theme=github-compact&hide_border=true&area=true" alt="Roshan Ramani's contribution activity over the past year" />
+<img height="185" src="https://streak-stats.demolab.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="Roshan Ramani's GitHub contribution streak" />
 
 </div>
 
