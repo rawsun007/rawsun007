@@ -165,3 +165,5 @@ agent wants to run.
 <div align="center">
 <sub>Building in public, one shipped feature at a time. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&customColorList=12" alt="" />
