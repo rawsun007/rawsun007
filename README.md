@@ -1,94 +1,123 @@
 <div align="center">
 
-# Hi, I'm Roshan 👋
+# Roshan Ramani
 
-### Web developer & no-code expert, building web apps, AI tools, and n8n automations.
+### Web developer and automation engineer, Surat, India
 
-📍 Surat, India
-&nbsp;·&nbsp;
-🔭 Currently building privacy-first browser tools and shipping n8n/AI automations
+I build privacy-first browser tools, native macOS apps in Swift, and AI workflow
+automations on n8n. Small, fast, shipped in public, with a changelog to prove it.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-roshan--ramani.vercel.app-fb4903?style=for-the-badge&logo=vercel&logoColor=white)](https://roshan-ramani.vercel.app/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Ramani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 &nbsp;
 [![X](https://img.shields.io/badge/X-@roshanramani007-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/roshanramani007)
-
-![Profile views](https://komarev.com/ghpvc/?username=rawsun007&color=ff6b5e&style=flat&label=Profile+views)
+&nbsp;
+[![n8n creator](https://img.shields.io/badge/n8n_creator-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io/creators/rawsun007/)
 
 </div>
 
 ---
 
-## 🌟 Featured projects
+## What I work on
 
-### [ClaudeNotch](https://github.com/rawsun007/claude-notch) &nbsp;·&nbsp; [website ↗](https://rawsun007.github.io/claude-notch/) &nbsp; [![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=social)](https://github.com/rawsun007/claude-notch/stargazers)
+- **Privacy-first web tools.** Everything runs in the browser. No upload, no server, no account.
+- **macOS apps.** Swift, SwiftUI and AppKit, built for developers who live in the terminal.
+- **AI and no-code automation.** 30+ published n8n templates with 32,000+ uses.
 
-A Dynamic-Island-style notch overlay that surfaces [Claude Code](https://claude.com/claude-code)
-permission prompts, questions, and notifications on macOS. Read the diff, approve
-with one key, and never leave your editor. Built with **Swift + SwiftUI/AppKit**.
+Open to freelance work and collaboration. The fastest way to reach me is
+[X](https://x.com/roshanramani007) or [LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2).
 
-### [MetaStrip](https://metastrip.vercel.app/) &nbsp;·&nbsp; [changelog ↗](https://metastrip.vercel.app/changelog.html)
+---
 
-Shows you exactly what a photo secretly carries, GPS location, device details, timestamps,
-then strips it losslessly, byte by byte, entirely in your browser. No upload, no server, no
-account. Includes selective field redaction, HEIC support, and an installable PWA with
-Android share-target support. Built with vanilla JS and shipped one tested feature at a time,
-with a changelog to prove it.
+## Featured projects
 
-## 🚀 Things I've built
+### ClaudeNotch, approve Claude Code from your Mac's notch
 
-| Project | Live | What it is |
+[![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=flat&label=stars)](https://github.com/rawsun007/claude-notch/stargazers)
+[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)](https://github.com/rawsun007/claude-notch)
+[![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black?logo=apple)](https://github.com/rawsun007/claude-notch)
+
+A Dynamic-Island-style overlay that surfaces [Claude Code](https://claude.com/claude-code)
+permission prompts, questions, cost and context usage in the MacBook notch. Read the diff,
+approve or deny with one key, and never tab back to the terminal. Native menu-bar app in
+Swift with SwiftUI and AppKit, works with VoiceOver, and runs entirely on your machine.
+
+[Source on GitHub](https://github.com/rawsun007/claude-notch)
+&nbsp;·&nbsp;
+[ClaudeNotch website](https://rawsun007.github.io/claude-notch/)
+&nbsp;·&nbsp;
+[Download for macOS](https://github.com/rawsun007/claude-notch/releases/latest)
+
+### MetaStrip, see and strip photo EXIF metadata in your browser
+
+Shows exactly what a photo secretly carries, GPS location, device details and timestamps,
+then strips it losslessly, byte by byte, entirely client side. No upload, no server, no
+account. Selective field redaction, HEIC support, and an installable PWA with Android
+share-target support. Built in vanilla JavaScript, one tested feature at a time.
+
+[Open MetaStrip](https://metastrip.vercel.app/)
+&nbsp;·&nbsp;
+[MetaStrip changelog](https://metastrip.vercel.app/changelog.html)
+
+---
+
+## n8n and no-code automation
+
+30+ published templates with 32,000+ template uses across n8n and Needle. My survey report
+generator, built with Jotform and Gemini, has passed 240+ views on its own. I work as an
+[n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
+
+---
+
+## Other things I have shipped
+
+| Project | What it does | Live |
 | --- | --- | --- |
-| **GodPrompter** | [godprompter.com ↗](https://godprompter.com/) | A tool for crafting better AI prompts |
-| **QR Code** | [qr-done ↗](https://qr-done-five.vercel.app/) | Generate custom QR codes |
-| **GitHub Wrapped** | [demo ↗](https://github-wrapped-2026-steel.vercel.app/) | Your GitHub year, wrapped up |
-| **PDF Toolbox** | [demo ↗](https://pdf-toolbox-eight-beryl.vercel.app/) | Merge, split & convert PDFs in the browser |
-| **iloveinvoice** | [iloveinvoice.live ↗](http://iloveinvoice.live/) | Create and download invoices |
+| **GodPrompter** | Craft better AI prompts | [godprompter.com](https://godprompter.com/) |
+| **GitHub Wrapped** | Your GitHub year, wrapped up | [GitHub Wrapped demo](https://github-wrapped-2026-steel.vercel.app/) |
+| **PDF Toolbox** | Merge, split and convert PDFs in the browser | [PDF Toolbox demo](https://pdf-toolbox-eight-beryl.vercel.app/) |
+| **iloveinvoice** | Create and download invoices | [iloveinvoice.live](http://iloveinvoice.live/) |
+| **QR Code generator** | Generate custom QR codes | [qr-done](https://qr-done-five.vercel.app/) |
 
-⚡ I also build no-code automations. 30+ published templates and 32k+ template uses across
-n8n and Needle. My survey-report generator built with Jotform and Gemini alone has crossed
-240+ views. Find me as an [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle
-content partner.
+---
 
-## 🛠️ Tech I work with
+## Tech I work with
+
+**Languages**
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=for-the-badge&logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Frameworks**
+
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=for-the-badge&logo=swift&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Tools and platforms**
+
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## 📊 GitHub stats
+## GitHub activity
 
 <div align="center">
 
-<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default&v=2" alt="Profile summary" />
-
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Stats" />
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Repos per language" />
-
-<br/>
-
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default&v=2" alt="Most-used languages" />
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rawsun007&theme=default&utcOffset=5.5&v=2" alt="Productive time" />
-
-<br/><br/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="GitHub streak" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub statistics" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Most-used programming languages across Roshan Ramani's repositories" />
 
 </div>
 
 ---
 
 <div align="center">
-<sub>Building in public, one shipped feature at a time. See the <a href="https://metastrip.vercel.app/changelog.html">MetaStrip changelog</a> for an example. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
+<sub>Building in public, one shipped feature at a time. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
 </div>
