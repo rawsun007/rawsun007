@@ -109,6 +109,21 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
+**AI and agentic coding**
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge)
+![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge)
+![Lovable](https://img.shields.io/badge/Lovable-FF4785?style=for-the-badge)
+![Emergent](https://img.shields.io/badge/Emergent-6366F1?style=for-the-badge)
+![Vibe coding, with caution](https://img.shields.io/badge/vibe_coding-with_caution-F59E0B?style=for-the-badge)
+
+I use agents daily and treat their output as a draft, not a result. Vibe coding gets a
+prototype standing in an afternoon. What ships gets read line by line, tested and reviewed.
+ClaudeNotch exists for exactly that reason: it puts a human in the loop on every command an
+agent wants to run.
+
 **Tools and platforms**
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
