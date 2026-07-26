@@ -7,6 +7,8 @@
 I build privacy-first browser tools, native macOS apps in Swift, and AI workflow
 automations on n8n. Small, fast, shipped in public, with a changelog to prove it.
 
+[![Open to internships and startup roles](https://img.shields.io/badge/Open_to-internships_and_startup_roles-22c55e?style=for-the-badge)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-roshan--ramani.vercel.app-fb4903?style=for-the-badge&logo=vercel&logoColor=white)](https://roshan-ramani.vercel.app/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Ramani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
@@ -25,8 +27,11 @@ automations on n8n. Small, fast, shipped in public, with a changelog to prove it
 - **macOS apps.** Swift, SwiftUI and AppKit, built for developers who live in the terminal.
 - **AI and no-code automation.** 30+ published n8n templates with 32,000+ uses.
 
-Open to freelance work and collaboration. The fastest way to reach me is
-[X](https://x.com/roshanramani007) or [LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2).
+**Currently freelancing, and looking for an internship or an engineering role at a startup.**
+I like small teams that ship fast and let one person own a thing end to end. The quickest way
+to reach me is [X](https://x.com/roshanramani007) or
+[LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2), and my work is at
+[roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/).
 
 ---
 
