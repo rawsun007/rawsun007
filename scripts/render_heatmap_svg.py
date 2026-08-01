@@ -13,8 +13,12 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import theme
 
 STATIC = os.environ.get("STATIC") == "1"  # frozen frame for local preview
 
@@ -22,8 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "contributions.json"
 OUT = ROOT / "contrib-heatmap.svg"
 
-# none -> level 4, plus a neon top end for the busiest days
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+LEVELS = len(theme.DARK["levels"])
 
 CELL = 13
 GAP = 2
@@ -46,11 +49,18 @@ def mono_w(text: str, size: float) -> float:
     return len(text) * size * 0.6
 
 
+# GitHub's own data-level is quartile-based, so one 69-commit day squashes a
+# whole year into levels 0 to 2. Fixed thresholds use the full ramp instead.
+THRESHOLDS = [1, 3, 6, 11, 20]
+
+
 def level_of(day: dict) -> int:
-    """Promote the very best days to the neon shade so the map has a peak."""
-    if day["count"] >= 20:
-        return 5
-    return min(day["level"], 4)
+    count = day["count"]
+    level = 0
+    for t in THRESHOLDS:
+        if count >= t:
+            level += 1
+    return level
 
 
 def weeks(days: list[dict]) -> list[list[dict | None]]:
@@ -98,6 +108,7 @@ def main() -> int:
     add(
         "<style>"
         "text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}"
+        f"{theme.css(levels=True)}"
         f"{anim}"
         "@keyframes pop{from{opacity:0;transform:translateY(-6px) scale(.4)}"
         "to{opacity:1;transform:translateY(0) scale(1)}}"
@@ -108,22 +119,22 @@ def main() -> int:
     )
 
     # card
-    add(f'<rect width="{WIDTH}" height="{height}" rx="14" fill="#0d1117"/>')
-    add(f'<rect x=".5" y=".5" width="{WIDTH - 1}" height="{height - 1}" rx="14" fill="none" stroke="#21262d"/>')
+    add(f'<rect class="card" width="{WIDTH}" height="{height}" rx="14"/>')
+    add(f'<rect class="stroke" x=".5" y=".5" width="{WIDTH - 1}" height="{height - 1}" rx="14" fill="none"/>')
 
     # terminal chrome
     add('<circle cx="26" cy="24" r="5" fill="#ff5f57"/>')
     add('<circle cx="44" cy="24" r="5" fill="#febc2e"/>')
     add('<circle cx="62" cy="24" r="5" fill="#28c840"/>')
     add(
-        f'<text class="line" style="animation-delay:.05s" x="82" y="28" font-size="12" fill="#8b949e">'
+        f'<text class="line d" style="animation-delay:.05s" x="82" y="28" font-size="12">'
         f'{esc(payload["user"])}@github ~ $ ./contributions.sh</text>'
     )
     stamp = f'updated {payload["generated_at"][:10]}'
     add(
-        f'<text class="line" style="animation-delay:.1s" '
+        f'<text class="line f" style="animation-delay:.1s" '
         f'x="{grid_x + grid_w - mono_w(stamp, 11):.0f}" y="28" '
-        f'font-size="11" fill="#484f58">{stamp}</text>'
+        f'font-size="11">{stamp}</text>'
     )
 
     # month labels
@@ -138,15 +149,15 @@ def main() -> int:
         seen.add(month)
         label = MONTHS[int(first["date"][5:7]) - 1]
         add(
-            f'<text class="line" style="animation-delay:{.3 + i * .012:.2f}s" '
-            f'x="{grid_x + i * STEP}" y="{PAD_TOP - 8}" font-size="10" fill="#8b949e">{label}</text>'
+            f'<text class="line d" style="animation-delay:{.3 + i * .012:.2f}s" '
+            f'x="{grid_x + i * STEP}" y="{PAD_TOP - 8}" font-size="10">{label}</text>'
         )
 
     # weekday labels
     for row, label in DOW.items():
         add(
-            f'<text class="line" style="animation-delay:{.3 + row * .06:.2f}s" x="{PAD_X}" '
-            f'y="{PAD_TOP + row * STEP + CELL - 2}" font-size="10" fill="#8b949e">{label}</text>'
+            f'<text class="line d" style="animation-delay:{.3 + row * .06:.2f}s" x="{PAD_X}" '
+            f'y="{PAD_TOP + row * STEP + CELL - 2}" font-size="10">{label}</text>'
         )
 
     # the grid, revealed on a diagonal sweep
@@ -157,9 +168,9 @@ def main() -> int:
             lvl = level_of(day)
             delay = 0.3 + (i * 0.014) + (row * 0.03)
             add(
-                f'<rect class="cell" style="animation-delay:{delay:.2f}s" '
+                f'<rect class="cell l{lvl}" style="animation-delay:{delay:.2f}s" '
                 f'x="{grid_x + i * STEP}" y="{PAD_TOP + row * STEP}" width="{CELL}" height="{CELL}" '
-                f'rx="3" fill="{PALETTE[lvl]}"/>'
+                f'rx="3"/>'
             )
 
     # footer stats
@@ -171,27 +182,27 @@ def main() -> int:
         f' · peak {payload["best_day"]["count"]} on {payload["best_day"]["date"]}'
     )
     add(
-        f'<text class="line" style="animation-delay:1.5s" x="{grid_x}" y="{fy}" '
-        f'font-size="11" fill="#8b949e">{esc(stats)}</text>'
+        f'<text class="line d" style="animation-delay:1.5s" x="{grid_x}" y="{fy}" '
+        f'font-size="11">{esc(stats)}</text>'
     )
 
     # legend, right-aligned to the grid edge
     less_w = mono_w("Less", 11)
-    swatches = len(PALETTE) * 12
+    swatches = LEVELS * 12
     lx = grid_x + grid_w - (less_w + 8 + swatches + 8 + mono_w("More", 11))
     add(
-        f'<text class="line" style="animation-delay:1.55s" x="{lx:.0f}" y="{fy}" '
-        f'font-size="11" fill="#8b949e">Less</text>'
+        f'<text class="line d" style="animation-delay:1.55s" x="{lx:.0f}" y="{fy}" '
+        f'font-size="11">Less</text>'
     )
     sx = lx + less_w + 8
-    for k, color in enumerate(PALETTE):
+    for k in range(LEVELS):
         add(
-            f'<rect class="cell" style="animation-delay:{1.6 + k * .05:.2f}s" x="{sx + k * 12:.0f}" '
-            f'y="{fy - 9}" width="10" height="10" rx="2" fill="{color}"/>'
+            f'<rect class="cell l{k}" style="animation-delay:{1.6 + k * .05:.2f}s" x="{sx + k * 12:.0f}" '
+            f'y="{fy - 9}" width="10" height="10" rx="2"/>'
         )
     add(
-        f'<text class="line" style="animation-delay:1.9s" x="{sx + swatches + 8:.0f}" y="{fy}" '
-        f'font-size="11" fill="#8b949e">More</text>'
+        f'<text class="line d" style="animation-delay:1.9s" x="{sx + swatches + 8:.0f}" y="{fy}" '
+        f'font-size="11">More</text>'
     )
 
     add("</svg>")

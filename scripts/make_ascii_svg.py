@@ -15,9 +15,13 @@ Writes ascii-portrait.svg. Run by hand when the photo changes.
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageEnhance, ImageOps
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import theme
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "source-photo.jpg"
@@ -86,11 +90,12 @@ def main() -> int:
     add(
         "<style>"
         "text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;"
-        f"font-size:{FONT_SIZE}px;white-space:pre;fill:#8b949e}}"
+        f"font-size:{FONT_SIZE}px;white-space:pre}}"
+        f"{theme.css()}"
         "</style>"
     )
-    add(f'<rect width="{width}" height="{height}" rx="14" fill="#0d1117"/>')
-    add(f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="14" fill="none" stroke="#21262d"/>')
+    add(f'<rect class="card" width="{width}" height="{height}" rx="14"/>')
+    add(f'<rect class="stroke" x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="14" fill="none"/>')
 
     inner = width - PAD * 2
     add("<defs>")
@@ -113,7 +118,7 @@ def main() -> int:
             continue
         y = PAD + (i + 1) * CHAR_H
         add(
-            f'<text clip-path="url(#w{i})" x="{PAD}" y="{y:.1f}" '
+            f'<text class="ascii" clip-path="url(#w{i})" x="{PAD}" y="{y:.1f}" '
             f'textLength="{len(row) * CHAR_W:.1f}" lengthAdjust="spacing">{esc(row)}</text>'
         )
 
