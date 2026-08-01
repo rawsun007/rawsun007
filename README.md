@@ -1,5 +1,14 @@
 <div align="center">
 
+<img width="860" src="./contrib-heatmap.svg" alt="Animated GitHub contribution heatmap for rawsun007, refreshed daily" />
+
+<table>
+  <tr>
+    <td valign="top"><img width="370" src="./ascii-portrait.svg" alt="ASCII art portrait of Roshan Ramani" /></td>
+    <td valign="top"><img width="490" src="./info-card.svg" alt="Terminal card: web developer and automation engineer, Surat, India, open to internships and startup roles" /></td>
+  </tr>
+</table>
+
 # Roshan Ramani
 
 ### Web developer and automation engineer, Surat, India
@@ -146,24 +155,32 @@ agent wants to run.
 
 ---
 
-## GitHub activity
+## How this README builds itself
 
-<div align="center">
+The heatmap, the portrait and the terminal card at the top are not hosted widgets.
+They are SVGs generated in this repo, so nothing here can rate-limit or go down and
+leave a broken image on my profile.
 
-<img width="800" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub profile summary: commits, stars and contributions" />
+| Piece | Script | Refreshed |
+| --- | --- | --- |
+| `contrib-heatmap.svg` | `scripts/fetch_contributions.py` + `render_heatmap_svg.py` | Daily, by GitHub Actions |
+| `ascii-portrait.svg` | `scripts/make_ascii_svg.py` | By hand, when the photo changes |
+| `info-card.svg` | `scripts/make_info_card.py` | By hand, when the facts change |
 
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rawsun007&theme=default&v=2" alt="Roshan Ramani's GitHub statistics" />
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rawsun007&theme=default&v=2" alt="Repositories per programming language, mostly Swift and Python" />
+GitHub strips `<script>` from a README but does render SVG through `<img>` and does
+run CSS keyframes and SMIL inside it, so all the animation lives in the files. The
+contribution data is scraped from the public calendar page, no token needed, Python
+stdlib only. Every animation plays once, freezes, and respects
+`prefers-reduced-motion`.
 
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rawsun007&theme=default&v=2" alt="Languages by commit volume across Roshan Ramani's repositories" />
-<img height="185" src="https://streak-stats.demolab.com/?user=rawsun007&hide_border=true&theme=graywhite" alt="Roshan Ramani's GitHub contribution streak" />
-
-</div>
+```
+python3 scripts/fetch_contributions.py   # writes data/contributions.json
+python3 scripts/render_heatmap_svg.py    # writes contrib-heatmap.svg
+STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
+```
 
 ---
 
 <div align="center">
 <sub>Building in public, one shipped feature at a time. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&customColorList=12" alt="" />
