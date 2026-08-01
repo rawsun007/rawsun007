@@ -1,0 +1,37 @@
+name: Update profile art
+
+"on":
+  schedule:
+    - cron: "17 6 * * *" # daily, ~06:17 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_contributions.py"
+      - "scripts/render_heatmap_svg.py"
+      - ".github/workflows/update-profile-art.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: true
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # stdlib only, so there is nothing to pip install
+      - run: python scripts/fetch_contributions.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+      - run: python scripts/render_heatmap_svg.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution heatmap [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
