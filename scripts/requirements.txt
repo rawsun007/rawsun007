@@ -1,0 +1,2 @@
+# portrait generation only; the daily workflow is stdlib-only
+pillow>=10.0
