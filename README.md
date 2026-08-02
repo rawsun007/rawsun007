@@ -28,9 +28,8 @@ automations on n8n. Small, fast, shipped in public, with a changelog to prove it
 
 </div>
 
----
 
-## What I work on
+## `rawsun007@github ~ $ cat about.md`
 
 - **Privacy-first web tools.** Everything runs in the browser. No upload, no server, no account.
 - **macOS apps.** Swift, SwiftUI and AppKit, built for developers who live in the terminal.
@@ -42,9 +41,8 @@ to reach me is [X](https://x.com/roshanramani007) or
 [LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2), and my work is at
 [roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/).
 
----
 
-## Featured projects
+## `rawsun007@github ~ $ ls -l projects/`
 
 ### ClaudeNotch, approve Claude Code from your Mac's notch
 
@@ -74,17 +72,15 @@ share-target support. Built in vanilla JavaScript, one tested feature at a time.
 &nbsp;·&nbsp;
 [MetaStrip changelog](https://metastrip.vercel.app/changelog.html)
 
----
 
-## n8n and no-code automation
+## `rawsun007@github ~ $ n8n --stats`
 
 30+ published templates with 32,000+ template uses across n8n and Needle. My survey report
 generator, built with Jotform and Gemini, has passed 240+ views on its own. I work as an
 [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
 
----
 
-## Other things I have shipped
+## `rawsun007@github ~ $ ls shipped/`
 
 | Project | What it does | Live |
 | --- | --- | --- |
@@ -94,9 +90,8 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 | **iloveinvoice** | Create and download invoices | [iloveinvoice.live](http://iloveinvoice.live/) |
 | **QR Code generator** | Generate custom QR codes | [qr-done](https://qr-done-five.vercel.app/) |
 
----
 
-## Tech I work with
+## `rawsun007@github ~ $ which swift python node`
 
 The full stack is in the terminal card at the top. The short version:
 
@@ -112,9 +107,8 @@ prototype standing in an afternoon. What ships gets read line by line, tested an
 ClaudeNotch exists for exactly that reason: it puts a human in the loop on every command an
 agent wants to run.
 
----
 
-## How this README builds itself
+## `rawsun007@github ~ $ make readme`
 
 The heatmap, the portrait and the terminal card at the top are not hosted widgets.
 They are SVGs generated in this repo, so nothing here can rate-limit or go down and

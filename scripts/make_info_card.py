@@ -84,7 +84,7 @@ def main() -> int:
     add('<circle cx="60" cy="23" r="5" fill="#28c840"/>')
     add(
         f'<text class="line d" style="animation-delay:.05s" x="80" y="27" font-size="12">'
-        "roshan@github ~ $ whoami</text>"
+        "rawsun007@github ~ $ whoami</text>"
     )
     add(f'<line class="rule" x1="0" y1="44" x2="{WIDTH}" y2="44"/>')
 
