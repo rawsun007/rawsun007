@@ -11,10 +11,7 @@
 
 # Roshan Ramani
 
-### Web developer and automation engineer, Surat, India
-
-I build privacy-first browser tools, native macOS apps in Swift, and AI workflow
-automations on n8n. Small, fast, shipped in public, with a changelog to prove it.
+Small, fast, shipped in public, with a changelog to prove it.
 
 [![Open to internships and startup roles](https://img.shields.io/badge/open_to-internships_and_startup_roles-39d353?style=flat-square&labelColor=0d1117)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 
@@ -93,7 +90,7 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 
 ## `rawsun007@github ~ $ which swift python node`
 
-The full stack is in the terminal card at the top. The short version:
+The `whoami` card at the top lists all of it. The six I reach for most:
 
 ![Swift](https://img.shields.io/badge/swift-0d1117?style=flat-square&labelColor=0d1117&logo=swift&logoColor=white)
 ![Python](https://img.shields.io/badge/python-0d1117?style=flat-square&labelColor=0d1117&logo=python&logoColor=white)
@@ -132,8 +129,8 @@ python3 scripts/render_heatmap_svg.py    # writes contrib-heatmap.svg
 STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
 ```
 
----
+## `rawsun007@github ~ $ exit`
 
-<div align="center">
-<sub>Building in public, one shipped feature at a time. Say hi on <a href="https://x.com/roshanramani007">X</a> or <a href="https://www.linkedin.com/in/roshan-ramani-0510102b2">LinkedIn</a>.</sub>
-</div>
+Building in public, one shipped feature at a time. Say hi on
+[X](https://x.com/roshanramani007) or
+[LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2).
