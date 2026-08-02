@@ -16,15 +16,15 @@
 I build privacy-first browser tools, native macOS apps in Swift, and AI workflow
 automations on n8n. Small, fast, shipped in public, with a changelog to prove it.
 
-[![Open to internships and startup roles](https://img.shields.io/badge/Open_to-internships_and_startup_roles-22c55e?style=for-the-badge)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
+[![Open to internships and startup roles](https://img.shields.io/badge/open_to-internships_and_startup_roles-39d353?style=flat-square&labelColor=0d1117)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-roshan--ramani.vercel.app-fb4903?style=for-the-badge&logo=vercel&logoColor=white)](https://roshan-ramani.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/portfolio-roshan--ramani.vercel.app-fb4903?style=flat-square&labelColor=0d1117&logo=vercel&logoColor=white)](https://roshan-ramani.vercel.app/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Roshan_Ramani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
+[![LinkedIn](https://img.shields.io/badge/linkedin-roshan--ramani-0d1117?style=flat-square&labelColor=0d1117&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-ramani-0510102b2)
 &nbsp;
-[![X](https://img.shields.io/badge/X-@roshanramani007-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/roshanramani007)
+[![X](https://img.shields.io/badge/x-@roshanramani007-0d1117?style=flat-square&labelColor=0d1117&logo=x&logoColor=white)](https://x.com/roshanramani007)
 &nbsp;
-[![n8n creator](https://img.shields.io/badge/n8n_creator-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io/creators/rawsun007/)
+[![n8n creator](https://img.shields.io/badge/n8n-creator-0d1117?style=flat-square&labelColor=0d1117&logo=n8n&logoColor=white)](https://n8n.io/creators/rawsun007/)
 
 </div>
 
@@ -46,9 +46,9 @@ to reach me is [X](https://x.com/roshanramani007) or
 
 ### ClaudeNotch, approve Claude Code from your Mac's notch
 
-[![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=flat&label=stars)](https://github.com/rawsun007/claude-notch/stargazers)
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)](https://github.com/rawsun007/claude-notch)
-[![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black?logo=apple)](https://github.com/rawsun007/claude-notch)
+[![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=flat-square&labelColor=0d1117&color=39d353&label=stars)](https://github.com/rawsun007/claude-notch/stargazers)
+[![Swift](https://img.shields.io/badge/swift-0d1117?style=flat-square&labelColor=0d1117&logo=swift&logoColor=white)](https://github.com/rawsun007/claude-notch)
+[![macOS 13+](https://img.shields.io/badge/macos-13%2B-0d1117?style=flat-square&labelColor=0d1117&logo=apple&logoColor=white)](https://github.com/rawsun007/claude-notch)
 
 A Dynamic-Island-style overlay that surfaces [Claude Code](https://claude.com/claude-code)
 permission prompts, questions, cost and context usage in the MacBook notch. Read the diff,
@@ -95,12 +95,12 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 
 The full stack is in the terminal card at the top. The short version:
 
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Swift](https://img.shields.io/badge/swift-0d1117?style=flat-square&labelColor=0d1117&logo=swift&logoColor=white)
+![Python](https://img.shields.io/badge/python-0d1117?style=flat-square&labelColor=0d1117&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-0d1117?style=flat-square&labelColor=0d1117&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/next%2Ejs-0d1117?style=flat-square&labelColor=0d1117&logo=next.js&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-0d1117?style=flat-square&labelColor=0d1117&logo=n8n&logoColor=white)
+![Claude Code](https://img.shields.io/badge/claude_code-0d1117?style=flat-square&labelColor=0d1117&logo=claude&logoColor=white)
 
 I use agents daily and treat their output as a draft, not a result. Vibe coding gets a
 prototype standing in an afternoon. What ships gets read line by line, tested and reviewed.
