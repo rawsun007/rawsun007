@@ -90,6 +90,28 @@ def collect() -> list[dict]:
     return rows
 
 
+def write_if_changed(path: Path, payload: dict) -> bool:
+    """Write only when something other than the timestamp moved.
+
+    Every field here is derived from GitHub, so on a quiet day the only
+    difference between two runs is generated_at. Writing that anyway produces a
+    daily commit that says nothing changed by changing something, which buries
+    the days that did change and makes the timestamp a lie about the data's age
+    rather than the run's.
+    """
+    if path.exists():
+        try:
+            old = json.loads(path.read_text())
+            if {k: v for k, v in old.items() if k != "generated_at"} == \
+               {k: v for k, v in payload.items() if k != "generated_at"}:
+                return False
+        except (json.JSONDecodeError, OSError):
+            pass   # unreadable: rewrite it
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=1) + "\n")
+    return True
+
+
 def main() -> int:
     rows = collect()
     if not rows:
@@ -101,9 +123,9 @@ def main() -> int:
         "generated_at": datetime.now(UTC).replace(microsecond=0, tzinfo=None).isoformat() + "Z",
         "entries": rows[:KEEP],
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=1) + "\n")
-    print(f"{len(rows)} rows, kept {len(payload['entries'])} -> {OUT}")
+    changed = write_if_changed(OUT, payload)
+    print(f"{len(rows)} rows, kept {len(payload['entries'])}"
+          f" -> {OUT if changed else 'unchanged'}")
     return 0
 
 
