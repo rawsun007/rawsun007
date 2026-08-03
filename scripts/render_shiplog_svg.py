@@ -13,7 +13,7 @@ from __future__ import annotations
 import json
 import os
 import sys
-from datetime import UTC, datetime
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -31,7 +31,7 @@ HEAD = 58
 ROW = 22
 FONT = 12
 CHAR = FONT * 0.6          # monospace advance, for laying columns out by hand
-AGE_W = 46
+DATE_W = 62
 REPO_W = 150
 
 # One glyph per kind of thing, so the column reads at a glance.
@@ -44,20 +44,19 @@ def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def age(iso: str, now: datetime) -> str:
-    """Relative and short: "2h", "3d". A log wants elapsed time, not a date."""
+def stamp(iso: str) -> str:
+    """The date, not the age.
+
+    This column used to say "2h" and "3d", which was a lie for most of the day:
+    the value is baked in when the SVG is written and the file is only rebuilt
+    once every 24 hours, so a row rendered at 06:17 still claimed "0m" at
+    midnight. A date is true whenever it is read.
+    """
     try:
         when = datetime.fromisoformat(iso.replace("Z", "+00:00"))
     except ValueError:
         return ""
-    secs = max(0, (now - when).total_seconds())
-    if secs < 3600:
-        return f"{int(secs // 60)}m"
-    if secs < 86_400:
-        return f"{int(secs // 3600)}h"
-    if secs < 86_400 * 30:
-        return f"{int(secs // 86_400)}d"
-    return f"{int(secs // (86_400 * 30))}mo"
+    return f"{when:%b} {when.day}"
 
 
 def clip(text: str, room: float) -> str:
@@ -69,10 +68,9 @@ def clip(text: str, room: float) -> str:
 def main() -> int:
     payload = json.loads(DATA.read_text())
     entries = payload["entries"]
-    now = datetime.now(UTC)
 
     height = HEAD + len(entries) * ROW + 30
-    text_x = PAD + 18 + AGE_W + REPO_W
+    text_x = PAD + 18 + DATE_W + REPO_W
     text_room = WIDTH - PAD - text_x
 
     parts: list[str] = []
@@ -105,10 +103,10 @@ def main() -> int:
         f'<text class="line d" style="animation-delay:.05s" x="82" y="28" font-size="12">'
         f'{esc(payload["user"])}@github ~ $ git log --oneline --all</text>'
     )
-    stamp = f'updated {payload["generated_at"][:10]}'
+    updated = f'updated {payload["generated_at"][:10]}'
     add(
         f'<text class="line f" style="animation-delay:.1s" '
-        f'x="{WIDTH - PAD - len(stamp) * 11 * 0.6:.0f}" y="28" font-size="11">{stamp}</text>'
+        f'x="{WIDTH - PAD - len(updated) * 11 * 0.6:.0f}" y="28" font-size="11">{updated}</text>'
     )
     add(f'<line class="rule" x1="0" y1="42" x2="{WIDTH}" y2="42"/>')
 
@@ -121,8 +119,8 @@ def main() -> int:
             f'<g class="line"{style}>'
             f'<text class="{CLASS.get(kind, "d")}" x="{PAD}" y="{y}" font-size="{FONT}">'
             f'{MARK.get(kind, "•")}</text>'
-            f'<text class="f" x="{PAD + 18}" y="{y}" font-size="{FONT}">{age(e["at"], now)}</text>'
-            f'<text class="k" x="{PAD + 18 + AGE_W}" y="{y}" font-size="{FONT}">'
+            f'<text class="f" x="{PAD + 18}" y="{y}" font-size="{FONT}">{stamp(e["at"])}</text>'
+            f'<text class="k" x="{PAD + 18 + DATE_W}" y="{y}" font-size="{FONT}">'
             f'{esc(clip(e["repo"], REPO_W - 10))}</text>'
             f'<text class="{"t" if kind == "release" else "d"}" x="{text_x}" y="{y}" '
             f'font-size="{FONT}">{esc(clip(e["text"], text_room))}</text>'
