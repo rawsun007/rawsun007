@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-03T14:36:06Z",
+ "generated_at": "2026-08-03T14:37:33Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-03T14:37:10Z",
+   "text": "Say so when the profile art stops refreshing"
+  },
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-03T14:36:41Z",
+   "text": "Add a ship log: the last ten things I actually shipped"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-03T10:27:38Z",
    "text": "Regenerate the strings table after the settings split"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T10:22:58Z",
-   "text": "Split the settings pages out of one 2,500-line file"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T09:59:03Z",
-   "text": "Put the sound rules and the data they read in one type"
   }
  ]
 }
