@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-03T15:35:13Z",
+ "generated_at": "2026-08-03T15:35:52Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-03T15:35:28Z",
+   "text": "Show the date a thing shipped, not how long ago"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-03T10:31:27Z",
    "text": "Point whatsNew at the housekeeping for v0.15.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T10:27:38Z",
-   "text": "Regenerate the strings table after the settings split"
   }
  ]
 }
