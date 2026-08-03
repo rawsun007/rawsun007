@@ -2,6 +2,8 @@
 
 <img width="860" src="./contrib-heatmap.svg" alt="Animated GitHub contribution heatmap for rawsun007, refreshed daily" />
 
+<img width="860" src="./shiplog.svg" alt="The last ten things Roshan Ramani shipped: releases and commits, newest first, refreshed daily" />
+
 <table>
   <tr>
     <td valign="top"><img width="370" src="./ascii-portrait.svg" alt="ASCII art portrait of Roshan Ramani" /></td>
@@ -107,25 +109,33 @@ agent wants to run.
 
 ## `rawsun007@github ~ $ make readme`
 
-The heatmap, the portrait and the terminal card at the top are not hosted widgets.
+The heatmap, the ship log, the portrait and the terminal card at the top are not
+hosted widgets.
 They are SVGs generated in this repo, so nothing here can rate-limit or go down and
 leave a broken image on my profile.
 
 | Piece | Script | Refreshed |
 | --- | --- | --- |
 | `contrib-heatmap.svg` | `scripts/fetch_contributions.py` + `render_heatmap_svg.py` | Daily, by GitHub Actions |
+| `shiplog.svg` | `scripts/fetch_shiplog.py` + `render_shiplog_svg.py` | Daily, by GitHub Actions |
 | `ascii-portrait.svg` | `scripts/make_ascii_svg.py` | By hand, when the photo changes |
 | `info-card.svg` | `scripts/make_info_card.py` | By hand, when the facts change |
 
 GitHub strips `<script>` from a README but does render SVG through `<img>` and does
-run CSS keyframes and SMIL inside it, so all the animation lives in the files. The
-contribution data is scraped from the public calendar page, no token needed, Python
-stdlib only. Every animation plays once, freezes, and respects
-`prefers-reduced-motion`.
+run CSS keyframes and SMIL inside it, so all the animation lives in the files.
+Python stdlib only, no dependencies. Every animation plays once, freezes, and
+respects `prefers-reduced-motion`.
+
+The heatmap is scraped from the public calendar page, no token needed. The ship
+log reads the repos and their commits from the API, because the events feed
+stopped carrying commit messages: its push payloads now hold only the before and
+head SHAs.
 
 ```
 python3 scripts/fetch_contributions.py   # writes data/contributions.json
 python3 scripts/render_heatmap_svg.py    # writes contrib-heatmap.svg
+python3 scripts/fetch_shiplog.py         # writes data/shiplog.json
+python3 scripts/render_shiplog_svg.py    # writes shiplog.svg
 STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
 ```
 

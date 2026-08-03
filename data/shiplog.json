@@ -1,0 +1,66 @@
+{
+ "user": "rawsun007",
+ "generated_at": "2026-08-03T14:36:06Z",
+ "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T14:33:02Z",
+   "text": "Split the menu bar's submenus and reporting into their own files"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T14:27:08Z",
+   "text": "Make the remote-allow rule testable, and test it"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T14:26:01Z",
+   "text": "Stop a leading v from eating the major version"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T10:35:50Z",
+   "text": "Publish the v0.15.1 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-03T10:34:17Z",
+   "text": "Update claudenotch cask to v0.15.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-03T10:34:15Z",
+   "text": "released v0.15.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T10:31:27Z",
+   "text": "Point whatsNew at the housekeeping for v0.15.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T10:27:38Z",
+   "text": "Regenerate the strings table after the settings split"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T10:22:58Z",
+   "text": "Split the settings pages out of one 2,500-line file"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-03T09:59:03Z",
+   "text": "Put the sound rules and the data they read in one type"
+  }
+ ]
+}

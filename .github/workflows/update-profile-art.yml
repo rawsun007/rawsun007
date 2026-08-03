@@ -9,6 +9,8 @@ name: Update profile art
     paths:
       - "scripts/fetch_contributions.py"
       - "scripts/render_heatmap_svg.py"
+      - "scripts/fetch_shiplog.py"
+      - "scripts/render_shiplog_svg.py"
       - ".github/workflows/update-profile-art.yml"
 
 permissions:
@@ -31,7 +33,15 @@ jobs:
         env:
           GH_USER: ${{ github.repository_owner }}
       - run: python scripts/render_heatmap_svg.py
+      # The ship log reads the API rather than a public HTML page, so it gets
+      # the token Actions already hands us: unauthenticated works but shares a
+      # 60-an-hour limit with every other runner on this IP.
+      - run: python scripts/fetch_shiplog.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: python scripts/render_shiplog_svg.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution heatmap [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg data/shiplog.json shiplog.svg"
