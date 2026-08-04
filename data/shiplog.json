@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-04T08:50:41Z",
+ "generated_at": "2026-08-04T11:35:17Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T09:12:40Z",
+   "text": "Stop the installer deleting the Codex forwarder"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T09:08:01Z",
+   "text": "Name the agent that actually finished a task"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:56:21Z",
+   "text": "Publish the v0.16.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-04T08:55:41Z",
+   "text": "Update claudenotch cask to v0.16.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:55:39Z",
+   "text": "released v0.16.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:54:21Z",
+   "text": "Lead whatsNew with the task meter and the CPU fix for v0.16.0"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
@@ -25,42 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-04T08:08:32Z",
    "text": "Count the tasks the meter was silently missing"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T07:58:23Z",
-   "text": "Say the two cards that VoiceOver could not hear"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T07:52:42Z",
-   "text": "Hold the completion chime while nobody is at the machine"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T07:45:26Z",
-   "text": "Point at Always Allow once a command is clearly a habit"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T05:35:30Z",
-   "text": "Record the traffic GitHub is about to forget"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T05:34:23Z",
-   "text": "Publish the why-not-the-terminal section"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-03T15:58:28Z",
-   "text": "Stop committing a new timestamp on days nothing happened"
   }
  ]
 }
