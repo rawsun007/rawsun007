@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-03T15:58:46Z",
+ "generated_at": "2026-08-04T08:50:41Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-04T08:50:06Z",
+   "text": "Refresh the profile art every three hours, not once a day"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:26:02Z",
+   "text": "Stop re-reading a transcript that has not changed"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:13:33Z",
+   "text": "Stop the meter resetting after every finished task"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T08:08:32Z",
+   "text": "Count the tasks the meter was silently missing"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T07:58:23Z",
+   "text": "Say the two cards that VoiceOver could not hear"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T07:52:42Z",
+   "text": "Hold the completion chime while nobody is at the machine"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T07:45:26Z",
+   "text": "Point at Always Allow once a command is clearly a habit"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T05:35:30Z",
+   "text": "Record the traffic GitHub is about to forget"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T05:34:23Z",
+   "text": "Publish the why-not-the-terminal section"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
    "at": "2026-08-03T15:58:28Z",
    "text": "Stop committing a new timestamp on days nothing happened"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-03T15:35:28Z",
-   "text": "Show the date a thing shipped, not how long ago"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-03T14:37:10Z",
-   "text": "Say so when the profile art stops refreshing"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-03T14:36:41Z",
-   "text": "Add a ship log: the last ten things I actually shipped"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T14:33:02Z",
-   "text": "Split the menu bar's submenus and reporting into their own files"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T14:27:08Z",
-   "text": "Make the remote-allow rule testable, and test it"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T14:26:01Z",
-   "text": "Stop a leading v from eating the major version"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-03T10:35:50Z",
-   "text": "Publish the v0.15.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-03T10:34:17Z",
-   "text": "Update claudenotch cask to v0.15.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-03T10:34:15Z",
-   "text": "released v0.15.1"
   }
  ]
 }
