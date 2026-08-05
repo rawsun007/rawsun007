@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-05T09:09:07Z",
+ "generated_at": "2026-08-05T11:32:01Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T11:07:01Z",
+   "text": "List the rules page and the spend forecast in the README"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T11:05:58Z",
+   "text": "Stop asserting a URL form Foundation keeps changing its mind about"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T11:04:31Z",
+   "text": "Say where the spending is heading, not just where it has been"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:59:55Z",
+   "text": "Give the always-allow rules a page you can read"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:53:10Z",
+   "text": "Give the notch an AppleScript dictionary"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:48:30Z",
+   "text": "Let anything that opens a URL drive the notch"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:41:21Z",
+   "text": "Let the setup window speak the chosen language"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:32:38Z",
+   "text": "Let the menu bar speak the chosen language"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T10:29:55Z",
+   "text": "Let the notch cards speak the chosen language"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-04T09:12:40Z",
    "text": "Stop the installer deleting the Codex forwarder"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T09:08:01Z",
-   "text": "Name the agent that actually finished a task"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:56:21Z",
-   "text": "Publish the v0.16.0 changelog"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:55:39Z",
-   "text": "released v0.16.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:54:21Z",
-   "text": "Lead whatsNew with the task meter and the CPU fix for v0.16.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-04T08:50:06Z",
-   "text": "Refresh the profile art every three hours, not once a day"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:26:02Z",
-   "text": "Stop re-reading a transcript that has not changed"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:13:33Z",
-   "text": "Stop the meter resetting after every finished task"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T08:08:32Z",
-   "text": "Count the tasks the meter was silently missing"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T07:58:23Z",
-   "text": "Say the two cards that VoiceOver could not hear"
   }
  ]
 }
