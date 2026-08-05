@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-04T11:35:17Z",
+ "generated_at": "2026-08-05T09:09:07Z",
  "entries": [
   {
    "kind": "commit",
@@ -19,12 +19,6 @@
    "repo": "claude-notch",
    "at": "2026-08-04T08:56:21Z",
    "text": "Publish the v0.16.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-04T08:55:41Z",
-   "text": "Update claudenotch cask to v0.16.0"
   },
   {
    "kind": "release",
@@ -61,6 +55,12 @@
    "repo": "claude-notch",
    "at": "2026-08-04T08:08:32Z",
    "text": "Count the tasks the meter was silently missing"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-04T07:58:23Z",
+   "text": "Say the two cards that VoiceOver could not hear"
   }
  ]
 }
