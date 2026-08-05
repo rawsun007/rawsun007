@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-05T11:32:01Z",
+ "generated_at": "2026-08-05T14:36:36Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T13:57:28Z",
+   "text": "Publish the v0.17.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-05T13:55:52Z",
+   "text": "Update claudenotch cask to v0.17.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-05T13:55:50Z",
+   "text": "released v0.17.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-05T13:54:22Z",
+   "text": "Lead whatsNew with the rules page and the spend forecast for v0.17.0"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -37,30 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-05T10:48:30Z",
    "text": "Let anything that opens a URL drive the notch"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:41:21Z",
-   "text": "Let the setup window speak the chosen language"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:32:38Z",
-   "text": "Let the menu bar speak the chosen language"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:29:55Z",
-   "text": "Let the notch cards speak the chosen language"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-04T09:12:40Z",
-   "text": "Stop the installer deleting the Codex forwarder"
   }
  ]
 }
