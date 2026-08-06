@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-05T14:36:36Z",
+ "generated_at": "2026-08-06T09:09:16Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T08:53:21Z",
+   "text": "docs: link the demo video"
+  },
+  {
+   "kind": "commit",
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T08:32:40Z",
+   "text": "fix(results): match-only filtering, column projection, and a multi-column count bug"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-06T08:14:30Z",
+   "text": "Make each changelog entry countable and bounded"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-06T08:08:56Z",
+   "text": "Publish the rebuilt changelog page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-06T08:00:30Z",
+   "text": "Group the About page's release notes by kind"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-06T07:47:08Z",
+   "text": "Name the query on Codex web-tool cards"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-06T07:36:11Z",
+   "text": "Show what Codex is actually running on its cards"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,48 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-05T13:55:50Z",
    "text": "released v0.17.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T13:54:22Z",
-   "text": "Lead whatsNew with the rules page and the spend forecast for v0.17.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T11:07:01Z",
-   "text": "List the rules page and the spend forecast in the README"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T11:05:58Z",
-   "text": "Stop asserting a URL form Foundation keeps changing its mind about"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T11:04:31Z",
-   "text": "Say where the spending is heading, not just where it has been"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:59:55Z",
-   "text": "Give the always-allow rules a page you can read"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:53:10Z",
-   "text": "Give the notch an AppleScript dictionary"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-05T10:48:30Z",
-   "text": "Let anything that opens a URL drive the notch"
   }
  ]
 }
