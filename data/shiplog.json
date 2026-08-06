@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-06T11:34:54Z",
+ "generated_at": "2026-08-06T14:38:06Z",
  "entries": [
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-06T09:38:03Z",
-   "text": "Publish the v0.18.0 changelog"
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T14:14:43Z",
+   "text": "docs(samples): record the 500k sample's verified run on the live deployment"
   },
   {
    "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-06T09:37:07Z",
-   "text": "Update claudenotch cask to v0.18.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-06T09:37:05Z",
-   "text": "released v0.18.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-06T09:35:36Z",
-   "text": "Lead whatsNew with the Codex card fixes for v0.18.0"
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T14:09:23Z",
+   "text": "docs(samples): add a 500k-row sample that exceeds the old upload limit"
   },
   {
    "kind": "release",
    "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T09:32:36Z",
-   "text": "released v1.0.0"
+   "at": "2026-08-06T14:05:45Z",
+   "text": "released v1.1.0"
   },
   {
    "kind": "commit",
    "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T09:32:20Z",
-   "text": "docs: add CHANGELOG for the 1.0.0 release"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-06T09:12:05Z",
-   "text": "Smooth the folder drop and tighten the question it asks"
+   "at": "2026-08-06T14:05:22Z",
+   "text": "docs: record the verified production run at 3M rows"
   },
   {
    "kind": "commit",
    "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T08:53:21Z",
-   "text": "docs: link the demo video"
+   "at": "2026-08-06T13:53:48Z",
+   "text": "fix(worker): recycle the Celery child after each task so idle memory is released"
   },
   {
    "kind": "commit",
    "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T08:32:40Z",
-   "text": "fix(results): match-only filtering, column projection, and a multi-column count bug"
+   "at": "2026-08-06T13:46:16Z",
+   "text": "fix(results): serve page counts from the manifest instead of rescanning"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-06T08:14:30Z",
-   "text": "Make each changelog entry countable and bounded"
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T13:38:58Z",
+   "text": "fix(deploy): keep two gunicorn workers so a long upload cannot block the probe"
+  },
+  {
+   "kind": "commit",
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T13:35:25Z",
+   "text": "fix(deploy): shrink the web tier on the free instance to one gunicorn worker"
+  },
+  {
+   "kind": "commit",
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T13:30:42Z",
+   "text": "docs: record the measured scale behaviour and the 1.1.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "nl-regex-data-platform",
+   "at": "2026-08-06T13:24:58Z",
+   "text": "fix(deploy): stop the platform killing a container that is working"
   }
  ]
 }
