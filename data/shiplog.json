@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-06T14:38:06Z",
+ "generated_at": "2026-08-07T10:13:41Z",
  "entries": [
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T14:14:43Z",
-   "text": "docs(samples): record the 500k sample's verified run on the live deployment"
+   "repo": "claude-notch",
+   "at": "2026-08-07T10:03:51Z",
+   "text": "Publish the v0.18.2 changelog"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T14:09:23Z",
-   "text": "docs(samples): add a 500k-row sample that exceeds the old upload limit"
+   "repo": "homebrew-tap",
+   "at": "2026-08-07T10:03:08Z",
+   "text": "Update claudenotch cask to v0.18.2"
   },
   {
    "kind": "release",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T14:05:45Z",
-   "text": "released v1.1.0"
+   "repo": "claude-notch",
+   "at": "2026-08-07T10:03:07Z",
+   "text": "released v0.18.2"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T14:05:22Z",
-   "text": "docs: record the verified production run at 3M rows"
+   "repo": "claude-notch",
+   "at": "2026-08-07T10:01:42Z",
+   "text": "Lead whatsNew with the interpreter fix for v0.18.2"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:53:48Z",
-   "text": "fix(worker): recycle the Celery child after each task so idle memory is released"
+   "repo": "claude-notch",
+   "at": "2026-08-07T09:57:01Z",
+   "text": "Bound the transcript and .git reads that had no ceiling"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:46:16Z",
-   "text": "fix(results): serve page counts from the manifest instead of rescanning"
+   "repo": "claude-notch",
+   "at": "2026-08-07T09:54:07Z",
+   "text": "Add a security policy and a private way to report"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:38:58Z",
-   "text": "fix(deploy): keep two gunicorn workers so a long upload cannot block the probe"
+   "repo": "claude-notch",
+   "at": "2026-08-07T09:52:00Z",
+   "text": "Fuzz the HTTP request parser"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:35:25Z",
-   "text": "fix(deploy): shrink the web tier on the free instance to one gunicorn worker"
+   "repo": "claude-notch",
+   "at": "2026-08-07T09:49:08Z",
+   "text": "Scan inline interpreter one-liners for destructive calls"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:30:42Z",
-   "text": "docs: record the measured scale behaviour and the 1.1.0 changelog"
+   "repo": "claude-notch",
+   "at": "2026-08-07T08:04:14Z",
+   "text": "Publish the v0.18.1 changelog"
   },
   {
    "kind": "commit",
-   "repo": "nl-regex-data-platform",
-   "at": "2026-08-06T13:24:58Z",
-   "text": "fix(deploy): stop the platform killing a container that is working"
+   "repo": "homebrew-tap",
+   "at": "2026-08-07T08:02:40Z",
+   "text": "Update claudenotch cask to v0.18.1"
   }
  ]
 }
