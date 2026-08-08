@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-08T04:30:50Z",
+ "generated_at": "2026-08-08T09:56:25Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T08:11:37Z",
+   "text": "Publish the v0.20.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-08T08:10:55Z",
+   "text": "Update claudenotch cask to v0.20.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-08T08:10:53Z",
+   "text": "released v0.20.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T08:09:35Z",
+   "text": "Lead whatsNew with Update Now for v0.20.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T08:04:33Z",
+   "text": "Wire notarization into the build, behind two variables"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T08:00:57Z",
+   "text": "Make updating one click instead of a command to copy"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -25,42 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-08T03:20:41Z",
    "text": "Lead whatsNew with strict mode for v0.19.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:15:29Z",
-   "text": "Finish wiring the UI to the strings table"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:13:35Z",
-   "text": "Notice when an installed hook script no longer matches the shipped one"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:10:12Z",
-   "text": "Add Strict Mode, an allowlist for what may be approved for you"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:05:18Z",
-   "text": "Redact credentials before a command is shown, stored or exported"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T10:03:51Z",
-   "text": "Publish the v0.18.2 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-07T10:03:08Z",
-   "text": "Update claudenotch cask to v0.18.2"
   }
  ]
 }
