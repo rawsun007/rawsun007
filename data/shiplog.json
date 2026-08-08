@@ -1,7 +1,55 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-07T10:13:41Z",
+ "generated_at": "2026-08-08T04:30:50Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:22:46Z",
+   "text": "Publish the v0.19.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-08T03:22:06Z",
+   "text": "Update claudenotch cask to v0.19.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:22:04Z",
+   "text": "released v0.19.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:20:41Z",
+   "text": "Lead whatsNew with strict mode for v0.19.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:15:29Z",
+   "text": "Finish wiring the UI to the strings table"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:13:35Z",
+   "text": "Notice when an installed hook script no longer matches the shipped one"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:10:12Z",
+   "text": "Add Strict Mode, an allowlist for what may be approved for you"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-08T03:05:18Z",
+   "text": "Redact credentials before a command is shown, stored or exported"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -13,54 +61,6 @@
    "repo": "homebrew-tap",
    "at": "2026-08-07T10:03:08Z",
    "text": "Update claudenotch cask to v0.18.2"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-07T10:03:07Z",
-   "text": "released v0.18.2"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T10:01:42Z",
-   "text": "Lead whatsNew with the interpreter fix for v0.18.2"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T09:57:01Z",
-   "text": "Bound the transcript and .git reads that had no ceiling"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T09:54:07Z",
-   "text": "Add a security policy and a private way to report"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T09:52:00Z",
-   "text": "Fuzz the HTTP request parser"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T09:49:08Z",
-   "text": "Scan inline interpreter one-liners for destructive calls"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-07T08:04:14Z",
-   "text": "Publish the v0.18.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-07T08:02:40Z",
-   "text": "Update claudenotch cask to v0.18.1"
   }
  ]
 }
