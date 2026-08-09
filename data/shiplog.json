@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-09T04:39:33Z",
+ "generated_at": "2026-08-09T07:19:13Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:19:09Z",
+   "text": "Add v0.20.1 to the website changelog and sync docs/"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-09T06:13:48Z",
+   "text": "Update claudenotch cask to v0.20.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:13:47Z",
+   "text": "released v0.20.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:12:18Z",
+   "text": "Lead whatsNew with API-key billing for the next release"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:02:30Z",
+   "text": "Add tests for API-key billing detection and key validation"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:01:42Z",
+   "text": "Show API-key billing state on the Plan settings page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T06:01:06Z",
+   "text": "Detect ANTHROPIC_API_KEY billing and add a key validity check"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,48 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-09T04:20:48Z",
    "text": "Gate notch pill windows behind menuBarOnlyMode"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T04:19:49Z",
-   "text": "Add menuBarOnlyMode setting to AppState and persistence"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T08:11:37Z",
-   "text": "Publish the v0.20.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-08T08:10:55Z",
-   "text": "Update claudenotch cask to v0.20.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-08T08:10:53Z",
-   "text": "released v0.20.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T08:09:35Z",
-   "text": "Lead whatsNew with Update Now for v0.20.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T08:04:33Z",
-   "text": "Wire notarization into the build, behind two variables"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T08:00:57Z",
-   "text": "Make updating one click instead of a command to copy"
   }
  ]
 }
