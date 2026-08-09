@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-08T09:56:25Z",
+ "generated_at": "2026-08-09T04:39:33Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T04:28:55Z",
+   "text": "Revert \"Add menuBarOnlyMode setting to AppState and persistence\""
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T04:21:24Z",
+   "text": "Add Menu bar only toggle to General settings"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T04:20:48Z",
+   "text": "Gate notch pill windows behind menuBarOnlyMode"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-09T04:19:49Z",
+   "text": "Add menuBarOnlyMode setting to AppState and persistence"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -37,30 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-08T08:00:57Z",
    "text": "Make updating one click instead of a command to copy"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:22:46Z",
-   "text": "Publish the v0.19.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-08T03:22:06Z",
-   "text": "Update claudenotch cask to v0.19.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:22:04Z",
-   "text": "released v0.19.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-08T03:20:41Z",
-   "text": "Lead whatsNew with strict mode for v0.19.0"
   }
  ]
 }
