@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-09T07:19:13Z",
+ "generated_at": "2026-08-10T04:57:07Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T04:53:19Z",
+   "text": "Show Codex usage limits on the Plan page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T04:50:38Z",
+   "text": "Count Codex plan steps by key, not by raw substring"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T04:49:18Z",
+   "text": "Stop forcing setup on people who only run Codex"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T04:48:38Z",
+   "text": "Resolve a Codex rollout once per tool call, not twice"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -37,30 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-09T06:01:42Z",
    "text": "Show API-key billing state on the Plan settings page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T06:01:06Z",
-   "text": "Detect ANTHROPIC_API_KEY billing and add a key validity check"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T04:28:55Z",
-   "text": "Revert \"Add menuBarOnlyMode setting to AppState and persistence\""
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T04:21:24Z",
-   "text": "Add Menu bar only toggle to General settings"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T04:20:48Z",
-   "text": "Gate notch pill windows behind menuBarOnlyMode"
   }
  ]
 }
