@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-10T13:48:01Z",
+ "generated_at": "2026-08-10T16:11:11Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:53:11Z",
+   "text": "Drop the agent install card from the install section"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:48:43Z",
+   "text": "Put the agent install in the hero, and close the gap in its card"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:42:44Z",
+   "text": "Copy the agent instructions from a button, and stop the badge covering the command"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:22:41Z",
+   "text": "Give the agent prompt its own row instead of the narrow column"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:16:04Z",
+   "text": "Stop the agent prompt widening the whole install page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T14:06:01Z",
+   "text": "Add AGENTS.md so a coding agent can do the install"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -25,42 +61,6 @@
    "repo": "homebrew-tap",
    "at": "2026-08-10T06:23:45Z",
    "text": "Update claudenotch cask to v0.21.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-10T06:23:43Z",
-   "text": "released v0.21.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T06:22:02Z",
-   "text": "Lead whatsNew with the settings-persistence fix"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T06:16:16Z",
-   "text": "Stop settings being lost when the app is quit or updated"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T06:03:54Z",
-   "text": "Show the all-time Codex token total in Settings"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T05:23:19Z",
-   "text": "Add the hard-stop clarification without orphaning its translation"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T05:19:05Z",
-   "text": "Mark the cap-raising helpers nonisolated so tests can call them"
   }
  ]
 }
