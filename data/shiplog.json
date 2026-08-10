@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-10T04:57:07Z",
+ "generated_at": "2026-08-10T08:07:21Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-10T04:53:19Z",
-   "text": "Show Codex usage limits on the Plan page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T04:50:38Z",
-   "text": "Count Codex plan steps by key, not by raw substring"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T04:49:18Z",
-   "text": "Stop forcing setup on people who only run Codex"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T04:48:38Z",
-   "text": "Resolve a Codex rollout once per tool call, not twice"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-09T06:19:09Z",
-   "text": "Add v0.20.1 to the website changelog and sync docs/"
+   "at": "2026-08-10T06:24:02Z",
+   "text": "Publish the v0.21.0 changelog"
   },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
-   "at": "2026-08-09T06:13:48Z",
-   "text": "Update claudenotch cask to v0.20.1"
+   "at": "2026-08-10T06:23:45Z",
+   "text": "Update claudenotch cask to v0.21.0"
   },
   {
    "kind": "release",
    "repo": "claude-notch",
-   "at": "2026-08-09T06:13:47Z",
-   "text": "released v0.20.1"
+   "at": "2026-08-10T06:23:43Z",
+   "text": "released v0.21.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-09T06:12:18Z",
-   "text": "Lead whatsNew with API-key billing for the next release"
+   "at": "2026-08-10T06:22:02Z",
+   "text": "Lead whatsNew with the settings-persistence fix"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-09T06:02:30Z",
-   "text": "Add tests for API-key billing detection and key validation"
+   "at": "2026-08-10T06:16:16Z",
+   "text": "Stop settings being lost when the app is quit or updated"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-09T06:01:42Z",
-   "text": "Show API-key billing state on the Plan settings page"
+   "at": "2026-08-10T06:03:54Z",
+   "text": "Show the all-time Codex token total in Settings"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T05:23:19Z",
+   "text": "Add the hard-stop clarification without orphaning its translation"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T05:19:05Z",
+   "text": "Mark the cap-raising helpers nonisolated so tests can call them"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T05:16:10Z",
+   "text": "Budget Codex in tokens, since it cannot be budgeted in dollars"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T05:10:48Z",
+   "text": "Track how many tokens a Codex session has burned"
   }
  ]
 }
