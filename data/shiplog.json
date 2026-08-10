@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-10T08:07:21Z",
+ "generated_at": "2026-08-10T13:48:01Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T13:19:42Z",
+   "text": "Revert \"Require a shared secret on the hook endpoint\""
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-10T13:12:13Z",
+   "text": "Require a shared secret on the hook endpoint"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-10T05:19:05Z",
    "text": "Mark the cap-raising helpers nonisolated so tests can call them"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T05:16:10Z",
-   "text": "Budget Codex in tokens, since it cannot be budgeted in dollars"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T05:10:48Z",
-   "text": "Track how many tokens a Codex session has burned"
   }
  ]
 }
