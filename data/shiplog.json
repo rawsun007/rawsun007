@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-11T10:13:36Z",
+ "generated_at": "2026-08-11T13:46:02Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-11T08:19:10Z",
-   "text": "Close Settings when it starts a session"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T08:06:25Z",
-   "text": "Flag a relative redirect into a credential or config file"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T08:01:02Z",
-   "text": "Flag a sensitive directory named relatively, not just absolutely"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T07:34:12Z",
-   "text": "Publish the v0.22.0 changelog"
+   "at": "2026-08-11T12:19:45Z",
+   "text": "Publish the v0.23.0 changelog"
   },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
-   "at": "2026-08-11T07:33:43Z",
-   "text": "Update claudenotch cask to v0.22.0"
+   "at": "2026-08-11T12:19:22Z",
+   "text": "Update claudenotch cask to v0.23.0"
   },
   {
    "kind": "release",
    "repo": "claude-notch",
-   "at": "2026-08-11T07:33:41Z",
-   "text": "released v0.22.0"
+   "at": "2026-08-11T12:19:20Z",
+   "text": "released v0.23.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-11T07:31:14Z",
-   "text": "Lead whatsNew with the agent install for v0.22.0"
+   "at": "2026-08-11T12:12:50Z",
+   "text": "Lead whatsNew with the compaction fix for v0.23.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-11T07:26:00Z",
-   "text": "Line up the clip thumbnails"
+   "at": "2026-08-11T11:42:56Z",
+   "text": "Follow a session when Claude cd's out of its directory"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-11T07:18:01Z",
-   "text": "Put the nav and footer on the video pages"
+   "at": "2026-08-11T11:38:22Z",
+   "text": "Drop the guesswork from the /add-dir test notes"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-11T07:15:41Z",
-   "text": "Give every clip its own page"
+   "at": "2026-08-11T11:34:17Z",
+   "text": "Read DirectoryAdded's documented fields"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T11:08:53Z",
+   "text": "Stop crashing when there is no NSApplication"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T11:05:59Z",
+   "text": "Stop reporting compaction as a session failure"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T11:00:23Z",
+   "text": "Write down how to test the two features by hand"
   }
  ]
 }
