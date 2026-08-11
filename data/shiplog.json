@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-11T04:42:47Z",
+ "generated_at": "2026-08-11T07:40:23Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:34:12Z",
+   "text": "Publish the v0.22.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-11T07:33:43Z",
+   "text": "Update claudenotch cask to v0.22.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:33:41Z",
+   "text": "released v0.22.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:31:14Z",
+   "text": "Lead whatsNew with the agent install for v0.22.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:26:00Z",
+   "text": "Line up the clip thumbnails"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:18:01Z",
+   "text": "Put the nav and footer on the video pages"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T07:15:41Z",
+   "text": "Give every clip its own page"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,48 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-10T14:48:43Z",
    "text": "Put the agent install in the hero, and close the gap in its card"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T14:42:44Z",
-   "text": "Copy the agent instructions from a button, and stop the badge covering the command"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T14:22:41Z",
-   "text": "Give the agent prompt its own row instead of the narrow column"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T14:16:04Z",
-   "text": "Stop the agent prompt widening the whole install page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T14:06:01Z",
-   "text": "Add AGENTS.md so a coding agent can do the install"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T13:19:42Z",
-   "text": "Revert \"Require a shared secret on the hook endpoint\""
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T13:12:13Z",
-   "text": "Require a shared secret on the hook endpoint"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-10T06:24:02Z",
-   "text": "Publish the v0.21.0 changelog"
   }
  ]
 }
