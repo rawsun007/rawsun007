@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-10T16:11:11Z",
+ "generated_at": "2026-08-11T04:42:47Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-11T03:51:58Z",
+   "text": "Stop the landing page reading as a wall of identical cards"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-10T06:24:02Z",
    "text": "Publish the v0.21.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-10T06:23:45Z",
-   "text": "Update claudenotch cask to v0.21.0"
   }
  ]
 }
