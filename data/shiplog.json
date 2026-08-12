@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-12T05:07:17Z",
+ "generated_at": "2026-08-12T10:28:54Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-12T09:34:11Z",
+   "text": "Publish the v0.23.1 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-12T09:33:10Z",
+   "text": "Update claudenotch cask to v0.23.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-12T09:33:08Z",
+   "text": "released v0.23.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-12T09:31:40Z",
+   "text": "Lead whatsNew with the /add-dir chip fix for v0.23.1"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -37,30 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-11T11:42:56Z",
    "text": "Follow a session when Claude cd's out of its directory"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T11:38:22Z",
-   "text": "Drop the guesswork from the /add-dir test notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T11:34:17Z",
-   "text": "Read DirectoryAdded's documented fields"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T11:08:53Z",
-   "text": "Stop crashing when there is no NSApplication"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T11:05:59Z",
-   "text": "Stop reporting compaction as a session failure"
   }
  ]
 }
