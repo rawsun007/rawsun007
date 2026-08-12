@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-11T13:46:02Z",
+ "generated_at": "2026-08-12T05:07:17Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-12T04:55:31Z",
+   "text": "Show the /add-dir chip on the session you are actually watching"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-08-11T11:05:59Z",
    "text": "Stop reporting compaction as a session failure"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T11:00:23Z",
-   "text": "Write down how to test the two features by hand"
   }
  ]
 }
