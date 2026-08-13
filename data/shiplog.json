@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T05:00:49Z",
+ "generated_at": "2026-08-13T05:01:21Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-13T05:01:08Z",
+   "text": "fix(shiplog): search anonymously, or CI sees only this repo"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
@@ -43,12 +49,6 @@
    "repo": "claude-notch",
    "at": "2026-08-12T09:31:40Z",
    "text": "Lead whatsNew with the /add-dir chip fix for v0.23.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-12T04:55:31Z",
-   "text": "Show the /add-dir chip on the session you are actually watching"
   },
   {
    "kind": "merge",
