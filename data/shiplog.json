@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T07:56:36Z",
+ "generated_at": "2026-08-13T10:30:09Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-13T09:22:27Z",
+   "text": "fix: stop exporting permission forms Claude Code warns about"
+  },
+  {
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-13T09:13:46Z",
+   "text": "test(session_goal): pin three unguarded rules in evaluate"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -45,22 +57,10 @@
    "text": "Publish the v0.23.1 changelog"
   },
   {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-12T09:33:08Z",
-   "text": "released v0.23.1"
-  },
-  {
    "kind": "merge",
    "repo": "robocurve/inspect-robots-yam",
    "at": "2026-08-09T00:08:31Z",
    "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
-  },
-  {
-   "kind": "merge",
-   "repo": "Alvish0407/clautter",
-   "at": "2026-06-09T03:45:14Z",
-   "text": "Add social share preview image (og:image) + persist CNAME"
   }
  ]
 }
