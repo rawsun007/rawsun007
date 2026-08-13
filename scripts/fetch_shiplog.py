@@ -52,24 +52,25 @@ SKIP = ("chore: refresh contribution heatmap", "[skip ci]", "Merge branch", "Mer
 SKIP_PATTERN = re.compile(r"^Release v?\d+\.\d+")
 
 
-def api(path: str) -> list | dict:
+def api(path: str, *, authenticated: bool = True) -> list | dict:
+    use_token = TOKEN if authenticated else ""
     req = urllib.request.Request(
         f"https://api.github.com{path}",
         headers={
             "User-Agent": f"{USER}-profile-art/1.0 (+https://github.com/{USER})",
             "Accept": "application/vnd.github+json",
-            **({"Authorization": f"Bearer {TOKEN}"} if TOKEN else {}),
+            **({"Authorization": f"Bearer {use_token}"} if use_token else {}),
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
 
 
-def safe(path: str) -> list | dict:
+def safe(path: str, *, authenticated: bool = True) -> list | dict:
     """A single repo failing (empty, moved, rate-limited) must not cost the
     whole log: the page is better slightly short than missing."""
     try:
-        return api(path)
+        return api(path, authenticated=authenticated)
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as err:
         print(f"  skipped {path}: {err}", file=sys.stderr)
         return []
@@ -82,12 +83,20 @@ def merged_elsewhere() -> list[dict]:
     walk already reads, so counting the merge too would spend two of ten slots
     saying one thing.
 
+    Deliberately unauthenticated. Search returns only what the caller can see,
+    and the workflow's GITHUB_TOKEN is an installation token scoped to this one
+    repository — so with it the query matches nothing outside this repo and
+    quietly returns zero, no error. That is how the first version of this
+    shipped green while showing no merges at all. Anonymous search sees every
+    public repo, which is exactly the set we want.
+
     Search is a separate, stricter rate limit (10/min unauthenticated), so this
     is one page and one request.
     """
     found = safe(
         f"/search/issues?q=author:{USER}+type:pr+is:merged"
-        f"&sort=updated&order=desc&per_page={MERGED_PRS}"
+        f"&sort=updated&order=desc&per_page={MERGED_PRS}",
+        authenticated=False,
     )
     items = found.get("items", []) if isinstance(found, dict) else []
 
@@ -108,6 +117,10 @@ def merged_elsewhere() -> list[dict]:
 def collect() -> list[dict]:
     repos = api(f"/users/{USER}/repos?sort=pushed&per_page=100")
     rows: list[dict] = merged_elsewhere()
+    # Zero here is a real state (nothing merged yet) but it is also what a
+    # scoped token or a throttled search looks like, and the last time those
+    # were indistinguishable the panel silently lost the feature. Say which.
+    print(f"  {len(rows)} merged PRs in other people's repos", file=sys.stderr)
 
     for repo in repos[:REPOS_TO_WALK]:
         name, full = repo["name"], repo["full_name"]
