@@ -32,7 +32,14 @@ ROW = 22
 FONT = 12
 CHAR = FONT * 0.6          # monospace advance, for laying columns out by hand
 DATE_W = 62
-REPO_W = 150
+# The repo column sizes itself. Our own repos are one short word, but work
+# merged into someone else's project has to carry the owner too
+# ("Tracer-Cloud/opensre"), and clipping that to "Tracer-Cloud/opens…" loses
+# the half that says which project. Grow only when the data needs it, so a
+# log of purely local work still renders at the original width.
+REPO_W_MIN = 150
+REPO_W_MAX = 250
+REPO_PAD = 16
 
 # One glyph per kind of thing, so the column reads at a glance.
 MARK = {"release": "▲", "commit": "•", "repo": "★", "merge": "⇢", "star": "☆"}
@@ -70,7 +77,9 @@ def main() -> int:
     entries = payload["entries"]
 
     height = HEAD + len(entries) * ROW + 30
-    text_x = PAD + 18 + DATE_W + REPO_W
+    widest_repo = max((len(e["repo"]) for e in entries), default=0)
+    repo_w = min(REPO_W_MAX, max(REPO_W_MIN, int(widest_repo * CHAR) + REPO_PAD))
+    text_x = PAD + 18 + DATE_W + repo_w
     text_room = WIDTH - PAD - text_x
 
     parts: list[str] = []
@@ -78,7 +87,8 @@ def main() -> int:
     add(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" '
         f'viewBox="0 0 {WIDTH} {height}" role="img" '
-        f'aria-label="The last {len(entries)} things {esc(payload["user"])} shipped, '
+        f'aria-label="The last {len(entries)} things {esc(payload["user"])} shipped: '
+        f'releases, commits, and pull requests merged into other people\'s projects, '
         f'newest first, refreshed daily">'
     )
     anim = "" if STATIC else ".line{opacity:0;animation:print .4s ease-out both}"
@@ -121,7 +131,7 @@ def main() -> int:
             f'{MARK.get(kind, "•")}</text>'
             f'<text class="f" x="{PAD + 18}" y="{y}" font-size="{FONT}">{stamp(e["at"])}</text>'
             f'<text class="k" x="{PAD + 18 + DATE_W}" y="{y}" font-size="{FONT}">'
-            f'{esc(clip(e["repo"], REPO_W - 10))}</text>'
+            f'{esc(clip(e["repo"], repo_w - 10))}</text>'
             f'<text class="{"t" if kind == "release" else "d"}" x="{text_x}" y="{y}" '
             f'font-size="{FONT}">{esc(clip(e["text"], text_room))}</text>'
             "</g>"
@@ -130,7 +140,8 @@ def main() -> int:
     add(
         f'<text class="line f" style="animation-delay:{0.2 + len(entries) * 0.09 + 0.1:.2f}s" '
         f'x="{PAD}" y="{height - 12}" font-size="11">'
-        f'releases and commits, newest first, refreshed daily by a workflow in this repo</text>'
+        f'releases, commits, and merged pull requests, newest first, '
+        f'refreshed daily by a workflow in this repo</text>'
     )
     add("</svg>")
 

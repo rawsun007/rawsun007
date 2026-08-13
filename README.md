@@ -2,7 +2,7 @@
 
 <img width="860" src="./contrib-heatmap.svg" alt="Animated GitHub contribution heatmap for rawsun007, refreshed daily" />
 
-<img width="860" src="./shiplog.svg" alt="The last ten things Roshan Ramani shipped: releases and commits, newest first, refreshed daily" />
+<img width="860" src="./shiplog.svg" alt="The last ten things Roshan Ramani shipped: releases, commits, and pull requests merged into other people's projects, newest first, refreshed daily" />
 
 <table>
   <tr>

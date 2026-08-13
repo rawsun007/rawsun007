@@ -8,6 +8,11 @@ payloads carry only the before/head SHAs now, no commit messages at all. So this
 walks the repos instead, most recently pushed first, and reads their commits and
 releases directly.
 
+Walking /users/<user>/repos only ever sees repos this account owns, so work
+merged into someone else's project was invisible here. Merged pull requests are
+fetched separately, through search, and only for repos owned by somebody else:
+in our own repos the commit walk above already covers the same work.
+
 Unauthenticated works (60 requests an hour, this uses about a dozen). Set
 GITHUB_TOKEN for headroom; the workflow passes the one Actions already has.
 
@@ -32,6 +37,7 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "shiplog.json"
 KEEP = 10
 REPOS_TO_WALK = 6      # most recently pushed; older ones cannot win a slot anyway
 COMMITS_PER_REPO = 10
+MERGED_PRS = 20        # one search page; older merges cannot win a slot anyway
 
 # A bot's commit is not something a person decided to do.
 SKIP = ("chore: refresh contribution heatmap", "[skip ci]", "Merge branch", "Merge pull request")
@@ -63,9 +69,39 @@ def safe(path: str) -> list | dict:
         return []
 
 
+def merged_elsewhere() -> list[dict]:
+    """Pull requests of ours that someone else merged into their project.
+
+    Deliberately skips repos we own. Those commits land on a branch the repo
+    walk already reads, so counting the merge too would spend two of ten slots
+    saying one thing.
+
+    Search is a separate, stricter rate limit (10/min unauthenticated), so this
+    is one page and one request.
+    """
+    found = safe(
+        f"/search/issues?q=author:{USER}+type:pr+is:merged"
+        f"&sort=updated&order=desc&per_page={MERGED_PRS}"
+    )
+    items = found.get("items", []) if isinstance(found, dict) else []
+
+    rows: list[dict] = []
+    for item in items:
+        full = str(item.get("repository_url", "")).rsplit("/repos/", 1)[-1]
+        owner = full.split("/")[0]
+        if not full or owner.lower() == USER.lower():
+            continue
+        merged_at = (item.get("pull_request") or {}).get("merged_at")
+        title = str(item.get("title", "")).strip()
+        if not merged_at or not title:
+            continue
+        rows.append({"kind": "merge", "repo": full, "at": merged_at, "text": title})
+    return rows
+
+
 def collect() -> list[dict]:
     repos = api(f"/users/{USER}/repos?sort=pushed&per_page=100")
-    rows: list[dict] = []
+    rows: list[dict] = merged_elsewhere()
 
     for repo in repos[:REPOS_TO_WALK]:
         name, full = repo["name"], repo["full_name"]
