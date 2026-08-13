@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T05:01:21Z",
+ "generated_at": "2026-08-13T07:56:36Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-13T07:38:20Z",
+   "text": "feat: log what sandbox posture was read, under the debug flag"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-13T07:28:18Z",
+   "text": "feat: show whether a session is sandboxed in the notch"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
@@ -33,22 +45,10 @@
    "text": "Publish the v0.23.1 changelog"
   },
   {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-12T09:33:10Z",
-   "text": "Update claudenotch cask to v0.23.1"
-  },
-  {
    "kind": "release",
    "repo": "claude-notch",
    "at": "2026-08-12T09:33:08Z",
    "text": "released v0.23.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-12T09:31:40Z",
-   "text": "Lead whatsNew with the /add-dir chip fix for v0.23.1"
   },
   {
    "kind": "merge",
