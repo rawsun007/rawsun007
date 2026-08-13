@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T10:30:09Z",
+ "generated_at": "2026-08-13T22:05:34Z",
  "entries": [
   {
    "kind": "commit",
@@ -39,12 +39,6 @@
    "text": "fix(shiplog): reserve slots so local volume cannot bury every merge"
   },
   {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-13T04:57:22Z",
-   "text": "fix(shiplog): count work merged into other people's repos (#1)"
-  },
-  {
    "kind": "merge",
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-12T10:22:23Z",
@@ -55,6 +49,12 @@
    "repo": "claude-notch",
    "at": "2026-08-12T09:34:11Z",
    "text": "Publish the v0.23.1 changelog"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-12T09:33:08Z",
+   "text": "released v0.23.1"
   },
   {
    "kind": "merge",
