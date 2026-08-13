@@ -38,6 +38,12 @@ KEEP = 10
 REPOS_TO_WALK = 6      # most recently pushed; older ones cannot win a slot anyway
 COMMITS_PER_REPO = 10
 MERGED_PRS = 20        # one search page; older merges cannot win a slot anyway
+# Ten "most recent" rows is a popularity contest local work always wins: a
+# release day here is five or six commits, while a merge into someone else's
+# project is one row that took a week. Left purely chronological, the first
+# run of this feature pushed its own commit to the top and knocked the only
+# open-source row off the bottom. Hold a few slots back.
+RESERVED_FOR_MERGES = 3
 
 # A bot's commit is not something a person decided to do.
 SKIP = ("chore: refresh contribution heatmap", "[skip ci]", "Merge branch", "Merge pull request")
@@ -126,6 +132,29 @@ def collect() -> list[dict]:
     return rows
 
 
+def top(rows: list[dict], keep: int) -> list[dict]:
+    """The newest ``keep`` rows, except merges cannot all be crowded out.
+
+    Takes the newest rows as usual, then, if fewer than ``RESERVED_FOR_MERGES``
+    merges survived, trades the oldest local rows for the newest merges that
+    missed out. The result is still shown newest-first; only which rows make
+    the cut changes.
+    """
+    chosen = rows[:keep]
+    merges = [r for r in rows if r["kind"] == "merge"]
+    want = merges[: min(RESERVED_FOR_MERGES, len(merges))]
+    missing = [m for m in want if m not in chosen]
+    if not missing:
+        return chosen
+
+    # Drop from the oldest end, and never drop a merge to seat another one.
+    droppable = [r for r in reversed(chosen) if r["kind"] != "merge"]
+    for merge, victim in zip(missing, droppable, strict=False):
+        chosen[chosen.index(victim)] = merge
+    chosen.sort(key=lambda r: r["at"], reverse=True)
+    return chosen
+
+
 def write_if_changed(path: Path, payload: dict) -> bool:
     """Write only when something other than the timestamp moved.
 
@@ -157,7 +186,7 @@ def main() -> int:
     payload = {
         "user": USER,
         "generated_at": datetime.now(UTC).replace(microsecond=0, tzinfo=None).isoformat() + "Z",
-        "entries": rows[:KEEP],
+        "entries": top(rows, KEEP),
     }
     changed = write_if_changed(OUT, payload)
     print(f"{len(rows)} rows, kept {len(payload['entries'])}"

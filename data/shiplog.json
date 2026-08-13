@@ -1,12 +1,18 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T04:57:35Z",
+ "generated_at": "2026-08-13T04:58:33Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "rawsun007",
    "at": "2026-08-13T04:57:22Z",
    "text": "fix(shiplog): count work merged into other people's repos (#1)"
+  },
+  {
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-12T10:22:23Z",
+   "text": "docs(remote-sync): list azure as a built-in backend"
   },
   {
    "kind": "commit",
@@ -45,22 +51,16 @@
    "text": "Publish the v0.23.0 changelog"
   },
   {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-11T12:19:22Z",
-   "text": "Update claudenotch cask to v0.23.0"
+   "kind": "merge",
+   "repo": "robocurve/inspect-robots-yam",
+   "at": "2026-08-09T00:08:31Z",
+   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
   },
   {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-11T12:19:20Z",
-   "text": "released v0.23.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-11T12:12:50Z",
-   "text": "Lead whatsNew with the compaction fix for v0.23.0"
+   "kind": "merge",
+   "repo": "Alvish0407/clautter",
+   "at": "2026-06-09T03:45:14Z",
+   "text": "Add social share preview image (og:image) + persist CNAME"
   }
  ]
 }
