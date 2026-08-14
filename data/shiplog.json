@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-13T22:05:34Z",
+ "generated_at": "2026-08-14T05:07:05Z",
  "entries": [
   {
    "kind": "commit",
@@ -33,12 +33,6 @@
    "text": "fix(shiplog): search anonymously, or CI sees only this repo"
   },
   {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-13T04:59:02Z",
-   "text": "fix(shiplog): reserve slots so local volume cannot bury every merge"
-  },
-  {
    "kind": "merge",
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-12T10:22:23Z",
@@ -55,6 +49,12 @@
    "repo": "claude-notch",
    "at": "2026-08-12T09:33:08Z",
    "text": "released v0.23.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-12T09:31:40Z",
+   "text": "Lead whatsNew with the /add-dir chip fix for v0.23.1"
   },
   {
    "kind": "merge",
