@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-14T07:53:14Z",
+ "generated_at": "2026-08-14T10:19:28Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T09:32:51Z",
+   "text": "fix: opening a window no longer throws you out of your full-screen Space"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T09:01:07Z",
+   "text": "feat: say what a Claude Code update contains, and stop asking once it lands"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T08:44:43Z",
+   "text": "fix: the update script broke on zsh's read-only status variable"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T08:38:39Z",
+   "text": "feat: tell you when Claude Code itself is out of date"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,30 +43,6 @@
    "repo": "claude-notch",
    "at": "2026-08-14T05:53:38Z",
    "text": "released v0.24.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T05:52:05Z",
-   "text": "Lead whatsNew with the sandbox and session-visibility work for v0.24.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T05:24:19Z",
-   "text": "fix: classify a sandbox violation on words, not substrings"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T05:22:57Z",
-   "text": "feat: read Claude Code's own registry of running sessions"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T05:18:28Z",
-   "text": "feat: show what the sandbox actually blocked"
   },
   {
    "kind": "merge",
