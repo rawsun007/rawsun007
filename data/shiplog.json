@@ -1,12 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-14T05:07:05Z",
+ "generated_at": "2026-08-14T07:53:14Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-13T09:22:27Z",
-   "text": "fix: stop exporting permission forms Claude Code warns about"
+   "at": "2026-08-14T05:54:54Z",
+   "text": "Publish the v0.24.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-14T05:53:39Z",
+   "text": "Update claudenotch cask to v0.24.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-14T05:53:38Z",
+   "text": "released v0.24.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T05:52:05Z",
+   "text": "Lead whatsNew with the sandbox and session-visibility work for v0.24.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T05:24:19Z",
+   "text": "fix: classify a sandbox violation on words, not substrings"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T05:22:57Z",
+   "text": "feat: read Claude Code's own registry of running sessions"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-14T05:18:28Z",
+   "text": "feat: show what the sandbox actually blocked"
   },
   {
    "kind": "merge",
@@ -15,46 +51,10 @@
    "text": "test(session_goal): pin three unguarded rules in evaluate"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-13T07:38:20Z",
-   "text": "feat: log what sandbox posture was read, under the debug flag"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-13T07:28:18Z",
-   "text": "feat: show whether a session is sandboxed in the notch"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-13T05:01:08Z",
-   "text": "fix(shiplog): search anonymously, or CI sees only this repo"
-  },
-  {
    "kind": "merge",
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-12T10:22:23Z",
    "text": "docs(remote-sync): list azure as a built-in backend"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-12T09:34:11Z",
-   "text": "Publish the v0.23.1 changelog"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-12T09:33:08Z",
-   "text": "released v0.23.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-12T09:31:40Z",
-   "text": "Lead whatsNew with the /add-dir chip fix for v0.23.1"
   },
   {
    "kind": "merge",
