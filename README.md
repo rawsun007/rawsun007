@@ -28,7 +28,7 @@ Small, fast, shipped in public, with a changelog to prove it.
 </div>
 
 
-## `rawsun007@github ~ $ cat about.md`
+## `$ about`
 
 - **Privacy-first web tools.** Everything runs in the browser. No upload, no server, no account.
 - **macOS apps.** Swift, SwiftUI and AppKit, built for developers who live in the terminal.
@@ -41,7 +41,7 @@ to reach me is [X](https://x.com/roshanramani007) or
 [roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/).
 
 
-## `rawsun007@github ~ $ ls -l projects/`
+## `$ projects`
 
 ### ClaudeNotch, approve Claude Code from your Mac's notch
 
@@ -72,14 +72,14 @@ share-target support. Built in vanilla JavaScript, one tested feature at a time.
 [MetaStrip changelog](https://metastrip.vercel.app/changelog.html)
 
 
-## `rawsun007@github ~ $ n8n --stats`
+## `$ automation`
 
 30+ published templates with 32,000+ template uses across n8n and Needle. My survey report
 generator, built with Jotform and Gemini, has passed 240+ views on its own. I work as an
 [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
 
 
-## `rawsun007@github ~ $ ls shipped/`
+## `$ shipped`
 
 | Project | What it does | Live |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 | **QR Code generator** | Generate custom QR codes | [qr-done](https://qr-done-five.vercel.app/) |
 
 
-## `rawsun007@github ~ $ which swift python node`
+## `$ stack`
 
 The `whoami` card at the top lists all of it. The six I reach for most:
 
@@ -107,7 +107,7 @@ ClaudeNotch exists for exactly that reason: it puts a human in the loop on every
 agent wants to run.
 
 
-## `rawsun007@github ~ $ make readme`
+## `$ how this readme is built`
 
 The heatmap, the ship log, the portrait and the terminal card at the top are not
 hosted widgets.
@@ -139,7 +139,7 @@ python3 scripts/render_shiplog_svg.py    # writes shiplog.svg
 STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
 ```
 
-## `rawsun007@github ~ $ exit`
+## `$ contact`
 
 Building in public, one shipped feature at a time. Say hi on
 [X](https://x.com/roshanramani007) or
