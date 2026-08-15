@@ -38,11 +38,12 @@ Small, fast, shipped in public, with a changelog to prove it.
 - **macOS apps.** Swift, SwiftUI and AppKit, built for developers who live in the terminal.
 - **AI and no-code automation.** 30+ published n8n templates with 32,000+ uses.
 
-**Currently freelancing, and looking for an internship or an engineering role at a startup.**
-I like small teams that ship fast and let one person own a thing end to end. The quickest way
-to reach me is [X](https://x.com/roshanramani007) or
-[LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2), and my work is at
-[roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/).
+> [!NOTE]
+> **Currently freelancing, and looking for an internship or an engineering role at a
+> startup.** I like small teams that ship fast and let one person own a thing end to end.
+> Reach me on [X](https://x.com/roshanramani007) or
+> [LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2), and see the work at
+> [roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/).
 
 
 ## `$ projects`
