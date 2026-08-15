@@ -47,33 +47,46 @@ to reach me is [X](https://x.com/roshanramani007) or
 
 ## `$ projects`
 
-### ClaudeNotch, approve Claude Code from your Mac's notch
+The two I maintain and keep shipping. Everything else is under [`shipped`](#-shipped).
+
+### ClaudeNotch
+
+**Approve Claude Code from your Mac's notch.**
 
 [![Stars](https://img.shields.io/github/stars/rawsun007/claude-notch?style=flat-square&labelColor=0d1117&color=39d353&label=stars)](https://github.com/rawsun007/claude-notch/stargazers)
 [![Swift](https://img.shields.io/badge/swift-0d1117?style=flat-square&labelColor=0d1117&logo=swift&logoColor=white)](https://github.com/rawsun007/claude-notch)
 [![macOS 13+](https://img.shields.io/badge/macos-13%2B-0d1117?style=flat-square&labelColor=0d1117&logo=apple&logoColor=white)](https://github.com/rawsun007/claude-notch)
+[![Latest release](https://img.shields.io/github/v/release/rawsun007/claude-notch?style=flat-square&labelColor=0d1117&color=0d1117&label=release)](https://github.com/rawsun007/claude-notch/releases/latest)
 
 A Dynamic-Island-style overlay that surfaces [Claude Code](https://claude.com/claude-code)
 permission prompts, questions, cost and context usage in the MacBook notch. Read the diff,
 approve or deny with one key, and never tab back to the terminal. Native menu-bar app in
 Swift with SwiftUI and AppKit, works with VoiceOver, and runs entirely on your machine.
 
-[Source on GitHub](https://github.com/rawsun007/claude-notch)
+[**Download for macOS**](https://github.com/rawsun007/claude-notch/releases/latest)
 &nbsp;·&nbsp;
-[ClaudeNotch website](https://rawsun007.github.io/claude-notch/)
+[Website](https://rawsun007.github.io/claude-notch/)
 &nbsp;·&nbsp;
-[Download for macOS](https://github.com/rawsun007/claude-notch/releases/latest)
+[Source](https://github.com/rawsun007/claude-notch)
+&nbsp;·&nbsp;
+[Changelog](https://rawsun007.github.io/claude-notch/changelog/)
 
-### MetaStrip, see and strip photo EXIF metadata in your browser
+### MetaStrip
+
+**See and strip photo EXIF metadata in your browser.**
+
+[![JavaScript](https://img.shields.io/badge/javascript-0d1117?style=flat-square&labelColor=0d1117&logo=javascript&logoColor=white)](https://metastrip.vercel.app/)
+[![PWA](https://img.shields.io/badge/installable-pwa-0d1117?style=flat-square&labelColor=0d1117&logo=pwa&logoColor=white)](https://metastrip.vercel.app/)
+[![Client side](https://img.shields.io/badge/client_side-no_upload-39d353?style=flat-square&labelColor=0d1117)](https://metastrip.vercel.app/)
 
 Shows exactly what a photo secretly carries, GPS location, device details and timestamps,
 then strips it losslessly, byte by byte, entirely client side. No upload, no server, no
 account. Selective field redaction, HEIC support, and an installable PWA with Android
 share-target support. Built in vanilla JavaScript, one tested feature at a time.
 
-[Open MetaStrip](https://metastrip.vercel.app/)
+[**Open MetaStrip**](https://metastrip.vercel.app/)
 &nbsp;·&nbsp;
-[MetaStrip changelog](https://metastrip.vercel.app/changelog.html)
+[Changelog](https://metastrip.vercel.app/changelog.html)
 
 
 ## `$ automation`
