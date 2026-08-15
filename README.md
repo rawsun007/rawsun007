@@ -89,22 +89,24 @@ share-target support. Built in vanilla JavaScript, one tested feature at a time.
 [Changelog](https://metastrip.vercel.app/changelog.html)
 
 
+## `$ shipped`
+
+Smaller tools, all live, all free to use. Web tools run entirely in your browser.
+
+| Project | What it does | Built with | Live |
+| :--- | :--- | :--- | :--- |
+| **GodPrompter** | Craft better AI prompts | Next.js | [godprompter.com](https://godprompter.com/) |
+| **GitHub Wrapped** | Your GitHub year, wrapped up | Next.js | [Open](https://github-wrapped-2026-steel.vercel.app/) |
+| **PDF Toolbox** | Merge, split and convert PDFs in the browser | JavaScript | [Open](https://pdf-toolbox-eight-beryl.vercel.app/) |
+| **iloveinvoice** | Create and download invoices | JavaScript | [iloveinvoice.live](http://iloveinvoice.live/) |
+| **QR Code generator** | Generate custom QR codes | JavaScript | [Open](https://qr-done-five.vercel.app/) |
+
+
 ## `$ automation`
 
 30+ published templates with 32,000+ template uses across n8n and Needle. My survey report
 generator, built with Jotform and Gemini, has passed 240+ views on its own. I work as an
 [n8n creator](https://n8n.io/creators/rawsun007/) and a Needle content partner.
-
-
-## `$ shipped`
-
-| Project | What it does | Live |
-| --- | --- | --- |
-| **GodPrompter** | Craft better AI prompts | [godprompter.com](https://godprompter.com/) |
-| **GitHub Wrapped** | Your GitHub year, wrapped up | [GitHub Wrapped demo](https://github-wrapped-2026-steel.vercel.app/) |
-| **PDF Toolbox** | Merge, split and convert PDFs in the browser | [PDF Toolbox demo](https://pdf-toolbox-eight-beryl.vercel.app/) |
-| **iloveinvoice** | Create and download invoices | [iloveinvoice.live](http://iloveinvoice.live/) |
-| **QR Code generator** | Generate custom QR codes | [qr-done](https://qr-done-five.vercel.app/) |
 
 
 ## `$ stack`
