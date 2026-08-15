@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-15T07:00:23Z",
+ "generated_at": "2026-08-15T09:43:47Z",
  "entries": [
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-15T06:01:29Z",
-   "text": "Publish the v0.25.0 changelog"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:57:48Z",
+   "text": "Make the contact section say which door to knock on"
   },
   {
    "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-15T05:59:42Z",
-   "text": "Update claudenotch cask to v0.25.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-15T05:59:40Z",
-   "text": "released v0.25.0"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:57:31Z",
+   "text": "Say what each thing in the stack is for"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-15T05:58:01Z",
-   "text": "Release notes for v0.25.0 on the About page"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:57:04Z",
+   "text": "Make the one line a recruiter needs impossible to skim past"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-15T05:38:26Z",
-   "text": "fix: drop the unreachable second CwdChanged case"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:56:42Z",
+   "text": "Fold the readme internals into a details block"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-15T05:38:08Z",
-   "text": "feat: show a session at its subagent or web search limit"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:56:15Z",
+   "text": "Put all the work in one run, and say what each thing is built with"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-15T05:36:54Z",
-   "text": "feat: track the two budgets a session can quietly run out of"
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:55:50Z",
+   "text": "Give the two projects the same shape"
+  },
+  {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-15T08:54:58Z",
+   "text": "Add a nav row so the page can be skipped through"
   },
   {
    "kind": "merge",
