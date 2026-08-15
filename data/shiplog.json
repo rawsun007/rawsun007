@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-15T09:43:47Z",
+ "generated_at": "2026-08-15T21:38:16Z",
  "entries": [
   {
    "kind": "commit",
@@ -40,9 +40,9 @@
   },
   {
    "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-15T08:54:58Z",
-   "text": "Add a nav row so the page can be skipped through"
+   "repo": "claude-notch",
+   "at": "2026-08-15T06:01:29Z",
+   "text": "Publish the v0.25.0 changelog"
   },
   {
    "kind": "merge",
