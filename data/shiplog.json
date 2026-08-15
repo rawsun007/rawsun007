@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-14T10:19:28Z",
+ "generated_at": "2026-08-15T07:00:23Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-14T09:32:51Z",
-   "text": "fix: opening a window no longer throws you out of your full-screen Space"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T09:01:07Z",
-   "text": "feat: say what a Claude Code update contains, and stop asking once it lands"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T08:44:43Z",
-   "text": "fix: the update script broke on zsh's read-only status variable"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T08:38:39Z",
-   "text": "feat: tell you when Claude Code itself is out of date"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-14T05:54:54Z",
-   "text": "Publish the v0.24.0 changelog"
+   "at": "2026-08-15T06:01:29Z",
+   "text": "Publish the v0.25.0 changelog"
   },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
-   "at": "2026-08-14T05:53:39Z",
-   "text": "Update claudenotch cask to v0.24.0"
+   "at": "2026-08-15T05:59:42Z",
+   "text": "Update claudenotch cask to v0.25.0"
   },
   {
    "kind": "release",
    "repo": "claude-notch",
-   "at": "2026-08-14T05:53:38Z",
-   "text": "released v0.24.0"
+   "at": "2026-08-15T05:59:40Z",
+   "text": "released v0.25.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:58:01Z",
+   "text": "Release notes for v0.25.0 on the About page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:38:26Z",
+   "text": "fix: drop the unreachable second CwdChanged case"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:38:08Z",
+   "text": "feat: show a session at its subagent or web search limit"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:36:54Z",
+   "text": "feat: track the two budgets a session can quietly run out of"
   },
   {
    "kind": "merge",
