@@ -174,6 +174,11 @@ STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
 
 ## `$ contact`
 
-Building in public, one shipped feature at a time. Say hi on
-[X](https://x.com/roshanramani007) or
-[LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2).
+Building in public, one shipped feature at a time. Fastest ways to reach me:
+
+| Where | What for |
+| :--- | :--- |
+| [X, @roshanramani007](https://x.com/roshanramani007) | Quickest reply, and where I post what I ship |
+| [LinkedIn](https://www.linkedin.com/in/roshan-ramani-0510102b2) | Roles, internships, freelance work |
+| [roshan-ramani.vercel.app](https://roshan-ramani.vercel.app/) | Portfolio, with case studies |
+| [n8n creator profile](https://n8n.io/creators/rawsun007/) | The published automation templates |
