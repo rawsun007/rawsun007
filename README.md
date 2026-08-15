@@ -112,7 +112,7 @@ generator, built with Jotform and Gemini, has passed 240+ views on its own. I wo
 
 ## `$ stack`
 
-The `whoami` card at the top lists all of it. The six I reach for most:
+The card at the top lists all of it. The six I reach for most, and what each one is for:
 
 ![Swift](https://img.shields.io/badge/swift-0d1117?style=flat-square&labelColor=0d1117&logo=swift&logoColor=white)
 ![Python](https://img.shields.io/badge/python-0d1117?style=flat-square&labelColor=0d1117&logo=python&logoColor=white)
@@ -120,6 +120,12 @@ The `whoami` card at the top lists all of it. The six I reach for most:
 ![Next.js](https://img.shields.io/badge/next%2Ejs-0d1117?style=flat-square&labelColor=0d1117&logo=next.js&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-0d1117?style=flat-square&labelColor=0d1117&logo=n8n&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/claude_code-0d1117?style=flat-square&labelColor=0d1117&logo=claude&logoColor=white)
+
+**Swift** with SwiftUI and AppKit for the Mac apps.
+**TypeScript** and **Next.js** for the web tools, plus vanilla JavaScript where a
+dependency would be the only heavy thing on the page.
+**Python** for the generators and scrapers behind this profile.
+**n8n** for the automations, and **Claude Code** as the agent I run all day.
 
 I use agents daily and treat their output as a draft, not a result. Vibe coding gets a
 prototype standing in an afternoon. What ships gets read line by line, tested and reviewed.
