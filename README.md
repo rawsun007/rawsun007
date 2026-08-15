@@ -25,6 +25,10 @@ Small, fast, shipped in public, with a changelog to prove it.
 &nbsp;
 [![n8n creator](https://img.shields.io/badge/n8n-creator-0d1117?style=flat-square&labelColor=0d1117&logo=n8n&logoColor=white)](https://n8n.io/creators/rawsun007/)
 
+<br />
+
+[`about`](#-about)&nbsp;&nbsp;·&nbsp;&nbsp;[`projects`](#-projects)&nbsp;&nbsp;·&nbsp;&nbsp;[`shipped`](#-shipped)&nbsp;&nbsp;·&nbsp;&nbsp;[`automation`](#-automation)&nbsp;&nbsp;·&nbsp;&nbsp;[`stack`](#-stack)&nbsp;&nbsp;·&nbsp;&nbsp;[`contact`](#-contact)
+
 </div>
 
 
