@@ -128,13 +128,18 @@ agent wants to run.
 
 ## `$ how this readme is built`
 
-The heatmap, the ship log, the portrait and the terminal card at the top are not
-hosted widgets.
-They are SVGs generated in this repo, so nothing here can rate-limit or go down and
-leave a broken image on my profile.
+The heatmap, the ship log, the portrait and the terminal card at the top are not hosted
+widgets. They are SVGs generated in this repo by Python with no dependencies, refreshed
+daily by GitHub Actions, so nothing here can rate-limit or go down and leave a broken
+image on my profile.
+
+<details>
+<summary><b>How each piece is made, and how to build them locally</b></summary>
+
+<br />
 
 | Piece | Script | Refreshed |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `contrib-heatmap.svg` | `scripts/fetch_contributions.py` + `render_heatmap_svg.py` | Daily, by GitHub Actions |
 | `shiplog.svg` | `scripts/fetch_shiplog.py` + `render_shiplog_svg.py` | Daily, by GitHub Actions |
 | `ascii-portrait.svg` | `scripts/make_ascii_svg.py` | By hand, when the photo changes |
@@ -150,13 +155,15 @@ log reads the repos and their commits from the API, because the events feed
 stopped carrying commit messages: its push payloads now hold only the before and
 head SHAs.
 
-```
-python3 scripts/fetch_contributions.py   # writes data/contributions.json
-python3 scripts/render_heatmap_svg.py    # writes contrib-heatmap.svg
-python3 scripts/fetch_shiplog.py         # writes data/shiplog.json
-python3 scripts/render_shiplog_svg.py    # writes shiplog.svg
+```bash
+python3 scripts/fetch_contributions.py       # writes data/contributions.json
+python3 scripts/render_heatmap_svg.py        # writes contrib-heatmap.svg
+python3 scripts/fetch_shiplog.py             # writes data/shiplog.json
+python3 scripts/render_shiplog_svg.py        # writes shiplog.svg
 STATIC=1 python3 scripts/make_info_card.py   # frozen frame for local preview
 ```
+
+</details>
 
 ## `$ contact`
 
