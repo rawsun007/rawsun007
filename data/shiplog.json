@@ -1,13 +1,7 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-16T13:03:31Z",
+ "generated_at": "2026-08-16T15:39:49Z",
  "entries": [
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-15T08:57:48Z",
-   "text": "Make the contact section say which door to knock on"
-  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -43,6 +37,12 @@
    "repo": "claude-notch",
    "at": "2026-08-15T05:38:08Z",
    "text": "feat: show a session at its subagent or web search limit"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:36:54Z",
+   "text": "feat: track the two budgets a session can quietly run out of"
   },
   {
    "kind": "merge",
