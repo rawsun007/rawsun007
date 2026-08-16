@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-16T04:02:21Z",
+ "generated_at": "2026-08-16T07:02:44Z",
  "entries": [
   {
    "kind": "commit",
@@ -22,12 +22,6 @@
   },
   {
    "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-15T08:56:42Z",
-   "text": "Fold the readme internals into a details block"
-  },
-  {
-   "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-15T06:01:29Z",
    "text": "Publish the v0.25.0 changelog"
@@ -43,6 +37,12 @@
    "repo": "claude-notch",
    "at": "2026-08-15T05:59:40Z",
    "text": "released v0.25.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:58:01Z",
+   "text": "Release notes for v0.25.0 on the About page"
   },
   {
    "kind": "merge",
