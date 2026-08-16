@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-16T07:02:44Z",
+ "generated_at": "2026-08-16T09:45:08Z",
  "entries": [
   {
    "kind": "commit",
@@ -13,12 +13,6 @@
    "repo": "rawsun007",
    "at": "2026-08-15T08:57:31Z",
    "text": "Say what each thing in the stack is for"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-15T08:57:04Z",
-   "text": "Make the one line a recruiter needs impossible to skim past"
   },
   {
    "kind": "commit",
@@ -43,6 +37,12 @@
    "repo": "claude-notch",
    "at": "2026-08-15T05:58:01Z",
    "text": "Release notes for v0.25.0 on the About page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:38:26Z",
+   "text": "fix: drop the unreachable second CwdChanged case"
   },
   {
    "kind": "merge",
