@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-15T21:38:16Z",
+ "generated_at": "2026-08-16T01:59:07Z",
  "entries": [
   {
    "kind": "commit",
@@ -34,15 +34,15 @@
   },
   {
    "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-15T08:55:50Z",
-   "text": "Give the two projects the same shape"
-  },
-  {
-   "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-15T06:01:29Z",
    "text": "Publish the v0.25.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-15T05:59:42Z",
+   "text": "Update claudenotch cask to v0.25.0"
   },
   {
    "kind": "merge",
