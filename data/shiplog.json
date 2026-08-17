@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-17T10:00:00Z",
+ "generated_at": "2026-08-17T13:09:14Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-17T09:59:44Z",
-   "text": "feat: say it in the menu bar when prompts are not reaching the app"
+   "at": "2026-08-17T10:19:50Z",
+   "text": "test: golden payloads for every parser that reads someone else's JSON"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-17T09:51:36Z",
-   "text": "feat: hold a state for \"the hook server never started\""
+   "at": "2026-08-17T10:15:42Z",
+   "text": "feat: show when a tool call fails, and when a session is stuck on it"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-17T09:49:58Z",
-   "text": "fix: close a connection that never finishes its request"
+   "at": "2026-08-17T10:11:41Z",
+   "text": "feat: say how to get the task meter back"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-17T09:47:20Z",
-   "text": "fix: own the hook port outright instead of asking Network.framework to"
+   "at": "2026-08-17T10:10:59Z",
+   "text": "feat: tell a session with no task tools apart from one with no tasks"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-17T09:39:52Z",
-   "text": "fix: stop another local process from sharing the hook port"
+   "at": "2026-08-17T10:06:16Z",
+   "text": "test: expect the quoted resume command"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-15T06:01:29Z",
-   "text": "Publish the v0.25.0 changelog"
+   "at": "2026-08-17T10:04:11Z",
+   "text": "fix: make the port-exclusivity tests compile"
   },
   {
    "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-15T05:59:42Z",
-   "text": "Update claudenotch cask to v0.25.0"
+   "repo": "claude-notch",
+   "at": "2026-08-17T10:03:03Z",
+   "text": "fix: cap what an MCP server can put on the elicitation card"
   },
   {
    "kind": "merge",
