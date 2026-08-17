@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-16T15:39:49Z",
+ "generated_at": "2026-08-17T07:18:40Z",
  "entries": [
   {
    "kind": "commit",
@@ -45,22 +45,22 @@
    "text": "feat: track the two budgets a session can quietly run out of"
   },
   {
-   "kind": "merge",
-   "repo": "Tracer-Cloud/opensre",
-   "at": "2026-08-13T09:13:46Z",
-   "text": "test(session_goal): pin three unguarded rules in evaluate"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:34:17Z",
+   "text": "feat: take an elicitation card down when it is answered somewhere else"
   },
   {
-   "kind": "merge",
-   "repo": "Tracer-Cloud/opensre",
-   "at": "2026-08-12T10:22:23Z",
-   "text": "docs(remote-sync): list azure as a built-in backend"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:32:56Z",
+   "text": "feat: answer an MCP server's question from the notch"
   },
   {
-   "kind": "merge",
-   "repo": "robocurve/inspect-robots-yam",
-   "at": "2026-08-09T00:08:31Z",
-   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-15T05:30:58Z",
+   "text": "feat: tell a forked session apart from a resumed one"
   }
  ]
 }
