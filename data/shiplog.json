@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-17T13:09:14Z",
+ "generated_at": "2026-08-18T04:00:41Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-18T03:57:35Z",
+   "text": "Publish the v0.26.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-18T03:56:30Z",
+   "text": "Update claudenotch cask to v0.26.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-18T03:56:28Z",
+   "text": "released v0.26.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-18T03:54:49Z",
+   "text": "Release notes for v0.26.0 on the About page"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,30 +43,6 @@
    "repo": "claude-notch",
    "at": "2026-08-17T10:11:41Z",
    "text": "feat: say how to get the task meter back"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-17T10:10:59Z",
-   "text": "feat: tell a session with no task tools apart from one with no tasks"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-17T10:06:16Z",
-   "text": "test: expect the quoted resume command"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-17T10:04:11Z",
-   "text": "fix: make the port-exclusivity tests compile"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-17T10:03:03Z",
-   "text": "fix: cap what an MCP server can put on the elicitation card"
   },
   {
    "kind": "merge",
