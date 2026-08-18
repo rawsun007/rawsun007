@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-18T07:07:49Z",
+ "generated_at": "2026-08-18T09:51:12Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-18T05:23:11Z",
-   "text": "fix: a link that arrives before the windows exist no longer kills the app"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T05:20:59Z",
-   "text": "feat: answer \"is this thing working?\" in Settings"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T05:19:25Z",
-   "text": "fix: say why a Touch ID confirmation did not go through"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T05:16:51Z",
-   "text": "feat: let the URL scheme be switched off"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T05:14:52Z",
-   "text": "fix: ask before a link is allowed to start an agent"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T03:57:35Z",
-   "text": "Publish the v0.26.0 changelog"
+   "at": "2026-08-18T09:10:10Z",
+   "text": "Publish the v0.27.1 changelog"
   },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
-   "at": "2026-08-18T03:56:30Z",
-   "text": "Update claudenotch cask to v0.26.0"
+   "at": "2026-08-18T09:09:23Z",
+   "text": "Update claudenotch cask to v0.27.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-18T09:09:21Z",
+   "text": "released v0.27.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-18T09:04:33Z",
+   "text": "Release notes for v0.27.1 on the About page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-18T08:59:51Z",
+   "text": "fix: stop the Setup window asking the system four questions twice a second"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-18T07:37:34Z",
+   "text": "Publish the v0.27.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-18T07:36:38Z",
+   "text": "Update claudenotch cask to v0.27.0"
   },
   {
    "kind": "merge",
