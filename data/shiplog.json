@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-18T09:51:12Z",
+ "generated_at": "2026-08-19T09:51:39Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-19T09:11:52Z",
+   "text": "Publish the v0.28.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-19T09:11:04Z",
+   "text": "Update claudenotch cask to v0.28.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-19T09:11:03Z",
+   "text": "released v0.28.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-19T09:06:37Z",
+   "text": "Release notes for v0.28.0 on the About page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-19T09:01:34Z",
+   "text": "fix: one history row per usage-limit event, not two"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-19T08:53:38Z",
+   "text": "feat: say when a task paused on a usage limit and when it picks up again"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-18T09:10:10Z",
    "text": "Publish the v0.27.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-18T09:09:23Z",
-   "text": "Update claudenotch cask to v0.27.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-18T09:09:21Z",
-   "text": "released v0.27.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T09:04:33Z",
-   "text": "Release notes for v0.27.1 on the About page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T08:59:51Z",
-   "text": "fix: stop the Setup window asking the system four questions twice a second"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T07:37:34Z",
-   "text": "Publish the v0.27.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-18T07:36:38Z",
-   "text": "Update claudenotch cask to v0.27.0"
   },
   {
    "kind": "merge",
