@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-20T04:01:58Z",
+ "generated_at": "2026-08-20T07:09:18Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-20T03:16:44Z",
-   "text": "fix: prune and lock down the settings backups the shell installer writes"
+   "at": "2026-08-20T05:23:07Z",
+   "text": "fix: stop taking the app down for installs that change nothing"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-20T03:09:58Z",
-   "text": "fix: stop leaving a copy of your settings behind on every launch"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-20T03:07:12Z",
-   "text": "fix: the updater no longer installs what it could not verify"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-19T09:11:52Z",
-   "text": "Publish the v0.28.0 changelog"
+   "at": "2026-08-20T05:05:23Z",
+   "text": "Publish the v0.29.0 changelog"
   },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
-   "at": "2026-08-19T09:11:04Z",
-   "text": "Update claudenotch cask to v0.28.0"
+   "at": "2026-08-20T05:04:23Z",
+   "text": "Update claudenotch cask to v0.29.0"
   },
   {
    "kind": "release",
    "repo": "claude-notch",
-   "at": "2026-08-19T09:11:03Z",
-   "text": "released v0.28.0"
+   "at": "2026-08-20T05:04:21Z",
+   "text": "released v0.29.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-19T09:06:37Z",
-   "text": "Release notes for v0.28.0 on the About page"
+   "at": "2026-08-20T04:59:32Z",
+   "text": "Release notes for v0.29.0 on the About page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-20T04:52:48Z",
+   "text": "tools: one entry point for poking the running app"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-20T04:38:43Z",
+   "text": "fix: one hook installer, and a test that keeps it that way"
   },
   {
    "kind": "merge",
