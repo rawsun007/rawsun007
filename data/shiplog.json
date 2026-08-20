@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-19T09:51:39Z",
+ "generated_at": "2026-08-20T04:01:58Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-20T03:16:44Z",
+   "text": "fix: prune and lock down the settings backups the shell installer writes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-20T03:09:58Z",
+   "text": "fix: stop leaving a copy of your settings behind on every launch"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-20T03:07:12Z",
+   "text": "fix: the updater no longer installs what it could not verify"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -25,24 +43,6 @@
    "repo": "claude-notch",
    "at": "2026-08-19T09:06:37Z",
    "text": "Release notes for v0.28.0 on the About page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-19T09:01:34Z",
-   "text": "fix: one history row per usage-limit event, not two"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-19T08:53:38Z",
-   "text": "feat: say when a task paused on a usage limit and when it picks up again"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-18T09:10:10Z",
-   "text": "Publish the v0.27.1 changelog"
   },
   {
    "kind": "merge",
