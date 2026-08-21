@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-21T09:54:12Z",
+ "generated_at": "2026-08-21T15:50:42Z",
  "entries": [
   {
    "kind": "release",
    "repo": "metastrip",
-   "at": "2026-08-21T08:29:43Z",
-   "text": "released v1.0.0"
+   "at": "2026-08-21T13:49:11Z",
+   "text": "released v1.2.0"
   },
   {
    "kind": "commit",
    "repo": "metastrip",
-   "at": "2026-08-21T08:29:05Z",
-   "text": "release: v1.0.0"
+   "at": "2026-08-21T13:48:54Z",
+   "text": "release: v1.2.0"
   },
   {
    "kind": "commit",
    "repo": "metastrip",
-   "at": "2026-08-21T08:28:51Z",
-   "text": "docs(changelog): fold today's two entries into one v1.0.0 release entry"
+   "at": "2026-08-21T13:48:35Z",
+   "text": "docs: six posts and six questions, not ten and nine"
+  },
+  {
+   "kind": "release",
+   "repo": "metastrip",
+   "at": "2026-08-21T13:41:46Z",
+   "text": "released v1.1.3"
   },
   {
    "kind": "commit",
    "repo": "metastrip",
-   "at": "2026-08-21T08:24:00Z",
-   "text": "docs: record the aspect-ratio work in the changelog and README"
+   "at": "2026-08-21T13:41:29Z",
+   "text": "release: v1.1.3"
   },
   {
    "kind": "commit",
    "repo": "metastrip",
-   "at": "2026-08-21T08:23:41Z",
-   "text": "fix(ui): on a phone, a vertical clip fills the screen, a vertical photo does not"
+   "at": "2026-08-21T13:41:10Z",
+   "text": "fix(ui): a STOP button appeared for a folder run nobody had started"
   },
   {
-   "kind": "commit",
+   "kind": "release",
    "repo": "metastrip",
-   "at": "2026-08-21T08:22:41Z",
-   "text": "feat(ui): vertical clips get a wider column than vertical photos"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-21T08:22:08Z",
-   "text": "feat(video): tell display size and stored size apart"
+   "at": "2026-08-21T13:30:31Z",
+   "text": "released v1.1.2"
   },
   {
    "kind": "merge",
