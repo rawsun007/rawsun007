@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-21T07:10:20Z",
+ "generated_at": "2026-08-21T09:54:12Z",
  "entries": [
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-21T06:55:03Z",
-   "text": "fix: a personal Mac does not have an organisation"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-21T06:46:16Z",
-   "text": "feat: say when a project has no CLAUDE.md, or an old one"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-21T06:40:42Z",
-   "text": "feat: the compact nudge does the compacting"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-21T06:35:50Z",
-   "text": "feat: suggest compacting before it happens to you"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-20T10:15:00Z",
-   "text": "Publish the v0.30.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-20T10:14:15Z",
-   "text": "Update claudenotch cask to v0.30.0"
-  },
-  {
    "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-20T10:14:14Z",
-   "text": "released v0.30.0"
+   "repo": "metastrip",
+   "at": "2026-08-21T08:29:43Z",
+   "text": "released v1.0.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:29:05Z",
+   "text": "release: v1.0.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:28:51Z",
+   "text": "docs(changelog): fold today's two entries into one v1.0.0 release entry"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:24:00Z",
+   "text": "docs: record the aspect-ratio work in the changelog and README"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:23:41Z",
+   "text": "fix(ui): on a phone, a vertical clip fills the screen, a vertical photo does not"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:22:41Z",
+   "text": "feat(ui): vertical clips get a wider column than vertical photos"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-21T08:22:08Z",
+   "text": "feat(video): tell display size and stored size apart"
   },
   {
    "kind": "merge",
