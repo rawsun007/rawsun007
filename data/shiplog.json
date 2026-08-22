@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-22T01:52:45Z",
+ "generated_at": "2026-08-22T03:58:54Z",
  "entries": [
   {
    "kind": "release",
@@ -45,22 +45,22 @@
    "text": "released v1.1.2"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-21T13:30:15Z",
-   "text": "release: v1.1.2"
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-13T09:13:46Z",
+   "text": "test(session_goal): pin three unguarded rules in evaluate"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-21T13:30:07Z",
-   "text": "docs(seo): the blog actually gets the meta tags v1.1.1 claimed for it"
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-12T10:22:23Z",
+   "text": "docs(remote-sync): list azure as a built-in backend"
   },
   {
-   "kind": "release",
-   "repo": "metastrip",
-   "at": "2026-08-21T13:29:15Z",
-   "text": "released v1.1.1"
+   "kind": "merge",
+   "repo": "robocurve/inspect-robots-yam",
+   "at": "2026-08-09T00:08:31Z",
+   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
   }
  ]
 }
