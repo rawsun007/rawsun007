@@ -6,6 +6,12 @@ name: Update profile art
     # drops them outright often enough that a once-a-day job regularly does not
     # run at all, and each miss leaves the profile showing yesterday's work for
     # another full day. Eight cheap attempts beat one that has to land.
+    #
+    # Eight runs is not eight commits. A run that finds nothing new writes
+    # nothing and commits nothing: the fetch scripts compare everything except
+    # their own timestamp and skip the write when it matches. On a day I do no
+    # work, this repo should show no activity, which is the entire point of a
+    # profile that reports my activity.
     - cron: "17 */3 * * *"
   workflow_dispatch: {}
   push:
@@ -46,10 +52,28 @@ jobs:
           GH_USER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ github.token }}
       - run: python scripts/render_shiplog_svg.py
+      # Committed AND authored by the bot.
+      #
+      # GitHub attributes a contribution to the commit's author, not its
+      # committer. This action defaults the author to whoever owns the token,
+      # which is me, so every refresh landed on my contribution graph as if I
+      # had written it. That is not a cosmetic problem: the workflow reports my
+      # streak, so it was feeding the number it reports. A quiet three-hour
+      # window still produced "total 2264 -> 2265" because the previous run's
+      # own commit was the contribution it had found.
+      #
+      # Authored by the bot, those commits stop counting, and the graph only
+      # moves when I actually do something. Which then means the data only
+      # changes when I actually do something, so the existing
+      # write_if_changed guard stops the commit too. The honesty and the
+      # quietness are the same fix.
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution heatmap [skip ci]"
           file_pattern: "data/contributions.json contrib-heatmap.svg data/shiplog.json shiplog.svg"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
       # A scrape reads markup and an API that nobody promised would stay put.
       # When either moves, the scripts exit non-zero and the workflow goes red,
