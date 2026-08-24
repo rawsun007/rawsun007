@@ -1,7 +1,37 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-24T07:31:22Z",
+ "generated_at": "2026-08-24T10:06:42Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-24T10:03:04Z",
+   "text": "fix: the hook port comes back instantly after a restart, not 40s later"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-24T09:52:04Z",
+   "text": "Publish the v0.31.1 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-24T09:50:51Z",
+   "text": "Update claudenotch cask to v0.31.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-24T09:50:49Z",
+   "text": "released v0.31.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-24T09:38:48Z",
+   "text": "fix: a usage window that has already reset stops being reported as live"
+  },
   {
    "kind": "release",
    "repo": "metastrip",
@@ -15,40 +45,10 @@
    "text": "release: v1.2.1"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-24T07:29:40Z",
-   "text": "fix: a downloaded video was badged RISKY over the name of its muxer"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-24T07:29:40Z",
-   "text": "refactor: the badge decides risk, so it gets its own file"
-  },
-  {
    "kind": "merge",
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-08-23T22:13:42Z",
    "text": "Skip an episode whose show was not preloaded"
-  },
-  {
-   "kind": "commit",
-   "repo": "rawsun007",
-   "at": "2026-08-23T05:41:02Z",
-   "text": "fix: the profile refresh no longer counts as my own work"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-23T04:57:51Z",
-   "text": "fix: correct what the signature fix actually fixed"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-23T04:56:36Z",
-   "text": "fix: installing no longer breaks the app's own code signature"
   },
   {
    "kind": "merge",
