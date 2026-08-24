@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-24T01:59:45Z",
+ "generated_at": "2026-08-24T07:31:22Z",
  "entries": [
+  {
+   "kind": "release",
+   "repo": "metastrip",
+   "at": "2026-08-24T07:30:18Z",
+   "text": "released v1.2.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-24T07:29:59Z",
+   "text": "release: v1.2.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-24T07:29:40Z",
+   "text": "fix: a downloaded video was badged RISKY over the name of its muxer"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-24T07:29:40Z",
+   "text": "refactor: the badge decides risk, so it gets its own file"
+  },
   {
    "kind": "merge",
    "repo": "Taxel/PlexTraktSync",
@@ -25,30 +49,6 @@
    "repo": "claude-notch",
    "at": "2026-08-23T04:56:36Z",
    "text": "fix: installing no longer breaks the app's own code signature"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-23T04:49:23Z",
-   "text": "Publish the v0.31.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-23T04:47:47Z",
-   "text": "Update claudenotch cask to v0.31.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-23T04:47:46Z",
-   "text": "released v0.31.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-23T04:22:17Z",
-   "text": "feat: say when a worktree appears, and log it when one goes"
   },
   {
    "kind": "merge",
