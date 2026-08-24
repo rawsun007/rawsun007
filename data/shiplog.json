@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-23T05:41:38Z",
+ "generated_at": "2026-08-24T01:59:45Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Taxel/PlexTraktSync",
+   "at": "2026-08-23T22:13:42Z",
+   "text": "Skip an episode whose show was not preloaded"
+  },
   {
    "kind": "commit",
    "repo": "rawsun007",
@@ -55,12 +61,6 @@
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-12T10:22:23Z",
    "text": "docs(remote-sync): list azure as a built-in backend"
-  },
-  {
-   "kind": "merge",
-   "repo": "robocurve/inspect-robots-yam",
-   "at": "2026-08-09T00:08:31Z",
-   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
   }
  ]
 }
