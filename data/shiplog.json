@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-24T10:06:42Z",
+ "generated_at": "2026-08-24T13:16:24Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-24T10:07:43Z",
+   "text": "test: the serving restart test gets a port of its own"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -37,12 +43,6 @@
    "repo": "metastrip",
    "at": "2026-08-24T07:30:18Z",
    "text": "released v1.2.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-24T07:29:59Z",
-   "text": "release: v1.2.1"
   },
   {
    "kind": "merge",
