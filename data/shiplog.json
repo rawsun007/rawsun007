@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-25T09:53:53Z",
+ "generated_at": "2026-08-25T19:00:11Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Taxel/PlexTraktSync",
+   "at": "2026-08-25T16:39:47Z",
+   "text": "AGENTS.md: make splitting a fix from its test the default"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-08-23T22:13:42Z",
    "text": "Skip an episode whose show was not preloaded"
-  },
-  {
-   "kind": "merge",
-   "repo": "Tracer-Cloud/opensre",
-   "at": "2026-08-13T09:13:46Z",
-   "text": "test(session_goal): pin three unguarded rules in evaluate"
   }
  ]
 }
