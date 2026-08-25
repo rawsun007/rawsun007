@@ -1,7 +1,37 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-25T07:11:08Z",
+ "generated_at": "2026-08-25T09:53:53Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-25T09:35:28Z",
+   "text": "Publish the v0.31.2 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-25T09:34:21Z",
+   "text": "Update claudenotch cask to v0.31.2"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-25T09:34:19Z",
+   "text": "released v0.31.2"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-25T09:14:27Z",
+   "text": "fix: .inetloc and .fileloc are treated as launchers, like .webloc already was"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-25T08:41:26Z",
+   "text": "fix: the file holding the hook token stops being world-readable"
+  },
   {
    "kind": "merge",
    "repo": "nmoroze/tclint",
@@ -19,36 +49,6 @@
    "repo": "claude-notch",
    "at": "2026-08-25T04:51:13Z",
    "text": "fix: publish the v0.31.0 and v0.31.1 changelogs to the site that is live"
-  },
-  {
-   "kind": "release",
-   "repo": "metastrip",
-   "at": "2026-08-25T04:26:28Z",
-   "text": "released v1.2.2"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-25T04:26:00Z",
-   "text": "release: v1.2.2"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-25T04:25:29Z",
-   "text": "perf: cache headers, a 302 KB photo for a 210 px circle, and a CSP"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-08-25T04:25:29Z",
-   "text": "perf: one bundle instead of sixteen scripts, and a cache-first worker"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-24T10:07:43Z",
-   "text": "test: the serving restart test gets a port of its own"
   },
   {
    "kind": "merge",
