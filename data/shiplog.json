@@ -1,48 +1,54 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-24T13:16:24Z",
+ "generated_at": "2026-08-25T07:11:08Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "nmoroze/tclint",
+   "at": "2026-08-25T05:56:59Z",
+   "text": "fix bare directive with only a description"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-25T04:57:48Z",
+   "text": "perf: publish the poster-frame clip tiles"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-25T04:51:13Z",
+   "text": "fix: publish the v0.31.0 and v0.31.1 changelogs to the site that is live"
+  },
+  {
+   "kind": "release",
+   "repo": "metastrip",
+   "at": "2026-08-25T04:26:28Z",
+   "text": "released v1.2.2"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-25T04:26:00Z",
+   "text": "release: v1.2.2"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-25T04:25:29Z",
+   "text": "perf: cache headers, a 302 KB photo for a 210 px circle, and a CSP"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-08-25T04:25:29Z",
+   "text": "perf: one bundle instead of sixteen scripts, and a cache-first worker"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-24T10:07:43Z",
    "text": "test: the serving restart test gets a port of its own"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-24T10:03:04Z",
-   "text": "fix: the hook port comes back instantly after a restart, not 40s later"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-24T09:52:04Z",
-   "text": "Publish the v0.31.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-24T09:50:51Z",
-   "text": "Update claudenotch cask to v0.31.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-24T09:50:49Z",
-   "text": "released v0.31.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-24T09:38:48Z",
-   "text": "fix: a usage window that has already reset stops being reported as live"
-  },
-  {
-   "kind": "release",
-   "repo": "metastrip",
-   "at": "2026-08-24T07:30:18Z",
-   "text": "released v1.2.1"
   },
   {
    "kind": "merge",
@@ -55,12 +61,6 @@
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-13T09:13:46Z",
    "text": "test(session_goal): pin three unguarded rules in evaluate"
-  },
-  {
-   "kind": "merge",
-   "repo": "Tracer-Cloud/opensre",
-   "at": "2026-08-12T10:22:23Z",
-   "text": "docs(remote-sync): list azure as a built-in backend"
   }
  ]
 }
