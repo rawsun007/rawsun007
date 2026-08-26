@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-26T07:11:11Z",
+ "generated_at": "2026-08-26T10:00:01Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-26T08:06:31Z",
+   "text": "Publish the v0.32.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-26T08:05:23Z",
+   "text": "Update claudenotch cask to v0.32.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-26T08:05:21Z",
+   "text": "released v0.32.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-26T07:15:51Z",
+   "text": "feat: say how much ran without anyone being asked"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -21,34 +45,10 @@
    "text": "feat: say when a CLAUDE.md is long enough to be skimmed"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T05:10:31Z",
-   "text": "feat: say when two sessions are working in one checkout"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T05:09:22Z",
-   "text": "feat: say when a session changed code and never checked it"
-  },
-  {
    "kind": "merge",
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-08-25T16:39:47Z",
    "text": "AGENTS.md: make splitting a fix from its test the default"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-25T09:35:28Z",
-   "text": "Publish the v0.31.2 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-25T09:34:21Z",
-   "text": "Update claudenotch cask to v0.31.2"
   },
   {
    "kind": "merge",
