@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-26T10:00:01Z",
+ "generated_at": "2026-08-27T14:17:27Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T06:44:37Z",
+   "text": "feat: releases can be built and notarized on CI instead of a laptop"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T05:46:05Z",
+   "text": "feat: the release can notarize and staple, once there is an account to do it with"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -31,18 +43,6 @@
    "repo": "claude-notch",
    "at": "2026-08-26T05:18:18Z",
    "text": "fix: a build marker has to start a command, not merely appear in one"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T05:13:11Z",
-   "text": "feat: say when an MCP server is doing a job the machine has a command for"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T05:11:52Z",
-   "text": "feat: say when a CLAUDE.md is long enough to be skimmed"
   },
   {
    "kind": "merge",
