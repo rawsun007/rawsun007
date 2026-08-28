@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-27T14:17:27Z",
+ "generated_at": "2026-08-28T00:26:23Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T14:47:33Z",
+   "text": "feat: the menu bar shows the app's own name instead of a hardcoded one"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T14:39:30Z",
+   "text": "feat: the app's display name is \"AI Agent Notch\", read from the bundle"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T14:32:55Z",
+   "text": "fix: the release no longer replaces Info.plist's build variables with literals"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T14:25:04Z",
+   "text": "feat: the project opens in Xcode, and fixes a bug that would have broken notarized builds"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -19,30 +43,6 @@
    "repo": "claude-notch",
    "at": "2026-08-26T08:06:31Z",
    "text": "Publish the v0.32.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-08-26T08:05:23Z",
-   "text": "Update claudenotch cask to v0.32.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-08-26T08:05:21Z",
-   "text": "released v0.32.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T07:15:51Z",
-   "text": "feat: say how much ran without anyone being asked"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T05:18:18Z",
-   "text": "fix: a build marker has to start a command, not merely appear in one"
   },
   {
    "kind": "merge",
