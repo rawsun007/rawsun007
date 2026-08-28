@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-28T00:26:23Z",
+ "generated_at": "2026-08-28T15:27:26Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-28T08:17:00Z",
+   "text": "revert: the display name stays ClaudeNotch"
+  },
+  {
+   "kind": "merge",
+   "repo": "biomejs/biome",
+   "at": "2026-08-28T06:42:26Z",
+   "text": "fix(noDescendingSpecificity): compare against the highest specificity for a repeated tail selector \ud83e\udd16\ud83e\udd16\ud83e\udd16"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -39,12 +51,6 @@
    "text": "feat: the release can notarize and staple, once there is an account to do it with"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-26T08:06:31Z",
-   "text": "Publish the v0.32.0 changelog"
-  },
-  {
    "kind": "merge",
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-08-25T16:39:47Z",
@@ -55,12 +61,6 @@
    "repo": "nmoroze/tclint",
    "at": "2026-08-25T05:56:59Z",
    "text": "fix bare directive with only a description"
-  },
-  {
-   "kind": "merge",
-   "repo": "Taxel/PlexTraktSync",
-   "at": "2026-08-23T22:13:42Z",
-   "text": "Skip an episode whose show was not preloaded"
   }
  ]
 }
