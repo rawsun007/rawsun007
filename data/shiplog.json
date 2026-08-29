@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-28T15:27:26Z",
+ "generated_at": "2026-08-29T16:45:54Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-29T14:43:55Z",
+   "text": "Publish the v0.33.0 changelog, and pin the signing identity"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-08-29T14:37:19Z",
+   "text": "Update claudenotch cask to v0.33.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-08-29T14:37:17Z",
+   "text": "released v0.33.0"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -31,24 +49,6 @@
    "repo": "claude-notch",
    "at": "2026-08-27T14:32:55Z",
    "text": "fix: the release no longer replaces Info.plist's build variables with literals"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-27T14:25:04Z",
-   "text": "feat: the project opens in Xcode, and fixes a bug that would have broken notarized builds"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-27T06:44:37Z",
-   "text": "feat: releases can be built and notarized on CI instead of a laptop"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-27T05:46:05Z",
-   "text": "feat: the release can notarize and staple, once there is an account to do it with"
   },
   {
    "kind": "merge",
