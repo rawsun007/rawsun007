@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-29T16:45:54Z",
+ "generated_at": "2026-08-30T11:58:58Z",
  "entries": [
   {
    "kind": "commit",
@@ -27,12 +27,6 @@
    "text": "revert: the display name stays ClaudeNotch"
   },
   {
-   "kind": "merge",
-   "repo": "biomejs/biome",
-   "at": "2026-08-28T06:42:26Z",
-   "text": "fix(noDescendingSpecificity): compare against the highest specificity for a repeated tail selector \ud83e\udd16\ud83e\udd16\ud83e\udd16"
-  },
-  {
    "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-08-27T14:47:33Z",
@@ -51,16 +45,22 @@
    "text": "fix: the release no longer replaces Info.plist's build variables with literals"
   },
   {
-   "kind": "merge",
-   "repo": "Taxel/PlexTraktSync",
-   "at": "2026-08-25T16:39:47Z",
-   "text": "AGENTS.md: make splitting a fix from its test the default"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T14:25:04Z",
+   "text": "feat: the project opens in Xcode, and fixes a bug that would have broken notarized builds"
   },
   {
-   "kind": "merge",
-   "repo": "nmoroze/tclint",
-   "at": "2026-08-25T05:56:59Z",
-   "text": "fix bare directive with only a description"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T06:44:37Z",
+   "text": "feat: releases can be built and notarized on CI instead of a laptop"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-08-27T05:46:05Z",
+   "text": "feat: the release can notarize and staple, once there is an account to do it with"
   }
  ]
 }
