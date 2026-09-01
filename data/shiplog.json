@@ -1,48 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-08-31T13:59:21Z",
+ "generated_at": "2026-09-01T08:43:30Z",
  "entries": [
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-31T09:13:54Z",
-   "text": "docs: rebuild the site with the notarized install copy"
+   "repo": "homebrew-tap",
+   "at": "2026-09-01T02:45:09Z",
+   "text": "Update claudenotch cask to v0.34.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-31T09:12:45Z",
-   "text": "docs: CLAUDE.md records that signing is not optional"
+   "at": "2026-09-01T02:44:52Z",
+   "text": "fix: the disk image is signed whether or not this run notarizes it"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-31T09:12:24Z",
-   "text": "docs: a runbook for the signing and notarization credentials"
+   "at": "2026-09-01T02:41:10Z",
+   "text": "fix: the Homebrew cask is checksummed from the published DMG"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-31T09:11:15Z",
-   "text": "docs: make-signing-cert.sh says it is for development machines only"
+   "at": "2026-09-01T02:38:56Z",
+   "text": "docs: rebuild the site with the v0.34.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-01T02:37:52Z",
+   "text": "Update claudenotch cask to v0.34.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-01T02:37:51Z",
+   "text": "released v0.34.0"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-08-31T09:10:58Z",
-   "text": "fix: releasing without notarization credentials is refused"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-31T09:10:25Z",
-   "text": "docs: build.sh names its fallback tiers development-only"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-08-31T09:10:00Z",
-   "text": "fix: the release path verifies the app, not only the disk image"
+   "at": "2026-09-01T02:35:35Z",
+   "text": "fix: the disk image is signed even when only the notary profile is set"
   },
   {
    "kind": "merge",
