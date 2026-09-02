@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-02T11:25:05Z",
+ "generated_at": "2026-09-02T16:39:00Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apache/datafusion",
+   "at": "2026-09-02T15:45:08Z",
+   "text": "docs: fix three dead links to datafusion.apache.org"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-02T15:03:20Z",
+   "text": "Fix two dead links in the docs"
+  },
   {
    "kind": "merge",
    "repo": "apache/kvrocks-website",
@@ -39,28 +51,16 @@
    "text": "Skip an episode whose show was not preloaded"
   },
   {
+   "kind": "commit",
+   "repo": "rawsun007",
+   "at": "2026-08-23T05:41:02Z",
+   "text": "fix: the profile refresh no longer counts as my own work"
+  },
+  {
    "kind": "merge",
    "repo": "Tracer-Cloud/opensre",
    "at": "2026-08-13T09:13:46Z",
    "text": "test(session_goal): pin three unguarded rules in evaluate"
-  },
-  {
-   "kind": "merge",
-   "repo": "Tracer-Cloud/opensre",
-   "at": "2026-08-12T10:22:23Z",
-   "text": "docs(remote-sync): list azure as a built-in backend"
-  },
-  {
-   "kind": "merge",
-   "repo": "robocurve/inspect-robots-yam",
-   "at": "2026-08-09T00:08:31Z",
-   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
-  },
-  {
-   "kind": "merge",
-   "repo": "Alvish0407/clautter",
-   "at": "2026-06-09T03:45:14Z",
-   "text": "Add social share preview image (og:image) + persist CNAME"
   }
  ]
 }
