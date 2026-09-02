@@ -1,48 +1,12 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-01T08:43:30Z",
+ "generated_at": "2026-09-02T11:25:05Z",
  "entries": [
   {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-09-01T02:45:09Z",
-   "text": "Update claudenotch cask to v0.34.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-01T02:44:52Z",
-   "text": "fix: the disk image is signed whether or not this run notarizes it"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-01T02:41:10Z",
-   "text": "fix: the Homebrew cask is checksummed from the published DMG"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-01T02:38:56Z",
-   "text": "docs: rebuild the site with the v0.34.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-09-01T02:37:52Z",
-   "text": "Update claudenotch cask to v0.34.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-09-01T02:37:51Z",
-   "text": "released v0.34.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-01T02:35:35Z",
-   "text": "fix: the disk image is signed even when only the notary profile is set"
+   "kind": "merge",
+   "repo": "apache/kvrocks-website",
+   "at": "2026-09-02T09:54:25Z",
+   "text": "docs: repoint dist.apache.org links away from the incubator path"
   },
   {
    "kind": "merge",
@@ -61,6 +25,42 @@
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-08-25T16:39:47Z",
    "text": "AGENTS.md: make splitting a fix from its test the default"
+  },
+  {
+   "kind": "merge",
+   "repo": "nmoroze/tclint",
+   "at": "2026-08-25T05:56:59Z",
+   "text": "fix bare directive with only a description"
+  },
+  {
+   "kind": "merge",
+   "repo": "Taxel/PlexTraktSync",
+   "at": "2026-08-23T22:13:42Z",
+   "text": "Skip an episode whose show was not preloaded"
+  },
+  {
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-13T09:13:46Z",
+   "text": "test(session_goal): pin three unguarded rules in evaluate"
+  },
+  {
+   "kind": "merge",
+   "repo": "Tracer-Cloud/opensre",
+   "at": "2026-08-12T10:22:23Z",
+   "text": "docs(remote-sync): list azure as a built-in backend"
+  },
+  {
+   "kind": "merge",
+   "repo": "robocurve/inspect-robots-yam",
+   "at": "2026-08-09T00:08:31Z",
+   "text": "fix(cameras): name the camera when a reader drops a frame (#61)"
+  },
+  {
+   "kind": "merge",
+   "repo": "Alvish0407/clautter",
+   "at": "2026-06-09T03:45:14Z",
+   "text": "Add social share preview image (og:image) + persist CNAME"
   }
  ]
 }
