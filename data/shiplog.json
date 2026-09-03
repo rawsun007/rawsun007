@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-03T11:21:18Z",
+ "generated_at": "2026-09-03T16:31:30Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-03T14:28:01Z",
+   "text": "fix: one Fixed group in What's New, not two"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-03T14:23:41Z",
+   "text": "docs: rebuild the site with the v0.35.1 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-03T14:23:03Z",
+   "text": "Update claudenotch cask to v0.35.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-03T14:18:11Z",
+   "text": "released v0.35.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-03T14:14:33Z",
+   "text": "feat: What's New carries the v0.35.1 fix"
+  },
+  {
+   "kind": "merge",
+   "repo": "apache/arrow",
+   "at": "2026-09-03T14:09:06Z",
+   "text": "GH-51148: [Docs] Repoint three dead links"
+  },
   {
    "kind": "merge",
    "repo": "qgis/QGIS",
@@ -21,46 +57,10 @@
    "text": "Update claudenotch cask to v0.35.0"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:25:24Z",
-   "text": "fix: the cask sync waits for a workflow that has not started yet"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:24:41Z",
-   "text": "docs: rebuild the site with the v0.35.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-09-03T09:23:29Z",
-   "text": "Update claudenotch cask to v0.35.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:23:18Z",
-   "text": "released v0.35.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:19:43Z",
-   "text": "feat: What's New carries the v0.35.0 notes"
-  },
-  {
    "kind": "merge",
    "repo": "apache/datafusion",
    "at": "2026-09-02T15:45:08Z",
    "text": "docs: fix three dead links to datafusion.apache.org"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-02T15:03:20Z",
-   "text": "Fix two dead links in the docs"
   }
  ]
 }
