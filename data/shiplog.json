@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-04T16:25:59Z",
+ "generated_at": "2026-09-04T20:48:51Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "managarm/managarm",
+   "at": "2026-09-04T18:11:43Z",
+   "text": "docs: fix broken internal links in the book"
+  },
   {
    "kind": "merge",
    "repo": "labwc/labwc",
@@ -55,12 +61,6 @@
    "repo": "qgis/QGIS",
    "at": "2026-09-03T10:41:45Z",
    "text": "Fix dead Transifex link in CONTRIBUTING \ud83e\udd16\ud83e\udd16\ud83e\udd16"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/datafusion",
-   "at": "2026-09-02T15:45:08Z",
-   "text": "docs: fix three dead links to datafusion.apache.org"
   }
  ]
 }
