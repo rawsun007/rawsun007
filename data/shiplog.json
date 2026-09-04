@@ -1,30 +1,12 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-03T21:06:00Z",
+ "generated_at": "2026-09-04T04:40:07Z",
  "entries": [
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T14:28:01Z",
-   "text": "fix: one Fixed group in What's New, not two"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T14:23:41Z",
-   "text": "docs: rebuild the site with the v0.35.1 changelog"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-09-03T14:18:11Z",
-   "text": "released v0.35.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T14:14:33Z",
-   "text": "feat: What's New carries the v0.35.1 fix"
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-03T23:47:41Z",
+   "text": "docs: fix dead localization doc link in the READMEs"
   },
   {
    "kind": "merge",
@@ -39,28 +21,46 @@
    "text": "Fix dead Transifex link in CONTRIBUTING \ud83e\udd16\ud83e\udd16\ud83e\udd16"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:31:21Z",
-   "text": "fix: the checksum is read from the tap, not from a CDN cache"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:25:24Z",
-   "text": "fix: the cask sync waits for a workflow that has not started yet"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-03T09:24:41Z",
-   "text": "docs: rebuild the site with the v0.35.0 changelog"
-  },
-  {
    "kind": "merge",
    "repo": "apache/datafusion",
    "at": "2026-09-02T15:45:08Z",
    "text": "docs: fix three dead links to datafusion.apache.org"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-02T15:03:20Z",
+   "text": "Fix two dead links in the docs"
+  },
+  {
+   "kind": "merge",
+   "repo": "apache/kvrocks-website",
+   "at": "2026-09-02T09:54:25Z",
+   "text": "docs: repoint dist.apache.org links away from the incubator path"
+  },
+  {
+   "kind": "merge",
+   "repo": "robocurve/inspect-robots-yam",
+   "at": "2026-08-30T21:45:44Z",
+   "text": "fix(status): drive the operator's elapsed time from the wall clock (#64)"
+  },
+  {
+   "kind": "merge",
+   "repo": "biomejs/biome",
+   "at": "2026-08-28T06:42:26Z",
+   "text": "fix(noDescendingSpecificity): compare against the highest specificity for a repeated tail selector \ud83e\udd16\ud83e\udd16\ud83e\udd16"
+  },
+  {
+   "kind": "merge",
+   "repo": "Taxel/PlexTraktSync",
+   "at": "2026-08-25T16:39:47Z",
+   "text": "AGENTS.md: make splitting a fix from its test the default"
+  },
+  {
+   "kind": "merge",
+   "repo": "nmoroze/tclint",
+   "at": "2026-08-25T05:56:59Z",
+   "text": "fix bare directive with only a description"
   }
  ]
 }
