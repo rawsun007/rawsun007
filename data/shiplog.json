@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-04T20:48:51Z",
+ "generated_at": "2026-09-05T04:36:00Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "GitoxideLabs/gitoxide",
+   "at": "2026-09-05T03:54:54Z",
+   "text": "fix(gix-config-value)!: parse integer bases the way `git` does"
+  },
   {
    "kind": "merge",
    "repo": "managarm/managarm",
@@ -55,12 +61,6 @@
    "repo": "apache/arrow",
    "at": "2026-09-03T14:09:06Z",
    "text": "GH-51148: [Docs] Repoint three dead links"
-  },
-  {
-   "kind": "merge",
-   "repo": "qgis/QGIS",
-   "at": "2026-09-03T10:41:45Z",
-   "text": "Fix dead Transifex link in CONTRIBUTING \ud83e\udd16\ud83e\udd16\ud83e\udd16"
   }
  ]
 }
