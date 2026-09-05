@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-05T04:36:00Z",
+ "generated_at": "2026-09-05T10:41:05Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "RustPython/RustPython",
+   "at": "2026-09-05T09:52:08Z",
+   "text": "Keep `str`'s concat error when `__radd__` declines"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-05T09:02:40Z",
+   "text": "fix(useCycleList): derive the next index from the current state"
+  },
+  {
+   "kind": "merge",
+   "repo": "libgit2/pygit2",
+   "at": "2026-09-05T07:59:05Z",
+   "text": "Return None from submodules.get() for a nested plain repository"
+  },
   {
    "kind": "merge",
    "repo": "GitoxideLabs/gitoxide",
@@ -43,24 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-09-04T06:45:06Z",
    "text": "docs: Fix dead links"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-04T06:24:52Z",
-   "text": "docs: fix the LLM-friendly documentation link in the README"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-03T23:47:41Z",
-   "text": "docs: fix dead localization doc link in the READMEs"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/arrow",
-   "at": "2026-09-03T14:09:06Z",
-   "text": "GH-51148: [Docs] Repoint three dead links"
   }
  ]
 }
