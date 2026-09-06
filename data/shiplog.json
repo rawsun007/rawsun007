@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-05T10:41:05Z",
+ "generated_at": "2026-09-06T20:28:08Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "betrusted-io/xous-core",
+   "at": "2026-09-06T19:03:03Z",
+   "text": "docs: fix dead GitHub collaboration guide link"
+  },
   {
    "kind": "merge",
    "repo": "RustPython/RustPython",
@@ -55,12 +61,6 @@
    "repo": "JuliaLang/julia",
    "at": "2026-09-04T11:05:32Z",
    "text": "Fix dead JuliaHub blog links in the inference devdocs"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-09-04T06:45:06Z",
-   "text": "docs: Fix dead links"
   }
  ]
 }
