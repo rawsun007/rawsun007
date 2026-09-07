@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-07T04:49:10Z",
+ "generated_at": "2026-09-07T12:41:46Z",
  "entries": [
   {
    "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-07T03:20:16Z",
-   "text": "fix(useIdle): cancel the timers on unmount"
-  },
-  {
-   "kind": "merge",
-   "repo": "betrusted-io/xous-core",
-   "at": "2026-09-06T19:03:03Z",
-   "text": "docs: fix dead GitHub collaboration guide link"
-  },
-  {
-   "kind": "merge",
-   "repo": "RustPython/RustPython",
-   "at": "2026-09-05T09:52:08Z",
-   "text": "Keep `str`'s concat error when `__radd__` declines"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-05T09:02:40Z",
-   "text": "fix(useCycleList): derive the next index from the current state"
-  },
-  {
-   "kind": "merge",
-   "repo": "libgit2/pygit2",
-   "at": "2026-09-05T07:59:05Z",
-   "text": "Return None from submodules.get() for a nested plain repository"
-  },
-  {
-   "kind": "merge",
    "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-05T03:54:54Z",
-   "text": "fix(gix-config-value)!: parse integer bases the way `git` does"
+   "at": "2026-09-07T11:05:56Z",
+   "text": "fix(gix-config-value): accept git's 12-bit hex color shorthand"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T10:15:05Z",
+   "text": "fix: the minimized-question tab sits on the right of the notch"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T10:07:03Z",
+   "text": "fix: a dead question card no longer blocks a live one"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T10:01:55Z",
+   "text": "fix: the minimized-question badge sits beside the notch, not inside it"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T09:58:36Z",
+   "text": "fix: the minimize button is a shrink glyph with a real hit target"
   },
   {
    "kind": "merge",
-   "repo": "managarm/managarm",
-   "at": "2026-09-04T18:11:43Z",
-   "text": "docs: fix broken internal links in the book"
+   "repo": "wagtail/wagtail",
+   "at": "2026-09-07T09:48:28Z",
+   "text": "docs: repoint dead Handsontable and Cloudflare reference links"
   },
   {
    "kind": "merge",
-   "repo": "labwc/labwc",
-   "at": "2026-09-04T15:59:53Z",
-   "text": "docs: point the gettext tutorial at an archived copy"
+   "repo": "gitpython-developers/GitPython",
+   "at": "2026-09-07T09:48:17Z",
+   "text": "Read git's yes/no and on/off booleans in get_value"
   },
   {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-04T14:07:56Z",
-   "text": "test: cover Utils.safe_filename and .safe_filename?"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T09:43:43Z",
+   "text": "docs: the two queue invariants that are easy to break with .first"
   },
   {
-   "kind": "merge",
-   "repo": "qgis/QGIS-Documentation",
-   "at": "2026-09-04T12:57:15Z",
-   "text": "Fix four dead links in the containerized deployment manual"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T09:39:29Z",
+   "text": "fix: a permission card that arrived too late says so too"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T09:36:39Z",
+   "text": "feat: minimize a question card and bring it back from the notch"
   }
  ]
 }
