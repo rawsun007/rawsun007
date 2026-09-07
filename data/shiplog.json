@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-06T20:28:08Z",
+ "generated_at": "2026-09-07T04:49:10Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-07T03:20:16Z",
+   "text": "fix(useIdle): cancel the timers on unmount"
+  },
   {
    "kind": "merge",
    "repo": "betrusted-io/xous-core",
@@ -55,12 +61,6 @@
    "repo": "qgis/QGIS-Documentation",
    "at": "2026-09-04T12:57:15Z",
    "text": "Fix four dead links in the containerized deployment manual"
-  },
-  {
-   "kind": "merge",
-   "repo": "JuliaLang/julia",
-   "at": "2026-09-04T11:05:32Z",
-   "text": "Fix dead JuliaHub blog links in the inference devdocs"
   }
  ]
 }
