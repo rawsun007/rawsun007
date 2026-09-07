@@ -1,36 +1,54 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-07T12:41:46Z",
+ "generated_at": "2026-09-07T19:12:57Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:59:09Z",
+   "text": "docs: rebuild the site with the v0.36.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-07T14:57:59Z",
+   "text": "Update claudenotch cask to v0.36.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:53:39Z",
+   "text": "released v0.36.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:43:08Z",
+   "text": "feat: What's New carries the v0.36.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:42:14Z",
+   "text": "docs: use run-dev-build.sh, never open the app by hand"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:38:43Z",
+   "text": "fix: minimizing is one movement, not two"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-07T14:35:15Z",
+   "text": "feat: the notch stays shut while a question is waiting"
+  },
   {
    "kind": "merge",
    "repo": "GitoxideLabs/gitoxide",
    "at": "2026-09-07T11:05:56Z",
    "text": "fix(gix-config-value): accept git's 12-bit hex color shorthand"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T10:15:05Z",
-   "text": "fix: the minimized-question tab sits on the right of the notch"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T10:07:03Z",
-   "text": "fix: a dead question card no longer blocks a live one"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T10:01:55Z",
-   "text": "fix: the minimized-question badge sits beside the notch, not inside it"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T09:58:36Z",
-   "text": "fix: the minimize button is a shrink glyph with a real hit target"
   },
   {
    "kind": "merge",
@@ -43,24 +61,6 @@
    "repo": "gitpython-developers/GitPython",
    "at": "2026-09-07T09:48:17Z",
    "text": "Read git's yes/no and on/off booleans in get_value"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T09:43:43Z",
-   "text": "docs: the two queue invariants that are easy to break with .first"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T09:39:29Z",
-   "text": "fix: a permission card that arrived too late says so too"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T09:36:39Z",
-   "text": "feat: minimize a question card and bring it back from the notch"
   }
  ]
 }
