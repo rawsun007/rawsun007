@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-07T23:32:45Z",
+ "generated_at": "2026-09-08T11:25:04Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-08T10:50:29Z",
+   "text": "tar: validate tarballs named with a compound extension"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:37:48Z",
+   "text": "fix: retire a translated string I renamed out from under nine languages"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:32:19Z",
+   "text": "docs: rebuild the site with the rail tick and no toggle"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:09:55Z",
+   "text": "feat: show Claude Code's lifetime stats on the Usage page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:07:35Z",
+   "text": "feat: read Claude Code's own lifetime stats"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:03:50Z",
+   "text": "docs: rebuild the site with today's changes"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-08T09:03:11Z",
+   "text": "Update claudenotch cask to v0.36.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-08T09:02:47Z",
+   "text": "fix: the Homebrew cask stops warning on every install"
+  },
+  {
+   "kind": "merge",
+   "repo": "RustPython/RustPython",
+   "at": "2026-09-08T08:52:58Z",
+   "text": "Report which format string mistake was made"
+  },
   {
    "kind": "merge",
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-09-07T20:04:33Z",
    "text": "Performance: defer logging init until first use"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:59:09Z",
-   "text": "docs: rebuild the site with the v0.36.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-09-07T14:57:59Z",
-   "text": "Update claudenotch cask to v0.36.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:53:39Z",
-   "text": "released v0.36.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:43:08Z",
-   "text": "feat: What's New carries the v0.36.0 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:42:14Z",
-   "text": "docs: use run-dev-build.sh, never open the app by hand"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:38:43Z",
-   "text": "fix: minimizing is one movement, not two"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-07T14:35:15Z",
-   "text": "feat: the notch stays shut while a question is waiting"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-07T11:05:56Z",
-   "text": "fix(gix-config-value): accept git's 12-bit hex color shorthand"
-  },
-  {
-   "kind": "merge",
-   "repo": "wagtail/wagtail",
-   "at": "2026-09-07T09:48:28Z",
-   "text": "docs: repoint dead Handsontable and Cloudflare reference links"
   }
  ]
 }
