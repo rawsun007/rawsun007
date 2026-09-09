@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-08T16:41:55Z",
+ "generated_at": "2026-09-09T04:48:52Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apache/airflow",
+   "at": "2026-09-08T23:30:31Z",
+   "text": "Fix dead Docker Desktop networking links in the docker-compose guide"
+  },
   {
    "kind": "merge",
    "repo": "influxdata/telegraf",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-09-08T09:01:49Z",
    "text": "docs: the README stops giving two different language counts"
-  },
-  {
-   "kind": "merge",
-   "repo": "RustPython/RustPython",
-   "at": "2026-09-08T08:52:58Z",
-   "text": "Report which format string mistake was made"
   }
  ]
 }
