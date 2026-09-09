@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-09T04:48:52Z",
+ "generated_at": "2026-09-09T11:30:23Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "GitoxideLabs/gitoxide",
+   "at": "2026-09-09T06:44:47Z",
+   "text": "fix(gix-config-value)!: parse a boolean's number like git does"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-09T06:15:48Z",
+   "text": "fix(useDoubleClick): keep the click count across renders and cancel the timer"
+  },
   {
    "kind": "merge",
    "repo": "apache/airflow",
@@ -49,18 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-09-08T09:03:50Z",
    "text": "docs: rebuild the site with today's changes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-08T09:02:47Z",
-   "text": "fix: the Homebrew cask stops warning on every install"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-08T09:01:49Z",
-   "text": "docs: the README stops giving two different language counts"
   }
  ]
 }
