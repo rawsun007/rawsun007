@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-09T16:42:51Z",
+ "generated_at": "2026-09-10T04:49:48Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-10T01:33:26Z",
+   "text": "fix(useMousePressed): attach the touch and drag listeners to a ref target"
+  },
   {
    "kind": "merge",
    "repo": "GitoxideLabs/gitoxide",
@@ -55,12 +61,6 @@
    "repo": "wagtail/wagtail",
    "at": "2026-09-07T09:48:28Z",
    "text": "docs: repoint dead Handsontable and Cloudflare reference links"
-  },
-  {
-   "kind": "merge",
-   "repo": "gitpython-developers/GitPython",
-   "at": "2026-09-07T09:48:17Z",
-   "text": "Read git's yes/no and on/off booleans in get_value"
   }
  ]
 }
