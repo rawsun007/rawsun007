@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-10T11:26:41Z",
+ "generated_at": "2026-09-10T20:55:01Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-09-10T17:03:17Z",
+   "text": "docs(inputs.cloudwatch): Drop note on removed namespace option"
+  },
   {
    "kind": "merge",
    "repo": "qgis/QGIS-Documentation",
@@ -55,12 +61,6 @@
    "repo": "Taxel/PlexTraktSync",
    "at": "2026-09-07T20:04:33Z",
    "text": "Performance: defer logging init until first use"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-07T11:05:56Z",
-   "text": "fix(gix-config-value): accept git's 12-bit hex color shorthand"
   }
  ]
 }
