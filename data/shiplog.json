@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-10T20:55:01Z",
+ "generated_at": "2026-09-11T04:46:58Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "RustPython/RustPython",
+   "at": "2026-09-11T00:54:28Z",
+   "text": "Report bytes out-of-range elements as CPython does"
+  },
   {
    "kind": "merge",
    "repo": "influxdata/telegraf",
@@ -55,12 +61,6 @@
    "repo": "RustPython/RustPython",
    "at": "2026-09-08T08:52:58Z",
    "text": "Report which format string mistake was made"
-  },
-  {
-   "kind": "merge",
-   "repo": "Taxel/PlexTraktSync",
-   "at": "2026-09-07T20:04:33Z",
-   "text": "Performance: defer logging init until first use"
   }
  ]
 }
