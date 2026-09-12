@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-11T04:46:58Z",
+ "generated_at": "2026-09-12T10:53:09Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "starship/starship",
+   "at": "2026-09-12T08:42:41Z",
+   "text": "docs: correct documented defaults for direnv style and fortran"
+  },
   {
    "kind": "merge",
    "repo": "RustPython/RustPython",
@@ -55,12 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-09-08T10:50:29Z",
    "text": "tar: validate tarballs named with a compound extension"
-  },
-  {
-   "kind": "merge",
-   "repo": "RustPython/RustPython",
-   "at": "2026-09-08T08:52:58Z",
-   "text": "Report which format string mistake was made"
   }
  ]
 }
