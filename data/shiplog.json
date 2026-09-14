@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-12T10:53:09Z",
+ "generated_at": "2026-09-14T12:56:31Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-14T12:24:13Z",
+   "text": "fix: Dismiss is clickable on an expired permission card"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-14T10:36:04Z",
+   "text": "docs: rebuild the site with the v0.37.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-14T10:35:23Z",
+   "text": "Update claudenotch cask to v0.37.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-14T10:31:13Z",
+   "text": "released v0.37.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-14T10:23:42Z",
+   "text": "feat: What's New carries the v0.37.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-14T10:19:30Z",
+   "text": "docs: the repo map covers the three Claude Code files we now read"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-14T10:14:58Z",
+   "text": "fix: run-dev-build could not run its own default path"
+  },
   {
    "kind": "merge",
    "repo": "starship/starship",
@@ -19,48 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-09-10T17:03:17Z",
    "text": "docs(inputs.cloudwatch): Drop note on removed namespace option"
-  },
-  {
-   "kind": "merge",
-   "repo": "qgis/QGIS-Documentation",
-   "at": "2026-09-10T08:35:34Z",
-   "text": "Fix three processing parameter references that do not match the source"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-10T01:33:26Z",
-   "text": "fix(useMousePressed): attach the touch and drag listeners to a ref target"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-09T06:44:47Z",
-   "text": "fix(gix-config-value)!: parse a boolean's number like git does"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-09T06:15:48Z",
-   "text": "fix(useDoubleClick): keep the click count across renders and cancel the timer"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/airflow",
-   "at": "2026-09-08T23:30:31Z",
-   "text": "Fix dead Docker Desktop networking links in the docker-compose guide"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-09-08T12:57:39Z",
-   "text": "docs: Drop documentation for removed config options"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-08T10:50:29Z",
-   "text": "tar: validate tarballs named with a compound extension"
   }
  ]
 }
