@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-14T19:51:25Z",
+ "generated_at": "2026-09-14T23:53:36Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "GitoxideLabs/gitoxide",
+   "at": "2026-09-14T20:26:14Z",
+   "text": "fix(gix-date)!: reject a timezone offset git would not read"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "starship/starship",
    "at": "2026-09-12T08:42:41Z",
    "text": "docs: correct documented defaults for direnv style and fortran"
-  },
-  {
-   "kind": "merge",
-   "repo": "RustPython/RustPython",
-   "at": "2026-09-11T00:54:28Z",
-   "text": "Report bytes out-of-range elements as CPython does"
   }
  ]
 }
