@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-15T04:59:23Z",
+ "generated_at": "2026-09-15T11:50:47Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-15T11:05:55Z",
+   "text": "cleanup: drop an unreachable bottle-version branch"
+  },
+  {
+   "kind": "merge",
+   "repo": "libgit2/pygit2",
+   "at": "2026-09-15T10:56:31Z",
+   "text": "Make build.sh stubtest run again"
+  },
+  {
+   "kind": "merge",
+   "repo": "kornia/kornia",
+   "at": "2026-09-15T09:10:33Z",
+   "text": "fix(conversions): reject integer dtype in normal_transform_pixel"
+  },
+  {
+   "kind": "merge",
+   "repo": "htop-dev/htop",
+   "at": "2026-09-15T07:51:16Z",
+   "text": "Document -n/--max-iterations in the man page"
+  },
   {
    "kind": "merge",
    "repo": "childrentime/reactuse",
@@ -37,30 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-09-10T17:03:17Z",
    "text": "docs(inputs.cloudwatch): Drop note on removed namespace option"
-  },
-  {
-   "kind": "merge",
-   "repo": "qgis/QGIS-Documentation",
-   "at": "2026-09-10T08:35:34Z",
-   "text": "Fix three processing parameter references that do not match the source"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-10T01:33:26Z",
-   "text": "fix(useMousePressed): attach the touch and drag listeners to a ref target"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-09T06:44:47Z",
-   "text": "fix(gix-config-value)!: parse a boolean's number like git does"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-09T06:15:48Z",
-   "text": "fix(useDoubleClick): keep the click count across renders and cancel the timer"
   }
  ]
 }
