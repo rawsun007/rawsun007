@@ -1,7 +1,55 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-15T11:50:47Z",
+ "generated_at": "2026-09-15T17:04:36Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "quickwit-oss/quickwit",
+   "at": "2026-09-15T15:40:44Z",
+   "text": "fix(datetime): reject a signed fractional part in a timestamp string"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-15T15:11:36Z",
+   "text": "docs: rebuild the site with the v0.37.3 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-15T15:10:30Z",
+   "text": "Update claudenotch cask to v0.37.3"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-15T15:04:52Z",
+   "text": "released v0.37.3"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-15T14:58:08Z",
+   "text": "feat: What's New carries the v0.37.3 row tidying"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-15T14:53:49Z",
+   "text": "fix: the session row stops saying \"background agent\" twice"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-15T14:52:04Z",
+   "text": "fix: the cache badge stops eating the session row"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-15T13:45:34Z",
+   "text": "docs: rebuild the site with the v0.37.2 changelog"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -13,54 +61,6 @@
    "repo": "libgit2/pygit2",
    "at": "2026-09-15T10:56:31Z",
    "text": "Make build.sh stubtest run again"
-  },
-  {
-   "kind": "merge",
-   "repo": "kornia/kornia",
-   "at": "2026-09-15T09:10:33Z",
-   "text": "fix(conversions): reject integer dtype in normal_transform_pixel"
-  },
-  {
-   "kind": "merge",
-   "repo": "htop-dev/htop",
-   "at": "2026-09-15T07:51:16Z",
-   "text": "Document -n/--max-iterations in the man page"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-15T02:01:06Z",
-   "text": "fix(useObjectUrl): revoke the url the effect created"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-14T20:26:14Z",
-   "text": "fix(gix-date)!: reject a timezone offset git would not read"
-  },
-  {
-   "kind": "merge",
-   "repo": "beeware/briefcase",
-   "at": "2026-09-14T13:31:50Z",
-   "text": "Reject a bundle identifier with a trailing newline"
-  },
-  {
-   "kind": "merge",
-   "repo": "starship/starship",
-   "at": "2026-09-12T08:42:41Z",
-   "text": "docs: correct documented defaults for direnv style and fortran"
-  },
-  {
-   "kind": "merge",
-   "repo": "RustPython/RustPython",
-   "at": "2026-09-11T00:54:28Z",
-   "text": "Report bytes out-of-range elements as CPython does"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-09-10T17:03:17Z",
-   "text": "docs(inputs.cloudwatch): Drop note on removed namespace option"
   }
  ]
 }
