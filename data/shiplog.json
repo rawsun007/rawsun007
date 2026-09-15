@@ -1,36 +1,18 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-14T23:53:36Z",
+ "generated_at": "2026-09-15T04:59:23Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-15T02:01:06Z",
+   "text": "fix(useObjectUrl): revoke the url the effect created"
+  },
   {
    "kind": "merge",
    "repo": "GitoxideLabs/gitoxide",
    "at": "2026-09-14T20:26:14Z",
    "text": "fix(gix-date)!: reject a timezone offset git would not read"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-14T13:57:09Z",
-   "text": "docs: rebuild the site with the v0.37.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-09-14T13:56:33Z",
-   "text": "Update claudenotch cask to v0.37.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-09-14T13:50:43Z",
-   "text": "released v0.37.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-14T13:42:59Z",
-   "text": "feat: What's New carries the v0.37.1 fix"
   },
   {
    "kind": "merge",
@@ -39,28 +21,46 @@
    "text": "Reject a bundle identifier with a trailing newline"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-14T12:59:24Z",
-   "text": "feat: a demo card that is already too late to answer"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-14T12:24:13Z",
-   "text": "fix: Dismiss is clickable on an expired permission card"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-14T10:36:04Z",
-   "text": "docs: rebuild the site with the v0.37.0 changelog"
-  },
-  {
    "kind": "merge",
    "repo": "starship/starship",
    "at": "2026-09-12T08:42:41Z",
    "text": "docs: correct documented defaults for direnv style and fortran"
+  },
+  {
+   "kind": "merge",
+   "repo": "RustPython/RustPython",
+   "at": "2026-09-11T00:54:28Z",
+   "text": "Report bytes out-of-range elements as CPython does"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-09-10T17:03:17Z",
+   "text": "docs(inputs.cloudwatch): Drop note on removed namespace option"
+  },
+  {
+   "kind": "merge",
+   "repo": "qgis/QGIS-Documentation",
+   "at": "2026-09-10T08:35:34Z",
+   "text": "Fix three processing parameter references that do not match the source"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-10T01:33:26Z",
+   "text": "fix(useMousePressed): attach the touch and drag listeners to a ref target"
+  },
+  {
+   "kind": "merge",
+   "repo": "GitoxideLabs/gitoxide",
+   "at": "2026-09-09T06:44:47Z",
+   "text": "fix(gix-config-value)!: parse a boolean's number like git does"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-09T06:15:48Z",
+   "text": "fix(useDoubleClick): keep the click count across renders and cancel the timer"
   }
  ]
 }
