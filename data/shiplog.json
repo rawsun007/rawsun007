@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-16T11:43:26Z",
+ "generated_at": "2026-09-16T17:04:29Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "openedx/docs.openedx.org",
+   "at": "2026-09-16T16:44:22Z",
+   "text": "fix: repoint three dead links"
+  },
+  {
+   "kind": "merge",
+   "repo": "beeware/briefcase",
+   "at": "2026-09-16T14:02:39Z",
+   "text": "Do not derive a Python keyword as the app class name"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-16T11:58:40Z",
+   "text": "shell: write a literal line into a PowerShell profile"
+  },
   {
    "kind": "merge",
    "repo": "childrentime/reactuse",
@@ -43,24 +61,6 @@
    "repo": "childrentime/reactuse",
    "at": "2026-09-15T02:01:06Z",
    "text": "fix(useObjectUrl): revoke the url the effect created"
-  },
-  {
-   "kind": "merge",
-   "repo": "GitoxideLabs/gitoxide",
-   "at": "2026-09-14T20:26:14Z",
-   "text": "fix(gix-date)!: reject a timezone offset git would not read"
-  },
-  {
-   "kind": "merge",
-   "repo": "beeware/briefcase",
-   "at": "2026-09-14T13:31:50Z",
-   "text": "Reject a bundle identifier with a trailing newline"
-  },
-  {
-   "kind": "merge",
-   "repo": "starship/starship",
-   "at": "2026-09-12T08:42:41Z",
-   "text": "docs: correct documented defaults for direnv style and fortran"
   }
  ]
 }
