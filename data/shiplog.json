@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-17T17:04:56Z",
+ "generated_at": "2026-09-17T21:26:50Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-17T19:23:40Z",
+   "text": "docs: correct ALLOW_LOCALNETWORKS description in app.example.ini"
+  },
   {
    "kind": "merge",
    "repo": "qutip/qutip",
@@ -55,12 +61,6 @@
    "repo": "quickwit-oss/quickwit",
    "at": "2026-09-15T15:40:44Z",
    "text": "fix(datetime): reject a signed fractional part in a timestamp string"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-15T11:05:55Z",
-   "text": "cleanup: drop an unreachable bottle-version branch"
   }
  ]
 }
