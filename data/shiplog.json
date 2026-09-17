@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-17T04:57:44Z",
+ "generated_at": "2026-09-17T11:48:23Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-17T08:56:01Z",
+   "text": "shell: emit a PowerShell assignment from export_value"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-17T08:19:14Z",
+   "text": "fix(useTextDirection): read the document direction on the first render"
+  },
   {
    "kind": "merge",
    "repo": "kornia/kornia",
@@ -49,18 +61,6 @@
    "repo": "libgit2/pygit2",
    "at": "2026-09-15T10:56:31Z",
    "text": "Make build.sh stubtest run again"
-  },
-  {
-   "kind": "merge",
-   "repo": "kornia/kornia",
-   "at": "2026-09-15T09:10:33Z",
-   "text": "fix(conversions): reject integer dtype in normal_transform_pixel"
-  },
-  {
-   "kind": "merge",
-   "repo": "htop-dev/htop",
-   "at": "2026-09-15T07:51:16Z",
-   "text": "Document -n/--max-iterations in the man page"
   }
  ]
 }
