@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-17T11:48:23Z",
+ "generated_at": "2026-09-17T17:04:56Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "qutip/qutip",
+   "at": "2026-09-17T13:40:19Z",
+   "text": "doc: repoint stale API references and dead links"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-09-15T11:05:55Z",
    "text": "cleanup: drop an unreachable bottle-version branch"
-  },
-  {
-   "kind": "merge",
-   "repo": "libgit2/pygit2",
-   "at": "2026-09-15T10:56:31Z",
-   "text": "Make build.sh stubtest run again"
   }
  ]
 }
