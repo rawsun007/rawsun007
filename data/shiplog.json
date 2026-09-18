@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-17T21:26:50Z",
+ "generated_at": "2026-09-18T11:22:58Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "quickwit-oss/quickwit",
+   "at": "2026-09-18T10:35:52Z",
+   "text": "fix(datetime): accept an eight-digit subsecond java date format token"
+  },
+  {
+   "kind": "merge",
+   "repo": "glensc/python-pytrakt",
+   "at": "2026-09-18T10:19:19Z",
+   "text": "Add __len__ to UserList"
+  },
+  {
+   "kind": "merge",
+   "repo": "libgit2/pygit2",
+   "at": "2026-09-18T08:44:36Z",
+   "text": "References.get and Branches.get return None for an invalid name"
+  },
   {
    "kind": "merge",
    "repo": "go-gitea/gitea",
@@ -43,24 +61,6 @@
    "repo": "beeware/briefcase",
    "at": "2026-09-16T14:02:39Z",
    "text": "Do not derive a Python keyword as the app class name"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-16T11:58:40Z",
-   "text": "shell: write a literal line into a PowerShell profile"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-16T09:20:42Z",
-   "text": "fix(useMobileLandscape): use an ASCII pipe in the user-agent regex"
-  },
-  {
-   "kind": "merge",
-   "repo": "quickwit-oss/quickwit",
-   "at": "2026-09-15T15:40:44Z",
-   "text": "fix(datetime): reject a signed fractional part in a timestamp string"
   }
  ]
 }
