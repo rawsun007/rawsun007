@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-18T11:22:58Z",
+ "generated_at": "2026-09-19T04:42:40Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-18T23:54:00Z",
+   "text": "docs: document NOTICE_ON_SUCCESS for every cron task"
+  },
   {
    "kind": "merge",
    "repo": "quickwit-oss/quickwit",
@@ -55,12 +61,6 @@
    "repo": "openedx/docs.openedx.org",
    "at": "2026-09-16T16:44:22Z",
    "text": "fix: repoint three dead links"
-  },
-  {
-   "kind": "merge",
-   "repo": "beeware/briefcase",
-   "at": "2026-09-16T14:02:39Z",
-   "text": "Do not derive a Python keyword as the app class name"
   }
  ]
 }
