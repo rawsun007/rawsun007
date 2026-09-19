@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-19T04:42:40Z",
+ "generated_at": "2026-09-19T11:06:50Z",
  "entries": [
   {
    "kind": "merge",
@@ -13,6 +13,12 @@
    "repo": "quickwit-oss/quickwit",
    "at": "2026-09-18T10:35:52Z",
    "text": "fix(datetime): accept an eight-digit subsecond java date format token"
+  },
+  {
+   "kind": "commit",
+   "repo": "quickwit",
+   "at": "2026-09-18T10:35:51Z",
+   "text": "fix(datetime): accept an eight-digit subsecond java date format token (#6804)"
   },
   {
    "kind": "merge",
@@ -55,12 +61,6 @@
    "repo": "kornia/kornia",
    "at": "2026-09-16T22:37:12Z",
    "text": "test(conversions): pin the 3-D dtype guard too"
-  },
-  {
-   "kind": "merge",
-   "repo": "openedx/docs.openedx.org",
-   "at": "2026-09-16T16:44:22Z",
-   "text": "fix: repoint three dead links"
   }
  ]
 }
