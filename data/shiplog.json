@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-20T11:31:22Z",
+ "generated_at": "2026-09-20T16:12:01Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-20T13:52:07Z",
+   "text": "shell: single-quote the profile line before echoing it"
+  },
   {
    "kind": "merge",
    "repo": "gitpython-developers/GitPython",
@@ -55,12 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-09-19T20:56:20Z",
    "text": "shell: do not wrap an escaped value in double quotes"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-18T23:54:00Z",
-   "text": "docs: document NOTICE_ON_SUCCESS for every cron task"
   }
  ]
 }
