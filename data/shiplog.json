@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-21T12:55:57Z",
+ "generated_at": "2026-09-21T20:00:50Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "qutip/qutip",
+   "at": "2026-09-21T13:29:26Z",
+   "text": "Restore the raw-string prefix on the LaTeX \\times macro"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "qutip/qutip",
    "at": "2026-09-17T13:40:19Z",
    "text": "doc: repoint stale API references and dead links"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-17T08:56:01Z",
-   "text": "shell: emit a PowerShell assignment from export_value"
   }
  ]
 }
