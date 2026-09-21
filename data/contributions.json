@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-20T16:11:55Z",
+ "generated_at": "2026-09-21T05:03:14Z",
  "total": 2847,
  "days": [
   {
@@ -1827,6 +1827,11 @@
    "date": "2026-09-20",
    "level": 3,
    "count": 36
+  },
+  {
+   "date": "2026-09-21",
+   "level": 0,
+   "count": 0
   }
  ],
  "current_streak": 77,
@@ -1836,7 +1841,7 @@
   "level": 4,
   "count": 85
  },
- "last_30_days": 660,
+ "last_30_days": 591,
  "months": [
   {
    "month": "2025-09",
