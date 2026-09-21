@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-20T16:12:01Z",
+ "generated_at": "2026-09-21T12:55:57Z",
  "entries": [
   {
    "kind": "merge",
@@ -15,52 +15,52 @@
    "text": "fix: strip inline config comments the way git does"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:18:53Z",
-   "text": "fix: a hairline rather than a hat brim"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:18:32Z",
-   "text": "fix: Stark gets a chin, so the beard stops merging with his eyes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:17:20Z",
-   "text": "fix: no glowing light on Stark's chest"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:14:25Z",
-   "text": "test: pin what makes Stark the man rather than the armour"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:13:49Z",
-   "text": "feat: Stark-Pet leans out of the notch"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:12:14Z",
-   "text": "feat: the reactor shows through Stark's shirt"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:11:57Z",
-   "text": "feat: Stark's face"
-  },
-  {
    "kind": "merge",
    "repo": "Homebrew/brew",
    "at": "2026-09-19T20:56:20Z",
    "text": "shell: do not wrap an escaped value in double quotes"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-18T23:54:00Z",
+   "text": "docs: document NOTICE_ON_SUCCESS for every cron task"
+  },
+  {
+   "kind": "merge",
+   "repo": "quickwit-oss/quickwit",
+   "at": "2026-09-18T10:35:52Z",
+   "text": "fix(datetime): accept an eight-digit subsecond java date format token"
+  },
+  {
+   "kind": "merge",
+   "repo": "glensc/python-pytrakt",
+   "at": "2026-09-18T10:19:19Z",
+   "text": "Add __len__ to UserList"
+  },
+  {
+   "kind": "merge",
+   "repo": "libgit2/pygit2",
+   "at": "2026-09-18T08:44:36Z",
+   "text": "References.get and Branches.get return None for an invalid name"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-17T19:23:40Z",
+   "text": "docs: correct ALLOW_LOCALNETWORKS description in app.example.ini"
+  },
+  {
+   "kind": "merge",
+   "repo": "qutip/qutip",
+   "at": "2026-09-17T13:40:19Z",
+   "text": "doc: repoint stale API references and dead links"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-17T08:56:01Z",
+   "text": "shell: emit a PowerShell assignment from export_value"
   }
  ]
 }
