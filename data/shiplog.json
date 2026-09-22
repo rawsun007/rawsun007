@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-21T20:00:50Z",
+ "generated_at": "2026-09-22T00:09:50Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "openedx/docs.openedx.org",
+   "at": "2026-09-21T20:30:30Z",
+   "text": "docs: restore the pointer to the plug-in and frontend Quickstarts"
+  },
   {
    "kind": "merge",
    "repo": "qutip/qutip",
@@ -55,12 +61,6 @@
    "repo": "go-gitea/gitea",
    "at": "2026-09-17T19:23:40Z",
    "text": "docs: correct ALLOW_LOCALNETWORKS description in app.example.ini"
-  },
-  {
-   "kind": "merge",
-   "repo": "qutip/qutip",
-   "at": "2026-09-17T13:40:19Z",
-   "text": "doc: repoint stale API references and dead links"
   }
  ]
 }
