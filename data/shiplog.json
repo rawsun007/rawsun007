@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-22T00:09:50Z",
+ "generated_at": "2026-09-22T05:04:54Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "qgis/QGIS-Documentation",
+   "at": "2026-09-22T01:13:21Z",
+   "text": "Align documented parameter labels with the source"
+  },
   {
    "kind": "merge",
    "repo": "openedx/docs.openedx.org",
@@ -55,12 +61,6 @@
    "repo": "libgit2/pygit2",
    "at": "2026-09-18T08:44:36Z",
    "text": "References.get and Branches.get return None for an invalid name"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-17T19:23:40Z",
-   "text": "docs: correct ALLOW_LOCALNETWORKS description in app.example.ini"
   }
  ]
 }
