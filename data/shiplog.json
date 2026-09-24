@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-22T11:45:31Z",
+ "generated_at": "2026-09-24T04:58:25Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-23T22:03:31Z",
+   "text": "curl: use the last value of a repeated singleton header"
+  },
   {
    "kind": "merge",
    "repo": "childrentime/reactuse",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-09-20T07:18:53Z",
    "text": "fix: a hairline rather than a hat brim"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:18:32Z",
-   "text": "fix: Stark gets a chin, so the beard stops merging with his eyes"
   }
  ]
 }
