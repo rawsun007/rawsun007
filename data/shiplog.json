@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-24T04:58:25Z",
+ "generated_at": "2026-09-25T17:16:36Z",
  "entries": [
   {
    "kind": "merge",
@@ -13,12 +13,6 @@
    "repo": "childrentime/reactuse",
    "at": "2026-09-22T07:42:44Z",
    "text": "fix(useScriptTag): remove the script wherever it lives, not only from head"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-22T07:17:57Z",
-   "text": "docs: rebuild the site with foldable support"
   },
   {
    "kind": "merge",
@@ -57,10 +51,16 @@
    "text": "fix: strip inline config comments the way git does"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-09-20T07:18:53Z",
-   "text": "fix: a hairline rather than a hat brim"
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-19T20:56:20Z",
+   "text": "shell: do not wrap an escaped value in double quotes"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-18T23:54:00Z",
+   "text": "docs: document NOTICE_ON_SUCCESS for every cron task"
   }
  ]
 }
