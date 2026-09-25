@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-25T17:16:36Z",
+ "generated_at": "2026-09-25T21:38:32Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-25T18:15:25Z",
+   "text": "docs(api): name the unadopted-repository search parameter query"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-09-19T20:56:20Z",
    "text": "shell: do not wrap an escaped value in double quotes"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-18T23:54:00Z",
-   "text": "docs: document NOTICE_ON_SUCCESS for every cron task"
   }
  ]
 }
