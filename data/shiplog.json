@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-25T21:38:32Z",
+ "generated_at": "2026-09-26T16:28:15Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:58:04Z",
+   "text": "docs: rebuild the site with the v0.38.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-09-26T12:57:13Z",
+   "text": "Update claudenotch cask to v0.38.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:52:23Z",
+   "text": "released v0.38.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:44:47Z",
+   "text": "feat: What's New carries the v0.38.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:43:52Z",
+   "text": "fix: Stark-Pet's description stops promising a reactor he no longer has"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:40:50Z",
+   "text": "test: pin the permission card's measure key and its height budget"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-09-26T12:39:52Z",
+   "text": "fix: budget diff rows and the danger banner at the height they draw"
+  },
   {
    "kind": "merge",
    "repo": "go-gitea/gitea",
@@ -19,48 +61,6 @@
    "repo": "childrentime/reactuse",
    "at": "2026-09-22T07:42:44Z",
    "text": "fix(useScriptTag): remove the script wherever it lives, not only from head"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-22T06:39:01Z",
-   "text": "fix(useDevicePixelRatio): remove the listener the last resubscribe added"
-  },
-  {
-   "kind": "merge",
-   "repo": "qgis/QGIS-Documentation",
-   "at": "2026-09-22T01:13:21Z",
-   "text": "Align documented parameter labels with the source"
-  },
-  {
-   "kind": "merge",
-   "repo": "openedx/docs.openedx.org",
-   "at": "2026-09-21T20:30:30Z",
-   "text": "docs: restore the pointer to the plug-in and frontend Quickstarts"
-  },
-  {
-   "kind": "merge",
-   "repo": "qutip/qutip",
-   "at": "2026-09-21T13:29:26Z",
-   "text": "Restore the raw-string prefix on the LaTeX \\times macro"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-20T13:52:07Z",
-   "text": "shell: single-quote the profile line before echoing it"
-  },
-  {
-   "kind": "merge",
-   "repo": "gitpython-developers/GitPython",
-   "at": "2026-09-20T08:56:54Z",
-   "text": "fix: strip inline config comments the way git does"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-19T20:56:20Z",
-   "text": "shell: do not wrap an escaped value in double quotes"
   }
  ]
 }
