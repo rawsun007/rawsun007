@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-28T14:05:23Z",
+ "generated_at": "2026-09-28T21:15:37Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "openedx/docs.openedx.org",
+   "at": "2026-09-28T19:22:26Z",
+   "text": "docs: point the XBlock Aside cross-references at real targets"
+  },
   {
    "kind": "commit",
    "repo": "metastrip",
@@ -55,12 +61,6 @@
    "repo": "go-gitea/gitea",
    "at": "2026-09-26T16:29:03Z",
    "text": "docs(api): document verification and files on the compare endpoint"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-25T18:15:25Z",
-   "text": "docs(api): name the unadopted-repository search parameter query"
   }
  ]
 }
