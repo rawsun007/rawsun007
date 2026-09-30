@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-29T09:55:17Z",
+ "generated_at": "2026-09-30T12:42:28Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-30T11:29:00Z",
+   "text": "docs: update app.example.ini for defaults changed in #39400"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "metastrip",
    "at": "2026-09-28T09:51:52Z",
    "text": "chore: new cache stamps for 1.2.3, so returning visitors get the new bundle"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:50:54Z",
-   "text": "feat: the sample buttons load the new sunset and moonrise photos"
   }
  ]
 }
