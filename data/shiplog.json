@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-01T00:35:31Z",
+ "generated_at": "2026-10-01T10:14:17Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-10-01T08:17:03Z",
+   "text": "formatter: round before picking the unit in disk_usage_readable"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-10-01T07:31:11Z",
+   "text": "docs: fix the default REPOSITORY_AVATAR_FALLBACK_IMAGE path in app.example.ini"
+  },
   {
    "kind": "merge",
    "repo": "go-git/go-git",
@@ -33,34 +45,22 @@
    "text": "docs: point the XBlock Aside cross-references at real targets"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:56:49Z",
-   "text": "feat(trailer): re-bake the reel with the sunset photo"
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-27T12:30:19Z",
+   "text": "shell: single-quote values for rc"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:54:05Z",
-   "text": "chore(assets): retire the old flat demo photos"
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-26T16:29:03Z",
+   "text": "docs(api): document verification and files on the compare endpoint"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:53:51Z",
-   "text": "docs(trailer): the brief and README follow the new subject"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:53:35Z",
-   "text": "feat(trailer): the subject is the new sunset photo"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:51:52Z",
-   "text": "release: v1.2.3"
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-25T18:15:25Z",
+   "text": "docs(api): name the unadopted-repository search parameter query"
   }
  ]
 }
