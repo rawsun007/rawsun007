@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-09-30T12:42:28Z",
+ "generated_at": "2026-10-01T00:35:31Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "go-git/go-git",
+   "at": "2026-09-30T21:41:29Z",
+   "text": "config: read boolean values the way git does"
+  },
   {
    "kind": "merge",
    "repo": "go-gitea/gitea",
@@ -55,12 +61,6 @@
    "repo": "metastrip",
    "at": "2026-09-28T09:51:52Z",
    "text": "release: v1.2.3"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-09-28T09:51:52Z",
-   "text": "chore: new cache stamps for 1.2.3, so returning visitors get the new bundle"
   }
  ]
 }
