@@ -1,49 +1,7 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-01T18:27:16Z",
+ "generated_at": "2026-10-02T17:53:45Z",
  "entries": [
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-01T16:07:33Z",
-   "text": "docs: rebuild the site with the v0.39.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-10-01T16:06:50Z",
-   "text": "Update claudenotch cask to v0.39.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-10-01T16:00:30Z",
-   "text": "released v0.39.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-01T13:42:40Z",
-   "text": "feat: What's New carries the v0.39.0 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-01T13:36:42Z",
-   "text": "test: leave opt-in hooks out of the installer conformance check"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-01T13:33:41Z",
-   "text": "test: gateway spend amounts follow fmtMoney's whole-dollar rounding over $100"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-01T13:29:47Z",
-   "text": "feat: move Permissions (learned allow rules) below Info in Settings"
-  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -61,6 +19,48 @@
    "repo": "go-git/go-git",
    "at": "2026-09-30T21:41:29Z",
    "text": "config: read boolean values the way git does"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-30T11:29:00Z",
+   "text": "docs: update app.example.ini for defaults changed in #39400"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-29T08:12:51Z",
+   "text": "shell: fish-quote the fish profile line"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-09-29T04:18:39Z",
+   "text": "fix(useScriptTag): guard the SSR paths with defaultDocument"
+  },
+  {
+   "kind": "merge",
+   "repo": "openedx/docs.openedx.org",
+   "at": "2026-09-28T19:22:26Z",
+   "text": "docs: point the XBlock Aside cross-references at real targets"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-09-27T12:30:19Z",
+   "text": "shell: single-quote values for rc"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-26T16:29:03Z",
+   "text": "docs(api): document verification and files on the compare endpoint"
+  },
+  {
+   "kind": "merge",
+   "repo": "go-gitea/gitea",
+   "at": "2026-09-25T18:15:25Z",
+   "text": "docs(api): name the unadopted-repository search parameter query"
   }
  ]
 }
