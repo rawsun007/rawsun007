@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-03T11:44:54Z",
+ "generated_at": "2026-10-03T21:23:00Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-10-03T19:55:25Z",
+   "text": "utils/shell: general cleanup."
+  },
+  {
+   "kind": "merge",
+   "repo": "Taxel/PlexTraktSync",
+   "at": "2026-10-03T19:20:01Z",
+   "text": "Read personal list items through iteration"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-10-01T08:17:03Z",
    "text": "formatter: round before picking the unit in disk_usage_readable"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-10-01T07:31:11Z",
-   "text": "docs: fix the default REPOSITORY_AVATAR_FALLBACK_IMAGE path in app.example.ini"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-git/go-git",
-   "at": "2026-09-30T21:41:29Z",
-   "text": "config: read boolean values the way git does"
   }
  ]
 }
