@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-02T17:53:45Z",
+ "generated_at": "2026-10-03T11:44:54Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-03T10:06:51Z",
+   "text": "docs: rebuild the site with the v0.40.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-10-03T10:06:11Z",
+   "text": "Update claudenotch cask to v0.40.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-10-03T09:59:41Z",
+   "text": "released v0.40.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-03T09:20:25Z",
+   "text": "feat: What's New carries the v0.40.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-03T09:19:58Z",
+   "text": "chore(l10n): strings for skipping destructive confirmation"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-03T09:19:46Z",
+   "text": "feat: Return allows a destructive card once confirmation is off"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-03T09:19:37Z",
+   "text": "feat: a destructive card gets a plain Allow when confirmation is off"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -19,48 +61,6 @@
    "repo": "go-git/go-git",
    "at": "2026-09-30T21:41:29Z",
    "text": "config: read boolean values the way git does"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-30T11:29:00Z",
-   "text": "docs: update app.example.ini for defaults changed in #39400"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-29T08:12:51Z",
-   "text": "shell: fish-quote the fish profile line"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-09-29T04:18:39Z",
-   "text": "fix(useScriptTag): guard the SSR paths with defaultDocument"
-  },
-  {
-   "kind": "merge",
-   "repo": "openedx/docs.openedx.org",
-   "at": "2026-09-28T19:22:26Z",
-   "text": "docs: point the XBlock Aside cross-references at real targets"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-09-27T12:30:19Z",
-   "text": "shell: single-quote values for rc"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-26T16:29:03Z",
-   "text": "docs(api): document verification and files on the compare endpoint"
-  },
-  {
-   "kind": "merge",
-   "repo": "go-gitea/gitea",
-   "at": "2026-09-25T18:15:25Z",
-   "text": "docs(api): name the unadopted-repository search parameter query"
   }
  ]
 }
