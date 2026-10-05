@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-03T21:23:00Z",
+ "generated_at": "2026-10-05T05:48:56Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Authula/authula",
+   "at": "2026-10-05T01:58:46Z",
+   "text": "fix: keep config defaults for keys a config file omits"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-03T09:19:37Z",
    "text": "feat: a destructive card gets a plain Allow when confirmation is off"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-10-01T08:17:03Z",
-   "text": "formatter: round before picking the unit in disk_usage_readable"
   }
  ]
 }
