@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-05T05:48:56Z",
+ "generated_at": "2026-10-05T14:50:45Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "PostHog/posthog.com",
+   "at": "2026-10-05T12:15:49Z",
+   "text": "fix: repair broken DigitalOcean IP screenshot path"
+  },
   {
    "kind": "merge",
    "repo": "Authula/authula",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-03T09:19:46Z",
    "text": "feat: Return allows a destructive card once confirmation is off"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-03T09:19:37Z",
-   "text": "feat: a destructive card gets a plain Allow when confirmation is off"
   }
  ]
 }
