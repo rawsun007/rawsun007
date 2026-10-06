@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-05T14:50:45Z",
+ "generated_at": "2026-10-06T06:28:13Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-06T05:17:27Z",
+   "text": "docs: rebuild the site with the v0.41.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-10-06T05:17:00Z",
+   "text": "Update claudenotch cask to v0.41.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-10-06T05:11:09Z",
+   "text": "released v0.41.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-06T05:02:35Z",
+   "text": "fix: drop a stray bracket from the v0.41.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-06T05:02:14Z",
+   "text": "feat: What's New carries the v0.41.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-06T04:57:52Z",
+   "text": "chore(l10n): strings for Desktop, background replies and sign-in cards"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-06T04:57:52Z",
+   "text": "test: sign-in links are checked, and the card's answers map to accept and decline"
+  },
   {
    "kind": "merge",
    "repo": "PostHog/posthog.com",
@@ -19,48 +61,6 @@
    "repo": "Homebrew/brew",
    "at": "2026-10-03T19:55:25Z",
    "text": "utils/shell: general cleanup."
-  },
-  {
-   "kind": "merge",
-   "repo": "Taxel/PlexTraktSync",
-   "at": "2026-10-03T19:20:01Z",
-   "text": "Read personal list items through iteration"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-03T10:06:51Z",
-   "text": "docs: rebuild the site with the v0.40.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-10-03T10:06:11Z",
-   "text": "Update claudenotch cask to v0.40.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-10-03T09:59:41Z",
-   "text": "released v0.40.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-03T09:20:25Z",
-   "text": "feat: What's New carries the v0.40.0 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-03T09:19:58Z",
-   "text": "chore(l10n): strings for skipping destructive confirmation"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-03T09:19:46Z",
-   "text": "feat: Return allows a destructive card once confirmation is off"
   }
  ]
 }
