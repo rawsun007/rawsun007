@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-06T06:28:13Z",
+ "generated_at": "2026-10-06T15:59:46Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-10-06T14:59:22Z",
+   "text": "docs(processors.noise): Use correct 'type' setting"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "Authula/authula",
    "at": "2026-10-05T01:58:46Z",
    "text": "fix: keep config defaults for keys a config file omits"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-10-03T19:55:25Z",
-   "text": "utils/shell: general cleanup."
   }
  ]
 }
