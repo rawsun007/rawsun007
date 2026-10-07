@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-07T13:31:58Z",
+ "generated_at": "2026-10-07T20:39:25Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-10-06T14:59:22Z",
+   "text": "docs(processors.noise): Use correct 'type' setting"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -45,22 +51,16 @@
    "text": "test: sign-in links are checked, and the card's answers map to accept and decline"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:40Z",
-   "text": "feat: MCP sign-in requests get a card in the notch instead of falling to the terminal"
+   "kind": "merge",
+   "repo": "PostHog/posthog.com",
+   "at": "2026-10-05T12:15:49Z",
+   "text": "fix: repair broken DigitalOcean IP screenshot path"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:40Z",
-   "text": "feat: the sign-in card's answers map to accept and decline"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:10Z",
-   "text": "feat: a sign-in card offers to open the link and names its site"
+   "kind": "merge",
+   "repo": "Authula/authula",
+   "at": "2026-10-05T01:58:46Z",
+   "text": "fix: keep config defaults for keys a config file omits"
   }
  ]
 }
