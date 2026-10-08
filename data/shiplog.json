@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-07T20:39:25Z",
+ "generated_at": "2026-10-08T18:53:01Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sublimelsp/LSP",
+   "at": "2026-10-08T18:13:08Z",
+   "text": "fix: start \"Troubleshoot server\" in the same working directory as a normal start"
+  },
   {
    "kind": "merge",
    "repo": "influxdata/telegraf",
@@ -55,12 +61,6 @@
    "repo": "PostHog/posthog.com",
    "at": "2026-10-05T12:15:49Z",
    "text": "fix: repair broken DigitalOcean IP screenshot path"
-  },
-  {
-   "kind": "merge",
-   "repo": "Authula/authula",
-   "at": "2026-10-05T01:58:46Z",
-   "text": "fix: keep config defaults for keys a config file omits"
   }
  ]
 }
