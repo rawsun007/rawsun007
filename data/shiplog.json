@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-09T10:40:29Z",
+ "generated_at": "2026-10-09T18:23:38Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apache/datafusion",
+   "at": "2026-10-09T17:30:34Z",
+   "text": "docs: show array_distinct keeping first-seen order"
+  },
   {
    "kind": "merge",
    "repo": "childrentime/reactuse",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-06T04:57:52Z",
    "text": "test: sign-in links are checked, and the card's answers map to accept and decline"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:40Z",
-   "text": "feat: MCP sign-in requests get a card in the notch instead of falling to the terminal"
   }
  ]
 }
