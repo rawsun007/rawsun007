@@ -1,7 +1,55 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-09T18:23:38Z",
+ "generated_at": "2026-10-10T09:56:33Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:26:29Z",
+   "text": "docs: rebuild the site with the v0.41.1 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-10-10T07:25:50Z",
+   "text": "Update claudenotch cask to v0.41.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:20:08Z",
+   "text": "released v0.41.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:10:23Z",
+   "text": "feat: What's New carries the v0.41.1 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:09:46Z",
+   "text": "test: Haiku 5.5 prices, its long-prompt tier, and Sonnet 5.5 cache reads"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:09:36Z",
+   "text": "test: Haiku 5.5 gets the 1M window, earlier Haiku keeps 200K"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:09:29Z",
+   "text": "fix: Haiku 5.5 has the 1M context window, so its meter is not 5x too full"
+  },
+  {
+   "kind": "merge",
+   "repo": "react-dropzone/react-dropzone",
+   "at": "2026-10-10T04:25:14Z",
+   "text": "fix: abort in-flight processing when the dropzone unmounts"
+  },
   {
    "kind": "merge",
    "repo": "apache/datafusion",
@@ -13,54 +61,6 @@
    "repo": "childrentime/reactuse",
    "at": "2026-10-09T01:32:16Z",
    "text": "fix(useCountDown): call the end callback once, not on every later render"
-  },
-  {
-   "kind": "merge",
-   "repo": "sublimelsp/LSP",
-   "at": "2026-10-08T18:13:08Z",
-   "text": "fix: start \"Troubleshoot server\" in the same working directory as a normal start"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-10-06T14:59:22Z",
-   "text": "docs(processors.noise): Use correct 'type' setting"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T05:17:27Z",
-   "text": "docs: rebuild the site with the v0.41.0 changelog"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-10-06T05:11:09Z",
-   "text": "released v0.41.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T05:02:35Z",
-   "text": "fix: drop a stray bracket from the v0.41.0 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T05:02:14Z",
-   "text": "feat: What's New carries the v0.41.0 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:52Z",
-   "text": "chore(l10n): strings for Desktop, background replies and sign-in cards"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-06T04:57:52Z",
-   "text": "test: sign-in links are checked, and the card's answers map to accept and decline"
   }
  ]
 }
