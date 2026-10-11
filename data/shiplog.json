@@ -1,18 +1,12 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-10T09:56:33Z",
+ "generated_at": "2026-10-11T12:58:52Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
    "at": "2026-10-10T07:26:29Z",
    "text": "docs: rebuild the site with the v0.41.1 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-10-10T07:25:50Z",
-   "text": "Update claudenotch cask to v0.41.1"
   },
   {
    "kind": "release",
@@ -43,6 +37,12 @@
    "repo": "claude-notch",
    "at": "2026-10-10T07:09:29Z",
    "text": "fix: Haiku 5.5 has the 1M context window, so its meter is not 5x too full"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-10T07:09:16Z",
+   "text": "fix: Sonnet 5.5 cache reads cost $0.10 per million, not $0.20"
   },
   {
    "kind": "merge",
