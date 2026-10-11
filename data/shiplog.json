@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-11T12:58:52Z",
+ "generated_at": "2026-10-11T19:35:11Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "starship/starship",
+   "at": "2026-10-11T15:21:45Z",
+   "text": "docs: correct seventeen documented defaults in the config reference"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "apache/datafusion",
    "at": "2026-10-09T17:30:34Z",
    "text": "docs: show array_distinct keeping first-seen order"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-10-09T01:32:16Z",
-   "text": "fix(useCountDown): call the end callback once, not on every later render"
   }
  ]
 }
