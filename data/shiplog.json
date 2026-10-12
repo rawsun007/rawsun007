@@ -1,54 +1,18 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-11T19:35:11Z",
+ "generated_at": "2026-10-12T00:36:36Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "SCons/scons",
+   "at": "2026-10-11T21:39:19Z",
+   "text": "Fix the second Value() example in the manpage"
+  },
   {
    "kind": "merge",
    "repo": "starship/starship",
    "at": "2026-10-11T15:21:45Z",
    "text": "docs: correct seventeen documented defaults in the config reference"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:26:29Z",
-   "text": "docs: rebuild the site with the v0.41.1 changelog"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:20:08Z",
-   "text": "released v0.41.1"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:10:23Z",
-   "text": "feat: What's New carries the v0.41.1 notes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:09:46Z",
-   "text": "test: Haiku 5.5 prices, its long-prompt tier, and Sonnet 5.5 cache reads"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:09:36Z",
-   "text": "test: Haiku 5.5 gets the 1M window, earlier Haiku keeps 200K"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:09:29Z",
-   "text": "fix: Haiku 5.5 has the 1M context window, so its meter is not 5x too full"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-10T07:09:16Z",
-   "text": "fix: Sonnet 5.5 cache reads cost $0.10 per million, not $0.20"
   },
   {
    "kind": "merge",
@@ -61,6 +25,42 @@
    "repo": "apache/datafusion",
    "at": "2026-10-09T17:30:34Z",
    "text": "docs: show array_distinct keeping first-seen order"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-10-09T01:32:16Z",
+   "text": "fix(useCountDown): call the end callback once, not on every later render"
+  },
+  {
+   "kind": "merge",
+   "repo": "sublimelsp/LSP",
+   "at": "2026-10-08T18:13:08Z",
+   "text": "fix: start \"Troubleshoot server\" in the same working directory as a normal start"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-10-06T14:59:22Z",
+   "text": "docs(processors.noise): Use correct 'type' setting"
+  },
+  {
+   "kind": "merge",
+   "repo": "PostHog/posthog.com",
+   "at": "2026-10-05T12:15:49Z",
+   "text": "fix: repair broken DigitalOcean IP screenshot path"
+  },
+  {
+   "kind": "merge",
+   "repo": "Authula/authula",
+   "at": "2026-10-05T01:58:46Z",
+   "text": "fix: keep config defaults for keys a config file omits"
+  },
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-10-03T19:55:25Z",
+   "text": "utils/shell: general cleanup."
   }
  ]
 }
