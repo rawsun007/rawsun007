@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-13T16:58:57Z",
+ "generated_at": "2026-10-13T22:50:46Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "scikit-hep/awkward",
+   "at": "2026-10-13T20:49:11Z",
+   "text": "fix: from_numpy of a masked array with a zero-length inner dimension"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -55,12 +61,6 @@
    "repo": "starship/starship",
    "at": "2026-10-11T15:21:45Z",
    "text": "docs: correct seventeen documented defaults in the config reference"
-  },
-  {
-   "kind": "merge",
-   "repo": "react-dropzone/react-dropzone",
-   "at": "2026-10-10T04:25:14Z",
-   "text": "fix: abort in-flight processing when the dropzone unmounts"
   }
  ]
 }
