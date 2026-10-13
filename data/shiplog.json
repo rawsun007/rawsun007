@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-12T00:36:36Z",
+ "generated_at": "2026-10-13T16:58:57Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:35:42Z",
+   "text": "test: a skill folder found twice is kept once"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:35:29Z",
+   "text": "fix: the Skills page merges duplicate skills instead of crashing on them"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:35:17Z",
+   "text": "fix: never list the personal skills folder again as a project's, and keep each skill folder once"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:28:59Z",
+   "text": "docs: the Skills files in the repo map"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:28:59Z",
+   "text": "test: settings/<page> links open known pages and refuse paths"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:23:29Z",
+   "text": "feat: a settings/<page> link opens Settings on that page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-13T09:23:29Z",
+   "text": "feat: claudenotch://settings/<page> names a Settings page"
+  },
   {
    "kind": "merge",
    "repo": "SCons/scons",
@@ -19,48 +61,6 @@
    "repo": "react-dropzone/react-dropzone",
    "at": "2026-10-10T04:25:14Z",
    "text": "fix: abort in-flight processing when the dropzone unmounts"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/datafusion",
-   "at": "2026-10-09T17:30:34Z",
-   "text": "docs: show array_distinct keeping first-seen order"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-10-09T01:32:16Z",
-   "text": "fix(useCountDown): call the end callback once, not on every later render"
-  },
-  {
-   "kind": "merge",
-   "repo": "sublimelsp/LSP",
-   "at": "2026-10-08T18:13:08Z",
-   "text": "fix: start \"Troubleshoot server\" in the same working directory as a normal start"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-10-06T14:59:22Z",
-   "text": "docs(processors.noise): Use correct 'type' setting"
-  },
-  {
-   "kind": "merge",
-   "repo": "PostHog/posthog.com",
-   "at": "2026-10-05T12:15:49Z",
-   "text": "fix: repair broken DigitalOcean IP screenshot path"
-  },
-  {
-   "kind": "merge",
-   "repo": "Authula/authula",
-   "at": "2026-10-05T01:58:46Z",
-   "text": "fix: keep config defaults for keys a config file omits"
-  },
-  {
-   "kind": "merge",
-   "repo": "Homebrew/brew",
-   "at": "2026-10-03T19:55:25Z",
-   "text": "utils/shell: general cleanup."
   }
  ]
 }
