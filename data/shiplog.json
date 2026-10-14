@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-13T22:50:46Z",
+ "generated_at": "2026-10-14T04:59:45Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "SCons/scons",
+   "at": "2026-10-14T03:40:07Z",
+   "text": "Fix four documentation examples that were not valid Python"
+  },
   {
    "kind": "merge",
    "repo": "scikit-hep/awkward",
@@ -55,12 +61,6 @@
    "repo": "SCons/scons",
    "at": "2026-10-11T21:39:19Z",
    "text": "Fix the second Value() example in the manpage"
-  },
-  {
-   "kind": "merge",
-   "repo": "starship/starship",
-   "at": "2026-10-11T15:21:45Z",
-   "text": "docs: correct seventeen documented defaults in the config reference"
   }
  ]
 }
