@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-14T04:59:45Z",
+ "generated_at": "2026-10-15T04:48:16Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apache/datafusion",
+   "at": "2026-10-14T22:56:38Z",
+   "text": "docs: document ^ as the bitwise xor operator"
+  },
   {
    "kind": "merge",
    "repo": "SCons/scons",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-13T09:23:29Z",
    "text": "feat: claudenotch://settings/<page> names a Settings page"
-  },
-  {
-   "kind": "merge",
-   "repo": "SCons/scons",
-   "at": "2026-10-11T21:39:19Z",
-   "text": "Fix the second Value() example in the manpage"
   }
  ]
 }
