@@ -1,7 +1,55 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-15T04:48:16Z",
+ "generated_at": "2026-10-15T11:37:36Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T09:12:38Z",
+   "text": "ci: retry stapling when the runner loses its connection to Apple"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T09:11:05Z",
+   "text": "docs: rebuild the site with the v0.42.0 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-10-15T09:10:26Z",
+   "text": "Update claudenotch cask to v0.42.0"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-10-15T09:00:56Z",
+   "text": "released v0.42.0"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T08:53:52Z",
+   "text": "feat: What's New carries the v0.42.0 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T07:35:05Z",
+   "text": "test: one row per skill source, costliest first, mixed state"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T07:35:05Z",
+   "text": "chore(l10n): strings for the compact Skills page"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-10-15T06:50:00Z",
+   "text": "fix(useCountDown): cap getHMSTime at 99:59:59 for exactly 100 hours"
+  },
   {
    "kind": "merge",
    "repo": "apache/datafusion",
@@ -13,54 +61,6 @@
    "repo": "SCons/scons",
    "at": "2026-10-14T03:40:07Z",
    "text": "Fix four documentation examples that were not valid Python"
-  },
-  {
-   "kind": "merge",
-   "repo": "scikit-hep/awkward",
-   "at": "2026-10-13T20:49:11Z",
-   "text": "fix: from_numpy of a masked array with a zero-length inner dimension"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:35:42Z",
-   "text": "test: a skill folder found twice is kept once"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:35:29Z",
-   "text": "fix: the Skills page merges duplicate skills instead of crashing on them"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:35:17Z",
-   "text": "fix: never list the personal skills folder again as a project's, and keep each skill folder once"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:28:59Z",
-   "text": "docs: the Skills files in the repo map"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:28:59Z",
-   "text": "test: settings/<page> links open known pages and refuse paths"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:23:29Z",
-   "text": "feat: a settings/<page> link opens Settings on that page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-13T09:23:29Z",
-   "text": "feat: claudenotch://settings/<page> names a Settings page"
   }
  ]
 }
