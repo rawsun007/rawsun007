@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-15T17:06:25Z",
+ "generated_at": "2026-10-15T21:28:33Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "munich-quantum-toolkit/qmap",
+   "at": "2026-10-15T20:03:24Z",
+   "text": "\ud83d\udcdd Import compile_ in the README mapping example"
+  },
+  {
+   "kind": "merge",
+   "repo": "SCons/scons",
+   "at": "2026-10-15T17:42:03Z",
+   "text": "Update the JAVAVERSION default in the manpage"
+  },
+  {
+   "kind": "merge",
+   "repo": "tracel-ai/burn",
+   "at": "2026-10-15T17:09:30Z",
+   "text": "fix(cubecl): check ctc_loss shared memory against the device limit"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -43,24 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-15T16:29:12Z",
    "text": "feat(promo): NOTCH POP, a vibrant cut where every scene pours out of the notch"
-  },
-  {
-   "kind": "merge",
-   "repo": "sublimelsp/LSP",
-   "at": "2026-10-15T15:36:47Z",
-   "text": "fix: match the schema default of show_messages_panel_level to the setting"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-10-15T06:50:00Z",
-   "text": "fix(useCountDown): cap getHMSTime at 99:59:59 for exactly 100 hours"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/datafusion",
-   "at": "2026-10-14T22:56:38Z",
-   "text": "docs: document ^ as the bitwise xor operator"
   }
  ]
 }
