@@ -1,48 +1,54 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-15T11:37:36Z",
+ "generated_at": "2026-10-15T17:06:25Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-10-15T09:12:38Z",
-   "text": "ci: retry stapling when the runner loses its connection to Apple"
+   "at": "2026-10-15T16:32:42Z",
+   "text": "chore(promo): keep the finished notch-pop.mp4 and its log out of git"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-10-15T09:11:05Z",
-   "text": "docs: rebuild the site with the v0.42.0 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-10-15T09:10:26Z",
-   "text": "Update claudenotch cask to v0.42.0"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-10-15T09:00:56Z",
-   "text": "released v0.42.0"
+   "at": "2026-10-15T16:29:39Z",
+   "text": "docs(promo): list NOTCH POP"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-10-15T08:53:52Z",
-   "text": "feat: What's New carries the v0.42.0 notes"
+   "at": "2026-10-15T16:29:39Z",
+   "text": "docs(promo): how NOTCH POP is built"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-10-15T07:35:05Z",
-   "text": "test: one row per skill source, costliest first, mixed state"
+   "at": "2026-10-15T16:29:39Z",
+   "text": "docs(promo): NOTCH POP storyboard on the bar grid"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-10-15T07:35:05Z",
-   "text": "chore(l10n): strings for the compact Skills page"
+   "at": "2026-10-15T16:29:12Z",
+   "text": "feat(promo): notch-pop master script fetches the track and encodes"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T16:29:12Z",
+   "text": "feat(promo): notch-pop mix, Gimme That Groove to -14 LUFS"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-10-15T16:29:12Z",
+   "text": "feat(promo): NOTCH POP, a vibrant cut where every scene pours out of the notch"
+  },
+  {
+   "kind": "merge",
+   "repo": "sublimelsp/LSP",
+   "at": "2026-10-15T15:36:47Z",
+   "text": "fix: match the schema default of show_messages_panel_level to the setting"
   },
   {
    "kind": "merge",
@@ -55,12 +61,6 @@
    "repo": "apache/datafusion",
    "at": "2026-10-14T22:56:38Z",
    "text": "docs: document ^ as the bitwise xor operator"
-  },
-  {
-   "kind": "merge",
-   "repo": "SCons/scons",
-   "at": "2026-10-14T03:40:07Z",
-   "text": "Fix four documentation examples that were not valid Python"
   }
  ]
 }
