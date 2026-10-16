@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-16T04:38:33Z",
+ "generated_at": "2026-10-16T16:43:52Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-10-16T14:41:58Z",
+   "text": "fix(useBroadcastChannel): report isClosed false while the channel is open"
+  },
+  {
+   "kind": "merge",
+   "repo": "childrentime/reactuse",
+   "at": "2026-10-16T14:27:37Z",
+   "text": "feat(core): add useBreakpoints hook"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "munich-quantum-toolkit/qmap",
    "at": "2026-10-15T20:03:24Z",
    "text": "\ud83d\udcdd Import compile_ in the README mapping example"
-  },
-  {
-   "kind": "merge",
-   "repo": "SCons/scons",
-   "at": "2026-10-15T17:42:03Z",
-   "text": "Update the JAVAVERSION default in the manpage"
-  },
-  {
-   "kind": "merge",
-   "repo": "tracel-ai/burn",
-   "at": "2026-10-15T17:09:30Z",
-   "text": "fix(cubecl): check ctc_loss shared memory against the device limit"
   }
  ]
 }
