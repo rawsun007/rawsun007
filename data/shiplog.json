@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-16T16:43:52Z",
+ "generated_at": "2026-10-17T04:35:53Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "react-dropzone/react-dropzone",
+   "at": "2026-10-17T01:36:51Z",
+   "text": "docs: call open() on the ref's current value in the README"
+  },
   {
    "kind": "merge",
    "repo": "childrentime/reactuse",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-16T02:38:17Z",
    "text": "chore(promo): spark package for the headless Chrome rig"
-  },
-  {
-   "kind": "merge",
-   "repo": "munich-quantum-toolkit/qmap",
-   "at": "2026-10-15T20:03:24Z",
-   "text": "\ud83d\udcdd Import compile_ in the README mapping example"
   }
  ]
 }
