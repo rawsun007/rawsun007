@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-17T04:35:53Z",
+ "generated_at": "2026-10-17T10:51:26Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sublimelsp/LSP",
+   "at": "2026-10-17T10:49:37Z",
+   "text": "fix: point the Restart Servers menu item at lsp_restart_server"
+  },
   {
    "kind": "merge",
    "repo": "react-dropzone/react-dropzone",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-16T02:38:17Z",
    "text": "feat(promo): spark rig films the page with its config baked in"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-16T02:38:17Z",
-   "text": "chore(promo): spark package for the headless Chrome rig"
   }
  ]
 }
