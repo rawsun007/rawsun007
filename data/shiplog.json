@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-17T10:51:26Z",
+ "generated_at": "2026-10-17T15:40:38Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "harfbuzz/harfbuzz",
+   "at": "2026-10-17T11:13:50Z",
+   "text": "[docs] Fix five function names in the user manual"
+  },
   {
    "kind": "merge",
    "repo": "sublimelsp/LSP",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-16T02:38:17Z",
    "text": "feat(promo): spark mix starts Cat Walk four bars before its drop"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-16T02:38:17Z",
-   "text": "feat(promo): spark rig films the page with its config baked in"
   }
  ]
 }
