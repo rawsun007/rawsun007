@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-17T15:40:38Z",
+ "generated_at": "2026-10-18T04:41:05Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "SCons/scons",
+   "at": "2026-10-17T23:28:02Z",
+   "text": "Correct the variables cc, hpcc and sgiar are documented to set"
+  },
   {
    "kind": "merge",
    "repo": "harfbuzz/harfbuzz",
@@ -55,12 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-10-16T02:38:17Z",
    "text": "feat(promo): spark master script renders and encodes"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-10-16T02:38:17Z",
-   "text": "feat(promo): spark mix starts Cat Walk four bars before its drop"
   }
  ]
 }

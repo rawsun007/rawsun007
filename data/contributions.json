@@ -1,43 +1,8 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-17T15:40:30Z",
- "total": 4425,
+ "generated_at": "2026-10-18T04:40:59Z",
+ "total": 4427,
  "days": [
-  {
-   "date": "2025-10-12",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-13",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-14",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-15",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-16",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-17",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-18",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-10-19",
    "level": 0,
@@ -1851,12 +1816,17 @@
   {
    "date": "2026-10-16",
    "level": 2,
-   "count": 24
+   "count": 25
   },
   {
    "date": "2026-10-17",
    "level": 1,
-   "count": 5
+   "count": 6
+  },
+  {
+   "date": "2026-10-18",
+   "level": 0,
+   "count": 0
   }
  ],
  "current_streak": 23,
@@ -1866,7 +1836,7 @@
   "level": 4,
   "count": 135
  },
- "last_30_days": 760,
+ "last_30_days": 754,
  "months": [
   {
    "month": "2025-10",
@@ -1918,7 +1888,7 @@
   },
   {
    "month": "2026-10",
-   "count": 386
+   "count": 388
   }
  ]
 }
