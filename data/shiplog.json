@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-18T15:56:02Z",
+ "generated_at": "2026-10-18T23:18:34Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "SCons/scons",
+   "at": "2026-10-18T22:32:28Z",
+   "text": "Fix the X_RPM_EXCLUSIVEARCH spelling in the manpage"
+  },
   {
    "kind": "merge",
    "repo": "SCons/scons",
@@ -55,12 +61,6 @@
    "repo": "tracel-ai/burn",
    "at": "2026-10-15T17:09:30Z",
    "text": "fix(cubecl): check ctc_loss shared memory against the device limit"
-  },
-  {
-   "kind": "merge",
-   "repo": "sublimelsp/LSP",
-   "at": "2026-10-15T15:36:47Z",
-   "text": "fix: match the schema default of show_messages_panel_level to the setting"
   }
  ]
 }
