@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-18T23:18:34Z",
+ "generated_at": "2026-10-19T13:28:29Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-10-19T09:26:12Z",
+   "text": "docs: Fix README examples"
+  },
   {
    "kind": "merge",
    "repo": "SCons/scons",
@@ -55,12 +61,6 @@
    "repo": "SCons/scons",
    "at": "2026-10-15T17:42:03Z",
    "text": "Update the JAVAVERSION default in the manpage"
-  },
-  {
-   "kind": "merge",
-   "repo": "tracel-ai/burn",
-   "at": "2026-10-15T17:09:30Z",
-   "text": "fix(cubecl): check ctc_loss shared memory against the device limit"
   }
  ]
 }
