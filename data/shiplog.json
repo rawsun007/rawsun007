@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-20T14:20:45Z",
+ "generated_at": "2026-10-21T11:58:17Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "chainloop-dev/chainloop",
+   "at": "2026-10-21T09:54:33Z",
+   "text": "docs(integrations): update CLI commands to current flags"
+  },
   {
    "kind": "merge",
    "repo": "kptdev/kpt",
@@ -55,12 +61,6 @@
    "repo": "childrentime/reactuse",
    "at": "2026-10-16T14:27:37Z",
    "text": "feat(core): add useBreakpoints hook"
-  },
-  {
-   "kind": "merge",
-   "repo": "munich-quantum-toolkit/qmap",
-   "at": "2026-10-15T20:03:24Z",
-   "text": "\ud83d\udcdd Import compile_ in the README mapping example"
   }
  ]
 }
