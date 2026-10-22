@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-21T11:58:17Z",
+ "generated_at": "2026-10-22T21:41:37Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "fluxcd/flux2",
+   "at": "2026-10-22T19:54:22Z",
+   "text": "Fix stale flags and commands in CLI examples"
+  },
+  {
+   "kind": "merge",
+   "repo": "sosreport/sos",
+   "at": "2026-10-22T17:35:21Z",
+   "text": "[man] Document report options accepted by sos collect"
+  },
   {
    "kind": "merge",
    "repo": "chainloop-dev/chainloop",
@@ -49,18 +61,6 @@
    "repo": "react-dropzone/react-dropzone",
    "at": "2026-10-17T01:36:51Z",
    "text": "docs: call open() on the ref's current value in the README"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-10-16T14:41:58Z",
-   "text": "fix(useBroadcastChannel): report isClosed false while the channel is open"
-  },
-  {
-   "kind": "merge",
-   "repo": "childrentime/reactuse",
-   "at": "2026-10-16T14:27:37Z",
-   "text": "feat(core): add useBreakpoints hook"
   }
  ]
 }
