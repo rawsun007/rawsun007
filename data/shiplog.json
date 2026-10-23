@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-22T21:41:37Z",
+ "generated_at": "2026-10-23T11:46:05Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apache/datafusion",
+   "at": "2026-10-23T05:36:17Z",
+   "text": "docs: fix SQL examples that the default dialect cannot parse"
+  },
   {
    "kind": "merge",
    "repo": "fluxcd/flux2",
@@ -55,12 +61,6 @@
    "repo": "sublimelsp/LSP",
    "at": "2026-10-17T10:49:37Z",
    "text": "fix: point the Restart Servers menu item at lsp_restart_server"
-  },
-  {
-   "kind": "merge",
-   "repo": "react-dropzone/react-dropzone",
-   "at": "2026-10-17T01:36:51Z",
-   "text": "docs: call open() on the ref's current value in the README"
   }
  ]
 }
