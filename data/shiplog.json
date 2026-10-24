@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-23T11:46:05Z",
+ "generated_at": "2026-10-24T04:43:54Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sqlfluff/sqlfluff",
+   "at": "2026-10-23T21:49:37Z",
+   "text": "Drop trailing commas before FROM in CV02, AL06 and AL07 doc examples"
+  },
   {
    "kind": "merge",
    "repo": "apache/datafusion",
@@ -55,12 +61,6 @@
    "repo": "harfbuzz/harfbuzz",
    "at": "2026-10-17T11:13:50Z",
    "text": "[docs] Fix five function names in the user manual"
-  },
-  {
-   "kind": "merge",
-   "repo": "sublimelsp/LSP",
-   "at": "2026-10-17T10:49:37Z",
-   "text": "fix: point the Restart Servers menu item at lsp_restart_server"
   }
  ]
 }
