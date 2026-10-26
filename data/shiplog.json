@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-24T04:43:54Z",
+ "generated_at": "2026-10-26T20:33:22Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "RIOT-OS/RIOT",
+   "at": "2026-10-26T13:13:49Z",
+   "text": "treewide: fix paths left over from the directory reorganisation"
+  },
   {
    "kind": "merge",
    "repo": "sqlfluff/sqlfluff",
@@ -55,12 +61,6 @@
    "repo": "SCons/scons",
    "at": "2026-10-17T23:28:02Z",
    "text": "Correct the variables cc, hpcc and sgiar are documented to set"
-  },
-  {
-   "kind": "merge",
-   "repo": "harfbuzz/harfbuzz",
-   "at": "2026-10-17T11:13:50Z",
-   "text": "[docs] Fix five function names in the user manual"
   }
  ]
 }
