@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-26T20:33:22Z",
+ "generated_at": "2026-10-27T15:24:07Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "checkpoint-restore/criu",
+   "at": "2026-10-27T13:57:27Z",
+   "text": "Documentation: document five options listed in criu --help"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-10-27T12:04:56Z",
+   "text": "docs: Fix malformed line protocol in example output"
+  },
   {
    "kind": "merge",
    "repo": "RIOT-OS/RIOT",
@@ -49,18 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-10-19T09:26:12Z",
    "text": "docs: Fix README examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "SCons/scons",
-   "at": "2026-10-18T22:32:28Z",
-   "text": "Fix the X_RPM_EXCLUSIVEARCH spelling in the manpage"
-  },
-  {
-   "kind": "merge",
-   "repo": "SCons/scons",
-   "at": "2026-10-17T23:28:02Z",
-   "text": "Correct the variables cc, hpcc and sgiar are documented to set"
   }
  ]
 }
