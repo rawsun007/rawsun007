@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-27T15:24:07Z",
+ "generated_at": "2026-10-28T13:04:55Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "WasmEdge/docs",
+   "at": "2026-10-28T06:57:42Z",
+   "text": "docs: list --allow-af-unix and the coredump options in the CLI page"
+  },
   {
    "kind": "merge",
    "repo": "checkpoint-restore/criu",
@@ -55,12 +61,6 @@
    "repo": "kptdev/kpt",
    "at": "2026-10-20T14:05:48Z",
    "text": "Docs: correct the install-resource-group default for live apply"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-10-19T09:26:12Z",
-   "text": "docs: Fix README examples"
   }
  ]
 }
