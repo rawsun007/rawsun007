@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-28T13:04:55Z",
+ "generated_at": "2026-10-28T20:19:57Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sqlfluff/sqlfluff",
+   "at": "2026-10-28T15:31:25Z",
+   "text": "RF02: list ignore_words and ignore_words_regex in config_keywords"
+  },
   {
    "kind": "merge",
    "repo": "WasmEdge/docs",
@@ -55,12 +61,6 @@
    "repo": "chainloop-dev/chainloop",
    "at": "2026-10-21T09:54:33Z",
    "text": "docs(integrations): update CLI commands to current flags"
-  },
-  {
-   "kind": "merge",
-   "repo": "kptdev/kpt",
-   "at": "2026-10-20T14:05:48Z",
-   "text": "Docs: correct the install-resource-group default for live apply"
   }
  ]
 }
