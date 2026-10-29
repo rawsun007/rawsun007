@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-28T20:19:57Z",
+ "generated_at": "2026-10-29T18:30:51Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "OpenSC/OpenSC",
+   "at": "2026-10-29T12:16:19Z",
+   "text": "doc: fix option names that the tools do not accept"
+  },
   {
    "kind": "merge",
    "repo": "sqlfluff/sqlfluff",
@@ -55,12 +61,6 @@
    "repo": "sosreport/sos",
    "at": "2026-10-22T17:35:21Z",
    "text": "[man] Document report options accepted by sos collect"
-  },
-  {
-   "kind": "merge",
-   "repo": "chainloop-dev/chainloop",
-   "at": "2026-10-21T09:54:33Z",
-   "text": "docs(integrations): update CLI commands to current flags"
   }
  ]
 }
