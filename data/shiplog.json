@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-10-29T18:30:51Z",
+ "generated_at": "2026-11-01T00:10:38Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "diamondburned/gotk4",
+   "at": "2026-10-31T20:49:42Z",
+   "text": "docs: fix dead Nix install link"
+  },
   {
    "kind": "merge",
    "repo": "OpenSC/OpenSC",
@@ -55,12 +61,6 @@
    "repo": "fluxcd/flux2",
    "at": "2026-10-22T19:54:22Z",
    "text": "Fix stale flags and commands in CLI examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "sosreport/sos",
-   "at": "2026-10-22T17:35:21Z",
-   "text": "[man] Document report options accepted by sos collect"
   }
  ]
 }
