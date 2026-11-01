@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-01T13:37:46Z",
+ "generated_at": "2026-11-01T19:44:17Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "checkpoint-restore/criu",
+   "at": "2026-11-01T15:31:57Z",
+   "text": "Documentation: add 'x rss' and 'show --nopl' to crit(1)"
+  },
   {
    "kind": "merge",
    "repo": "rqlite/rqlite.io",
@@ -55,12 +61,6 @@
    "repo": "sqlfluff/sqlfluff",
    "at": "2026-10-23T21:49:37Z",
    "text": "Drop trailing commas before FROM in CV02, AL06 and AL07 doc examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/datafusion",
-   "at": "2026-10-23T05:36:17Z",
-   "text": "docs: fix SQL examples that the default dialect cannot parse"
   }
  ]
 }
