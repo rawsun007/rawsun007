@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-01T19:44:17Z",
+ "generated_at": "2026-11-03T17:07:24Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-11-03T13:47:09Z",
+   "text": "Update claudenotch cask to v0.42.2"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-03T13:41:25Z",
+   "text": "docs: rebuild the site with the v0.42.2 changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-03T13:39:29Z",
+   "text": "feat: What's New carries the v0.42.2 notes"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-11-03T13:38:35Z",
+   "text": "Update claudenotch cask to v0.42.2"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-11-03T13:37:57Z",
+   "text": "released v0.42.2"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-03T13:03:33Z",
+   "text": "test(sessions): registry adoption never lists a session twice"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-03T13:03:33Z",
+   "text": "fix(sessions): one row per process when its session id changes"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-11-03T12:00:25Z",
+   "text": "docs(inputs): Fix remaining malformed example output lines"
+  },
+  {
+   "kind": "merge",
+   "repo": "RIOT-OS/RIOT",
+   "at": "2026-11-03T09:06:08Z",
+   "text": "boards: fix board names in flash examples"
+  },
   {
    "kind": "merge",
    "repo": "checkpoint-restore/criu",
    "at": "2026-11-01T15:31:57Z",
    "text": "Documentation: add 'x rss' and 'show --nopl' to crit(1)"
-  },
-  {
-   "kind": "merge",
-   "repo": "rqlite/rqlite.io",
-   "at": "2026-11-01T12:55:30Z",
-   "text": "Update rqlite shell usage and .help output"
-  },
-  {
-   "kind": "merge",
-   "repo": "diamondburned/gotk4",
-   "at": "2026-10-31T20:49:42Z",
-   "text": "docs: fix dead Nix install link"
-  },
-  {
-   "kind": "merge",
-   "repo": "OpenSC/OpenSC",
-   "at": "2026-10-29T12:16:19Z",
-   "text": "doc: fix option names that the tools do not accept"
-  },
-  {
-   "kind": "merge",
-   "repo": "sqlfluff/sqlfluff",
-   "at": "2026-10-28T15:31:25Z",
-   "text": "RF02: list ignore_words and ignore_words_regex in config_keywords"
-  },
-  {
-   "kind": "merge",
-   "repo": "WasmEdge/docs",
-   "at": "2026-10-28T06:57:42Z",
-   "text": "docs: list --allow-af-unix and the coredump options in the CLI page"
-  },
-  {
-   "kind": "merge",
-   "repo": "checkpoint-restore/criu",
-   "at": "2026-10-27T13:57:27Z",
-   "text": "Documentation: document five options listed in criu --help"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-10-27T12:04:56Z",
-   "text": "docs: Fix malformed line protocol in example output"
-  },
-  {
-   "kind": "merge",
-   "repo": "RIOT-OS/RIOT",
-   "at": "2026-10-26T13:13:49Z",
-   "text": "treewide: fix paths left over from the directory reorganisation"
-  },
-  {
-   "kind": "merge",
-   "repo": "sqlfluff/sqlfluff",
-   "at": "2026-10-23T21:49:37Z",
-   "text": "Drop trailing commas before FROM in CV02, AL06 and AL07 doc examples"
   }
  ]
 }
