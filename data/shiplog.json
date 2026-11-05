@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-04T23:44:16Z",
+ "generated_at": "2026-11-05T17:27:17Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "nextflow-io/nextflow",
+   "at": "2026-11-05T13:45:54Z",
+   "text": "docs: Document missing CLI options"
+  },
+  {
+   "kind": "merge",
+   "repo": "ytti/oxidized",
+   "at": "2026-11-05T09:43:05Z",
+   "text": "docs: use the model names for F5OS, Grandstream HT8xx and Uplink EP4440"
+  },
   {
    "kind": "merge",
    "repo": "harfbuzz/harfbuzz",
@@ -13,18 +25,6 @@
    "repo": "RIOT-OS/RIOT",
    "at": "2026-11-04T13:03:32Z",
    "text": "doc: fix paths to moved files in board and test docs"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-03T13:47:09Z",
-   "text": "Update claudenotch cask to v0.42.2"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-03T13:38:35Z",
-   "text": "Update claudenotch cask to v0.42.2"
   },
   {
    "kind": "merge",
