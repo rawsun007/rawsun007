@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-05T17:27:17Z",
+ "generated_at": "2026-11-06T16:48:36Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sosreport/sos",
+   "at": "2026-11-06T15:48:57Z",
+   "text": "[openstack_keystone] Remove the unused nopw option"
+  },
+  {
+   "kind": "merge",
+   "repo": "padrino/padrino-framework",
+   "at": "2026-11-06T09:45:36Z",
+   "text": "Use Inflections.underscore in the form builder's object_model_name"
+  },
   {
    "kind": "merge",
    "repo": "nextflow-io/nextflow",
@@ -49,18 +61,6 @@
    "repo": "rqlite/rqlite.io",
    "at": "2026-11-01T12:55:30Z",
    "text": "Update rqlite shell usage and .help output"
-  },
-  {
-   "kind": "merge",
-   "repo": "diamondburned/gotk4",
-   "at": "2026-10-31T20:49:42Z",
-   "text": "docs: fix dead Nix install link"
-  },
-  {
-   "kind": "merge",
-   "repo": "OpenSC/OpenSC",
-   "at": "2026-10-29T12:16:19Z",
-   "text": "doc: fix option names that the tools do not accept"
   }
  ]
 }
