@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-06T16:48:36Z",
+ "generated_at": "2026-11-07T13:12:40Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:02:44Z",
+   "text": "docs: rebuild the site with the corrected v0.39.0 note"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:02:40Z",
+   "text": "docs(cask): why the cask does not run the hook uninstaller"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:00:29Z",
+   "text": "docs: rebuild the site with the refreshed features, FAQ and compare page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:00:13Z",
+   "text": "docs(readme): guardrails row covers the countdown and the skip switch"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:00:07Z",
+   "text": "docs(readme): the Skills page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:00:07Z",
+   "text": "docs(readme): open a session in Claude Desktop"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-07T08:00:07Z",
+   "text": "docs(readme): MCP sign-in cards"
+  },
   {
    "kind": "merge",
    "repo": "sosreport/sos",
@@ -19,48 +61,6 @@
    "repo": "nextflow-io/nextflow",
    "at": "2026-11-05T13:45:54Z",
    "text": "docs: Document missing CLI options"
-  },
-  {
-   "kind": "merge",
-   "repo": "ytti/oxidized",
-   "at": "2026-11-05T09:43:05Z",
-   "text": "docs: use the model names for F5OS, Grandstream HT8xx and Uplink EP4440"
-  },
-  {
-   "kind": "merge",
-   "repo": "harfbuzz/harfbuzz",
-   "at": "2026-11-04T18:03:11Z",
-   "text": "[docs] Drop HB_SUBSET_DEPEND_API from the depend API guide"
-  },
-  {
-   "kind": "merge",
-   "repo": "RIOT-OS/RIOT",
-   "at": "2026-11-04T13:03:32Z",
-   "text": "doc: fix paths to moved files in board and test docs"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-11-03T12:00:25Z",
-   "text": "docs(inputs): Fix remaining malformed example output lines"
-  },
-  {
-   "kind": "merge",
-   "repo": "RIOT-OS/RIOT",
-   "at": "2026-11-03T09:06:08Z",
-   "text": "boards: fix board names in flash examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "checkpoint-restore/criu",
-   "at": "2026-11-01T15:31:57Z",
-   "text": "Documentation: add 'x rss' and 'show --nopl' to crit(1)"
-  },
-  {
-   "kind": "merge",
-   "repo": "rqlite/rqlite.io",
-   "at": "2026-11-01T12:55:30Z",
-   "text": "Update rqlite shell usage and .help output"
   }
  ]
 }
