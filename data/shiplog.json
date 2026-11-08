@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-08T00:42:23Z",
+ "generated_at": "2026-11-08T17:57:32Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:23:15Z",
+   "text": "docs(agents): match the published install guide"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:23:15Z",
+   "text": "fix(install): the test curl it prints sends the hook token"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:23:09Z",
+   "text": "fix(install): the wait-for-launch ping sends the hook token"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:22:47Z",
+   "text": "fix(hooks): dispatcher's subagent posts carry the hook token"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:22:00Z",
+   "text": "docs: rebuild the site with the skills cost blog post"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-08T11:22:00Z",
+   "text": "docs: publish the corrected agent install guide"
+  },
   {
    "kind": "merge",
    "repo": "scikit-hep/awkward",
@@ -19,42 +55,6 @@
    "repo": "claude-notch",
    "at": "2026-11-07T08:02:44Z",
    "text": "docs: rebuild the site with the corrected v0.39.0 note"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:02:40Z",
-   "text": "docs(cask): why the cask does not run the hook uninstaller"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:00:29Z",
-   "text": "docs: rebuild the site with the refreshed features, FAQ and compare page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:00:13Z",
-   "text": "docs(readme): guardrails row covers the countdown and the skip switch"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:00:07Z",
-   "text": "docs(readme): the Skills page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:00:07Z",
-   "text": "docs(readme): open a session in Claude Desktop"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:00:07Z",
-   "text": "docs(readme): MCP sign-in cards"
   },
   {
    "kind": "merge",
