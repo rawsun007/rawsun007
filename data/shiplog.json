@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-07T13:12:40Z",
+ "generated_at": "2026-11-08T00:42:23Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "scikit-hep/awkward",
+   "at": "2026-11-07T22:40:06Z",
+   "text": "docs: make the to_parquet_row_groups example write real batches"
+  },
+  {
+   "kind": "merge",
+   "repo": "pgcentralfoundation/pgrx",
+   "at": "2026-11-07T19:53:44Z",
+   "text": "Document that GucSetting::get panics off the active thread"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "sosreport/sos",
    "at": "2026-11-06T15:48:57Z",
    "text": "[openstack_keystone] Remove the unused nopw option"
-  },
-  {
-   "kind": "merge",
-   "repo": "padrino/padrino-framework",
-   "at": "2026-11-06T09:45:36Z",
-   "text": "Use Inflections.underscore in the form builder's object_model_name"
-  },
-  {
-   "kind": "merge",
-   "repo": "nextflow-io/nextflow",
-   "at": "2026-11-05T13:45:54Z",
-   "text": "docs: Document missing CLI options"
   }
  ]
 }
