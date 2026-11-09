@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-08T17:57:32Z",
+ "generated_at": "2026-11-09T19:52:58Z",
  "entries": [
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:23:15Z",
-   "text": "docs(agents): match the published install guide"
+   "kind": "merge",
+   "repo": "warewulf/warewulf",
+   "at": "2026-11-09T12:57:34Z",
+   "text": "Drop the legacy datastore key from the EL quickstart"
+  },
+  {
+   "kind": "merge",
+   "repo": "irontec/sngrep",
+   "at": "2026-11-09T12:40:01Z",
+   "text": "main: make --eep-parse take no argument"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:23:15Z",
-   "text": "fix(install): the test curl it prints sends the hook token"
+   "repo": "metastrip",
+   "at": "2026-11-09T10:01:33Z",
+   "text": "chore: ignore .vercel and .env* from vercel link"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:23:09Z",
-   "text": "fix(install): the wait-for-launch ping sends the hook token"
+   "repo": "metastrip",
+   "at": "2026-11-09T09:40:08Z",
+   "text": "feat(seo): describe the share image on every page"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:22:47Z",
-   "text": "fix(hooks): dispatcher's subagent posts carry the hook token"
+   "repo": "metastrip",
+   "at": "2026-11-09T09:39:57Z",
+   "text": "fix(seo): give the raw files post the same social tags as the others"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:22:00Z",
-   "text": "docs: rebuild the site with the skills cost blog post"
+   "repo": "metastrip",
+   "at": "2026-11-09T09:39:42Z",
+   "text": "fix(seo): date each sitemap entry from its page's last commit"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-08T11:22:00Z",
-   "text": "docs: publish the corrected agent install guide"
+   "repo": "metastrip",
+   "at": "2026-11-09T09:39:31Z",
+   "text": "fix(seo): bring the app's structured data up to v1.2.3"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-11-09T09:39:22Z",
+   "text": "feat(seo): add breadcrumbs to every blog post and the changelog"
+  },
+  {
+   "kind": "commit",
+   "repo": "metastrip",
+   "at": "2026-11-09T09:39:00Z",
+   "text": "feat(seo): give the changelog a searchable title and description"
   },
   {
    "kind": "merge",
    "repo": "scikit-hep/awkward",
    "at": "2026-11-07T22:40:06Z",
    "text": "docs: make the to_parquet_row_groups example write real batches"
-  },
-  {
-   "kind": "merge",
-   "repo": "pgcentralfoundation/pgrx",
-   "at": "2026-11-07T19:53:44Z",
-   "text": "Document that GucSetting::get panics off the active thread"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-07T08:02:44Z",
-   "text": "docs: rebuild the site with the corrected v0.39.0 note"
-  },
-  {
-   "kind": "merge",
-   "repo": "sosreport/sos",
-   "at": "2026-11-06T15:48:57Z",
-   "text": "[openstack_keystone] Remove the unused nopw option"
   }
  ]
 }
