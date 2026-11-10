@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-09T19:52:58Z",
+ "generated_at": "2026-11-10T03:36:57Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "sqlfluff/sqlfluff",
+   "at": "2026-11-09T22:56:51Z",
+   "text": "Fix rule code example and typo in configuration docs"
+  },
+  {
+   "kind": "merge",
+   "repo": "apptainer/apptainer",
+   "at": "2026-11-09T20:20:13Z",
+   "text": "docs: name the --app option in the run-help description"
+  },
   {
    "kind": "merge",
    "repo": "warewulf/warewulf",
@@ -49,18 +61,6 @@
    "repo": "metastrip",
    "at": "2026-11-09T09:39:22Z",
    "text": "feat(seo): add breadcrumbs to every blog post and the changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:39:00Z",
-   "text": "feat(seo): give the changelog a searchable title and description"
-  },
-  {
-   "kind": "merge",
-   "repo": "scikit-hep/awkward",
-   "at": "2026-11-07T22:40:06Z",
-   "text": "docs: make the to_parquet_row_groups example write real batches"
   }
  ]
 }
