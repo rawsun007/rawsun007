@@ -1,7 +1,31 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-10T03:36:57Z",
+ "generated_at": "2026-11-10T14:58:41Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "RIOT-OS/RIOT",
+   "at": "2026-11-10T14:12:05Z",
+   "text": "doc: fix module names that do not exist"
+  },
+  {
+   "kind": "merge",
+   "repo": "kptdev/kpt",
+   "at": "2026-11-10T12:18:36Z",
+   "text": "Docs: fix flags in the fn eval and live apply examples"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-11-10T11:41:37Z",
+   "text": "docs(inputs): Use emitted field names in example output"
+  },
+  {
+   "kind": "merge",
+   "repo": "antonbabenko/pre-commit-terraform",
+   "at": "2026-11-10T11:38:56Z",
+   "text": "docs: List every hook that requires terragrunt"
+  },
   {
    "kind": "merge",
    "repo": "sqlfluff/sqlfluff",
@@ -27,40 +51,16 @@
    "text": "main: make --eep-parse take no argument"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T10:01:33Z",
-   "text": "chore: ignore .vercel and .env* from vercel link"
+   "kind": "merge",
+   "repo": "scikit-hep/awkward",
+   "at": "2026-11-07T22:40:06Z",
+   "text": "docs: make the to_parquet_row_groups example write real batches"
   },
   {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:40:08Z",
-   "text": "feat(seo): describe the share image on every page"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:39:57Z",
-   "text": "fix(seo): give the raw files post the same social tags as the others"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:39:42Z",
-   "text": "fix(seo): date each sitemap entry from its page's last commit"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:39:31Z",
-   "text": "fix(seo): bring the app's structured data up to v1.2.3"
-  },
-  {
-   "kind": "commit",
-   "repo": "metastrip",
-   "at": "2026-11-09T09:39:22Z",
-   "text": "feat(seo): add breadcrumbs to every blog post and the changelog"
+   "kind": "merge",
+   "repo": "pgcentralfoundation/pgrx",
+   "at": "2026-11-07T19:53:44Z",
+   "text": "Document that GucSetting::get panics off the active thread"
   }
  ]
 }
