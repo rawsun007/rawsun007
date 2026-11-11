@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-10T14:58:41Z",
+ "generated_at": "2026-11-11T06:36:24Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:29:06Z",
+   "text": "test(notch): a mid-flight retarget passes through the size on screen"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:28:51Z",
+   "text": "fix(notch): a card's measured height no longer restarts its opening"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:28:13Z",
+   "text": "perf(notch): size animation steps once per display refresh"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:27:23Z",
+   "text": "perf(notch): the size animator publishes once per frame"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:27:12Z",
+   "text": "perf(notch): an animation frame re-lays out the card frame, not the card"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T06:26:25Z",
+   "text": "perf(pet): cursor moves no longer re-render the whole notch"
+  },
+  {
+   "kind": "merge",
+   "repo": "padrino/padrino-framework",
+   "at": "2026-11-10T23:46:19Z",
+   "text": "Keep truncate and truncate_words within the requested length"
+  },
   {
    "kind": "merge",
    "repo": "RIOT-OS/RIOT",
@@ -19,48 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-11-10T11:41:37Z",
    "text": "docs(inputs): Use emitted field names in example output"
-  },
-  {
-   "kind": "merge",
-   "repo": "antonbabenko/pre-commit-terraform",
-   "at": "2026-11-10T11:38:56Z",
-   "text": "docs: List every hook that requires terragrunt"
-  },
-  {
-   "kind": "merge",
-   "repo": "sqlfluff/sqlfluff",
-   "at": "2026-11-09T22:56:51Z",
-   "text": "Fix rule code example and typo in configuration docs"
-  },
-  {
-   "kind": "merge",
-   "repo": "apptainer/apptainer",
-   "at": "2026-11-09T20:20:13Z",
-   "text": "docs: name the --app option in the run-help description"
-  },
-  {
-   "kind": "merge",
-   "repo": "warewulf/warewulf",
-   "at": "2026-11-09T12:57:34Z",
-   "text": "Drop the legacy datastore key from the EL quickstart"
-  },
-  {
-   "kind": "merge",
-   "repo": "irontec/sngrep",
-   "at": "2026-11-09T12:40:01Z",
-   "text": "main: make --eep-parse take no argument"
-  },
-  {
-   "kind": "merge",
-   "repo": "scikit-hep/awkward",
-   "at": "2026-11-07T22:40:06Z",
-   "text": "docs: make the to_parquet_row_groups example write real batches"
-  },
-  {
-   "kind": "merge",
-   "repo": "pgcentralfoundation/pgrx",
-   "at": "2026-11-07T19:53:44Z",
-   "text": "Document that GucSetting::get panics off the active thread"
   }
  ]
 }
