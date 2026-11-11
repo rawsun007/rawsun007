@@ -1,42 +1,48 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-11T06:36:24Z",
+ "generated_at": "2026-11-11T17:13:34Z",
  "entries": [
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T06:29:06Z",
-   "text": "test(notch): a mid-flight retarget passes through the size on screen"
+   "repo": "homebrew-tap",
+   "at": "2026-11-11T07:34:09Z",
+   "text": "Update claudenotch cask to v0.42.3"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-11T06:28:51Z",
-   "text": "fix(notch): a card's measured height no longer restarts its opening"
+   "at": "2026-11-11T07:27:09Z",
+   "text": "fix(release): retry the stapled-ticket check before failing a release"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-11T06:28:13Z",
-   "text": "perf(notch): size animation steps once per display refresh"
+   "at": "2026-11-11T07:26:23Z",
+   "text": "fix(release): the stapled-ticket check says what stapler said"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-11-11T07:23:35Z",
+   "text": "Update claudenotch cask to v0.42.3"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-11T06:27:23Z",
-   "text": "perf(notch): the size animator publishes once per frame"
+   "at": "2026-11-11T07:23:02Z",
+   "text": "docs: rebuild the site with the v0.42.3 changelog"
   },
   {
    "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T06:27:12Z",
-   "text": "perf(notch): an animation frame re-lays out the card frame, not the card"
+   "repo": "homebrew-tap",
+   "at": "2026-11-11T07:22:14Z",
+   "text": "Update claudenotch cask to v0.42.3"
   },
   {
-   "kind": "commit",
+   "kind": "release",
    "repo": "claude-notch",
-   "at": "2026-11-11T06:26:25Z",
-   "text": "perf(pet): cursor moves no longer re-render the whole notch"
+   "at": "2026-11-11T07:14:53Z",
+   "text": "released v0.42.3"
   },
   {
    "kind": "merge",
@@ -55,12 +61,6 @@
    "repo": "kptdev/kpt",
    "at": "2026-11-10T12:18:36Z",
    "text": "Docs: fix flags in the fn eval and live apply examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-11-10T11:41:37Z",
-   "text": "docs(inputs): Use emitted field names in example output"
   }
  ]
 }
