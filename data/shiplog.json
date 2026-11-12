@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-11T17:13:34Z",
+ "generated_at": "2026-11-12T11:25:10Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "nasa/fprime",
+   "at": "2026-11-12T02:08:28Z",
+   "text": "FpySequencer: remove the flags section left in the SDD"
+  },
   {
    "kind": "commit",
    "repo": "homebrew-tap",
@@ -55,12 +61,6 @@
    "repo": "RIOT-OS/RIOT",
    "at": "2026-11-10T14:12:05Z",
    "text": "doc: fix module names that do not exist"
-  },
-  {
-   "kind": "merge",
-   "repo": "kptdev/kpt",
-   "at": "2026-11-10T12:18:36Z",
-   "text": "Docs: fix flags in the fn eval and live apply examples"
   }
  ]
 }
