@@ -1,54 +1,24 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-12T11:25:10Z",
+ "generated_at": "2026-11-12T20:00:59Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "Homebrew/brew",
+   "at": "2026-11-12T17:48:28Z",
+   "text": "rubocop: enable three non-default Lint and Performance cops"
+  },
+  {
+   "kind": "merge",
+   "repo": "termux/termux-packages",
+   "at": "2026-11-12T16:47:55Z",
+   "text": "fix(scripts/lint-packages.sh): enforce the TERMUX_PKG_REVISION range"
+  },
   {
    "kind": "merge",
    "repo": "nasa/fprime",
    "at": "2026-11-12T02:08:28Z",
    "text": "FpySequencer: remove the flags section left in the SDD"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-11T07:34:09Z",
-   "text": "Update claudenotch cask to v0.42.3"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T07:27:09Z",
-   "text": "fix(release): retry the stapled-ticket check before failing a release"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T07:26:23Z",
-   "text": "fix(release): the stapled-ticket check says what stapler said"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-11T07:23:35Z",
-   "text": "Update claudenotch cask to v0.42.3"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T07:23:02Z",
-   "text": "docs: rebuild the site with the v0.42.3 changelog"
-  },
-  {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-11T07:22:14Z",
-   "text": "Update claudenotch cask to v0.42.3"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-11-11T07:14:53Z",
-   "text": "released v0.42.3"
   },
   {
    "kind": "merge",
@@ -61,6 +31,36 @@
    "repo": "RIOT-OS/RIOT",
    "at": "2026-11-10T14:12:05Z",
    "text": "doc: fix module names that do not exist"
+  },
+  {
+   "kind": "merge",
+   "repo": "kptdev/kpt",
+   "at": "2026-11-10T12:18:36Z",
+   "text": "Docs: fix flags in the fn eval and live apply examples"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-11-10T11:41:37Z",
+   "text": "docs(inputs): Use emitted field names in example output"
+  },
+  {
+   "kind": "merge",
+   "repo": "antonbabenko/pre-commit-terraform",
+   "at": "2026-11-10T11:38:56Z",
+   "text": "docs: List every hook that requires terragrunt"
+  },
+  {
+   "kind": "merge",
+   "repo": "sqlfluff/sqlfluff",
+   "at": "2026-11-09T22:56:51Z",
+   "text": "Fix rule code example and typo in configuration docs"
+  },
+  {
+   "kind": "merge",
+   "repo": "apptainer/apptainer",
+   "at": "2026-11-09T20:20:13Z",
+   "text": "docs: name the --app option in the run-help description"
   }
  ]
 }
