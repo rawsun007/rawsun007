@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-12T20:00:59Z",
+ "generated_at": "2026-11-13T01:53:21Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "rclone/rclone",
+   "at": "2026-11-12T20:52:52Z",
+   "text": "docs: fix flag names that do not exist"
+  },
   {
    "kind": "merge",
    "repo": "Homebrew/brew",
@@ -55,12 +61,6 @@
    "repo": "sqlfluff/sqlfluff",
    "at": "2026-11-09T22:56:51Z",
    "text": "Fix rule code example and typo in configuration docs"
-  },
-  {
-   "kind": "merge",
-   "repo": "apptainer/apptainer",
-   "at": "2026-11-09T20:20:13Z",
-   "text": "docs: name the --app option in the run-help description"
   }
  ]
 }
