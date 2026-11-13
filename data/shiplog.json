@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-13T01:53:21Z",
+ "generated_at": "2026-11-13T11:08:16Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "prometheus/prometheus",
+   "at": "2026-11-13T07:52:38Z",
+   "text": "docs: fix STACKIT example key and list Vultr SD in scrape_config"
+  },
+  {
+   "kind": "merge",
+   "repo": "penpot/penpot",
+   "at": "2026-11-13T07:31:38Z",
+   "text": ":books: Fix the telemetry flag name in the configuration guide"
+  },
   {
    "kind": "merge",
    "repo": "rclone/rclone",
@@ -49,18 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-11-10T11:41:37Z",
    "text": "docs(inputs): Use emitted field names in example output"
-  },
-  {
-   "kind": "merge",
-   "repo": "antonbabenko/pre-commit-terraform",
-   "at": "2026-11-10T11:38:56Z",
-   "text": "docs: List every hook that requires terragrunt"
-  },
-  {
-   "kind": "merge",
-   "repo": "sqlfluff/sqlfluff",
-   "at": "2026-11-09T22:56:51Z",
-   "text": "Fix rule code example and typo in configuration docs"
   }
  ]
 }
