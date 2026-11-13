@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-13T11:08:16Z",
+ "generated_at": "2026-11-13T19:48:24Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "apptainer/apptainer",
+   "at": "2026-11-13T15:23:54Z",
+   "text": "docs: name the --app option in the run-help description (release-1.6)"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-13T15:01:57Z",
+   "text": "test(notch): a held button keeps the open card open but never opens it"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-13T15:01:46Z",
+   "text": "fix(notch): clicking a button on the open card no longer closes it"
+  },
   {
    "kind": "merge",
    "repo": "prometheus/prometheus",
@@ -39,28 +57,10 @@
    "text": "FpySequencer: remove the flags section left in the SDD"
   },
   {
-   "kind": "merge",
-   "repo": "padrino/padrino-framework",
-   "at": "2026-11-10T23:46:19Z",
-   "text": "Keep truncate and truncate_words within the requested length"
-  },
-  {
-   "kind": "merge",
-   "repo": "RIOT-OS/RIOT",
-   "at": "2026-11-10T14:12:05Z",
-   "text": "doc: fix module names that do not exist"
-  },
-  {
-   "kind": "merge",
-   "repo": "kptdev/kpt",
-   "at": "2026-11-10T12:18:36Z",
-   "text": "Docs: fix flags in the fn eval and live apply examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-11-10T11:41:37Z",
-   "text": "docs(inputs): Use emitted field names in example output"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-11T07:27:09Z",
+   "text": "fix(release): retry the stapled-ticket check before failing a release"
   }
  ]
 }
