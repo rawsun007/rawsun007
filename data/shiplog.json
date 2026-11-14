@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-14T01:28:31Z",
+ "generated_at": "2026-11-14T10:35:45Z",
  "entries": [
   {
    "kind": "merge",
@@ -13,18 +13,6 @@
    "repo": "apptainer/apptainer",
    "at": "2026-11-13T15:23:54Z",
    "text": "docs: name the --app option in the run-help description (release-1.6)"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-13T15:01:57Z",
-   "text": "test(notch): a held button keeps the open card open but never opens it"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-13T15:01:46Z",
-   "text": "fix(notch): clicking a button on the open card no longer closes it"
   },
   {
    "kind": "merge",
@@ -61,6 +49,18 @@
    "repo": "nasa/fprime",
    "at": "2026-11-12T02:08:28Z",
    "text": "FpySequencer: remove the flags section left in the SDD"
+  },
+  {
+   "kind": "merge",
+   "repo": "padrino/padrino-framework",
+   "at": "2026-11-10T23:46:19Z",
+   "text": "Keep truncate and truncate_words within the requested length"
+  },
+  {
+   "kind": "merge",
+   "repo": "RIOT-OS/RIOT",
+   "at": "2026-11-10T14:12:05Z",
+   "text": "doc: fix module names that do not exist"
   }
  ]
 }
