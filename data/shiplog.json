@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-14T10:35:45Z",
+ "generated_at": "2026-11-14T18:12:16Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "heroui-inc/heroui",
+   "at": "2026-11-14T11:03:13Z",
+   "text": "docs(fieldset): drop the nativeProps rows from the API reference"
+  },
   {
    "kind": "merge",
    "repo": "cozystack/cozystack",
@@ -55,12 +61,6 @@
    "repo": "padrino/padrino-framework",
    "at": "2026-11-10T23:46:19Z",
    "text": "Keep truncate and truncate_words within the requested length"
-  },
-  {
-   "kind": "merge",
-   "repo": "RIOT-OS/RIOT",
-   "at": "2026-11-10T14:12:05Z",
-   "text": "doc: fix module names that do not exist"
   }
  ]
 }
