@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-13T19:48:24Z",
+ "generated_at": "2026-11-14T01:28:31Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "cozystack/cozystack",
+   "at": "2026-11-13T21:40:52Z",
+   "text": "docs(vpc): generate README parameters from values.yaml"
+  },
   {
    "kind": "merge",
    "repo": "apptainer/apptainer",
@@ -55,12 +61,6 @@
    "repo": "nasa/fprime",
    "at": "2026-11-12T02:08:28Z",
    "text": "FpySequencer: remove the flags section left in the SDD"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-11T07:27:09Z",
-   "text": "fix(release): retry the stapled-ticket check before failing a release"
   }
  ]
 }
