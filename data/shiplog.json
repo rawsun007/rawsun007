@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-15T16:24:54Z",
+ "generated_at": "2026-11-16T06:40:43Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "goauthentik/authentik",
+   "at": "2026-11-16T00:25:12Z",
+   "text": "website/docs: fix the !Env and !File default syntax and document !ParseJSON"
+  },
   {
    "kind": "merge",
    "repo": "starship/starship",
@@ -55,12 +61,6 @@
    "repo": "termux/termux-packages",
    "at": "2026-11-12T16:47:55Z",
    "text": "fix(scripts/lint-packages.sh): enforce the TERMUX_PKG_REVISION range"
-  },
-  {
-   "kind": "merge",
-   "repo": "nasa/fprime",
-   "at": "2026-11-12T02:08:28Z",
-   "text": "FpySequencer: remove the flags section left in the SDD"
   }
  ]
 }
