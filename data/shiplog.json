@@ -1,66 +1,66 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-17T03:57:15Z",
+ "generated_at": "2026-11-17T16:08:55Z",
  "entries": [
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-17T03:54:31Z",
-   "text": "test(linux): paint the virtual desktop so screenshots show the card's edge"
+   "at": "2026-11-17T15:52:22Z",
+   "text": "docs: Linux announcement restyled as a pill"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-17T03:54:31Z",
-   "text": "fix(linux): muted text and status dots lost their colour"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T03:52:09Z",
-   "text": "test(linux): desktop e2e in Docker with real clicks"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T03:52:09Z",
-   "text": "fix(linux): write the test layout once the window manager has placed the card"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T03:49:16Z",
-   "text": "feat(linux): claudenotch command and launcher"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T03:49:16Z",
-   "text": "feat(linux): the GTK 3 overlay card"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T03:49:16Z",
-   "text": "feat(linux): mirror cards to desktop notifications"
+   "at": "2026-11-17T15:49:34Z",
+   "text": "docs: steady changelog tabs, no Mac downloads, Linux notice on the homepage"
   },
   {
    "kind": "merge",
-   "repo": "tj/git-extras",
-   "at": "2026-11-17T03:26:45Z",
-   "text": "fix(completion): restore the fish command list and add missing commands"
+   "repo": "reflex-dev/reflex",
+   "at": "2026-11-17T14:17:55Z",
+   "text": "fix: hide the Radix wrapper of a hidden rx.input"
   },
   {
    "kind": "merge",
    "repo": "tauri-apps/tauri",
-   "at": "2026-11-17T03:07:30Z",
-   "text": "docs(bundler): update the tauri.conf.json example to the v2 config"
+   "at": "2026-11-17T13:41:13Z",
+   "text": "fix(bundler): name the camelCase NSIS key in the language warning"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-17T12:27:46Z",
+   "text": "docs: changelog split into macOS, Linux and Windows pages"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-17T12:27:43Z",
+   "text": "docs(linux): link the Linux changelog page"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-17T12:22:42Z",
+   "text": "docs: changelog for 0.44.1"
+  },
+  {
+   "kind": "commit",
+   "repo": "homebrew-tap",
+   "at": "2026-11-17T12:22:06Z",
+   "text": "Update claudenotch cask to v0.44.1"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-11-17T12:13:44Z",
+   "text": "released v0.44.1"
   },
   {
    "kind": "merge",
-   "repo": "zephyrproject-rtos/zephyr",
-   "at": "2026-11-16T21:06:34Z",
-   "text": "samples: pmci: mctp: use valid board targets in docs"
+   "repo": "penpot/penpot",
+   "at": "2026-11-17T08:45:02Z",
+   "text": ":bug: Fix swapped Move left and Move right shortcuts"
   }
  ]
 }
