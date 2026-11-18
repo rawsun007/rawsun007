@@ -1,7 +1,49 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-18T11:51:41Z",
+ "generated_at": "2026-11-18T20:38:28Z",
  "entries": [
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T17:27:47Z",
+   "text": "docs: dark mode with a sliding light/dark toggle"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "docs(claude): point the repo map at the Windows plan"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "plans: Monday launch checklist (winget timing, website, announce)"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "plans: prompts for Claude Code on the Windows and Ubuntu machines"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "plans: ordered tickets for Saturday spikes and Sunday coding"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "plans: setting up the borrowed machines and leaving them clean"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-18T16:44:16Z",
+   "text": "plans: Ubuntu real-hardware test pass and parity backlog"
+  },
   {
    "kind": "merge",
    "repo": "rclone/rclone",
@@ -19,48 +61,6 @@
    "repo": "nasa/fprime",
    "at": "2026-11-17T21:05:37Z",
    "text": "TlmPacketizer: describe the red-black tree lookup in the SDD"
-  },
-  {
-   "kind": "merge",
-   "repo": "TriliumNext/Trilium",
-   "at": "2026-11-17T19:03:30Z",
-   "text": "docs: list F9 for Zen mode in the keyboard shortcuts page"
-  },
-  {
-   "kind": "merge",
-   "repo": "reflex-dev/reflex",
-   "at": "2026-11-17T14:17:55Z",
-   "text": "fix: hide the Radix wrapper of a hidden rx.input"
-  },
-  {
-   "kind": "merge",
-   "repo": "tauri-apps/tauri",
-   "at": "2026-11-17T13:41:13Z",
-   "text": "fix(bundler): name the camelCase NSIS key in the language warning"
-  },
-  {
-   "kind": "merge",
-   "repo": "penpot/penpot",
-   "at": "2026-11-17T08:45:02Z",
-   "text": ":bug: Fix swapped Move left and Move right shortcuts"
-  },
-  {
-   "kind": "merge",
-   "repo": "apache/kafka",
-   "at": "2026-11-17T08:08:36Z",
-   "text": "MINOR: Fix config names that do not exist in docs"
-  },
-  {
-   "kind": "merge",
-   "repo": "tj/git-extras",
-   "at": "2026-11-17T03:26:45Z",
-   "text": "fix(completion): restore the fish command list and add missing commands"
-  },
-  {
-   "kind": "merge",
-   "repo": "tauri-apps/tauri",
-   "at": "2026-11-17T03:07:30Z",
-   "text": "docs(bundler): update the tauri.conf.json example to the v2 config"
   }
  ]
 }
