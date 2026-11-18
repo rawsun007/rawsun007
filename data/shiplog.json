@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-17T16:08:55Z",
+ "generated_at": "2026-11-18T00:59:32Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "nasa/fprime",
+   "at": "2026-11-17T21:05:37Z",
+   "text": "TlmPacketizer: describe the red-black tree lookup in the SDD"
+  },
+  {
+   "kind": "merge",
+   "repo": "TriliumNext/Trilium",
+   "at": "2026-11-17T19:03:30Z",
+   "text": "docs: list F9 for Zen mode in the keyboard shortcuts page"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -49,18 +61,6 @@
    "repo": "homebrew-tap",
    "at": "2026-11-17T12:22:06Z",
    "text": "Update claudenotch cask to v0.44.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-11-17T12:13:44Z",
-   "text": "released v0.44.1"
-  },
-  {
-   "kind": "merge",
-   "repo": "penpot/penpot",
-   "at": "2026-11-17T08:45:02Z",
-   "text": ":bug: Fix swapped Move left and Move right shortcuts"
   }
  ]
 }
