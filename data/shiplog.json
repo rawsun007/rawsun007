@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-18T00:59:32Z",
+ "generated_at": "2026-11-18T11:51:41Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "rclone/rclone",
+   "at": "2026-11-18T11:26:58Z",
+   "text": "docs: fix config keys in the hasher and docker examples"
+  },
+  {
+   "kind": "merge",
+   "repo": "irontec/sngrep",
+   "at": "2026-11-18T07:25:36Z",
+   "text": "doc: drop settings the sample sngreprc names but nothing reads"
+  },
   {
    "kind": "merge",
    "repo": "nasa/fprime",
@@ -13,18 +25,6 @@
    "repo": "TriliumNext/Trilium",
    "at": "2026-11-17T19:03:30Z",
    "text": "docs: list F9 for Zen mode in the keyboard shortcuts page"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T15:52:22Z",
-   "text": "docs: Linux announcement restyled as a pill"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T15:49:34Z",
-   "text": "docs: steady changelog tabs, no Mac downloads, Linux notice on the homepage"
   },
   {
    "kind": "merge",
@@ -39,28 +39,28 @@
    "text": "fix(bundler): name the camelCase NSIS key in the language warning"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T12:27:46Z",
-   "text": "docs: changelog split into macOS, Linux and Windows pages"
+   "kind": "merge",
+   "repo": "penpot/penpot",
+   "at": "2026-11-17T08:45:02Z",
+   "text": ":bug: Fix swapped Move left and Move right shortcuts"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T12:27:43Z",
-   "text": "docs(linux): link the Linux changelog page"
+   "kind": "merge",
+   "repo": "apache/kafka",
+   "at": "2026-11-17T08:08:36Z",
+   "text": "MINOR: Fix config names that do not exist in docs"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-17T12:22:42Z",
-   "text": "docs: changelog for 0.44.1"
+   "kind": "merge",
+   "repo": "tj/git-extras",
+   "at": "2026-11-17T03:26:45Z",
+   "text": "fix(completion): restore the fish command list and add missing commands"
   },
   {
-   "kind": "commit",
-   "repo": "homebrew-tap",
-   "at": "2026-11-17T12:22:06Z",
-   "text": "Update claudenotch cask to v0.44.1"
+   "kind": "merge",
+   "repo": "tauri-apps/tauri",
+   "at": "2026-11-17T03:07:30Z",
+   "text": "docs(bundler): update the tauri.conf.json example to the v2 config"
   }
  ]
 }
