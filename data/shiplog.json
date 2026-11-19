@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-18T20:38:28Z",
+ "generated_at": "2026-11-19T11:48:30Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-11-19T11:04:02Z",
+   "text": "docs(inputs): Use emitted field names in metrics lists"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:58:03Z",
+   "text": "feat(export): add active_s column to the sessions CSV"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:57:50Z",
+   "text": "fix(history): measure session time as active time, not wall-clock"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:56:36Z",
+   "text": "ui(history): drop the unlabeled cost bar under each project row"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:56:15Z",
+   "text": "fix(history): show long session and project durations in days"
+  },
+  {
+   "kind": "merge",
+   "repo": "tj/git-extras",
+   "at": "2026-11-19T08:16:04Z",
+   "text": "fix(completion): complete branch names for git graft in fish"
+  },
   {
    "kind": "commit",
    "repo": "claude-notch",
@@ -21,46 +57,10 @@
    "text": "plans: Monday launch checklist (winget timing, website, announce)"
   },
   {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "plans: prompts for Claude Code on the Windows and Ubuntu machines"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "plans: ordered tickets for Saturday spikes and Sunday coding"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "plans: setting up the borrowed machines and leaving them clean"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "plans: Ubuntu real-hardware test pass and parity backlog"
-  },
-  {
    "kind": "merge",
    "repo": "rclone/rclone",
    "at": "2026-11-18T11:26:58Z",
    "text": "docs: fix config keys in the hasher and docker examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "irontec/sngrep",
-   "at": "2026-11-18T07:25:36Z",
-   "text": "doc: drop settings the sample sngreprc names but nothing reads"
-  },
-  {
-   "kind": "merge",
-   "repo": "nasa/fprime",
-   "at": "2026-11-17T21:05:37Z",
-   "text": "TlmPacketizer: describe the red-black tree lookup in the SDD"
   }
  ]
 }
