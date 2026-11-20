@@ -1,7 +1,25 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-19T20:43:44Z",
+ "generated_at": "2026-11-20T11:49:41Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "alibaba/MNN",
+   "at": "2026-11-20T09:14:12Z",
+   "text": "[Doc:Bugfix] Remove nonexistent CMake options and fix a QNN flag typo"
+  },
+  {
+   "kind": "merge",
+   "repo": "r0x0r/pywebview",
+   "at": "2026-11-20T08:17:24Z",
+   "text": "[Docs] Match the API reference signatures to the code"
+  },
+  {
+   "kind": "merge",
+   "repo": "envoyproxy/envoy",
+   "at": "2026-11-20T05:20:54Z",
+   "text": "docs: fix the description of --reject-unknown-dynamic-fields"
+  },
   {
    "kind": "merge",
    "repo": "checkpoint-restore/criu",
@@ -43,24 +61,6 @@
    "repo": "tj/git-extras",
    "at": "2026-11-19T08:16:04Z",
    "text": "fix(completion): complete branch names for git graft in fish"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T17:27:47Z",
-   "text": "docs: dark mode with a sliding light/dark toggle"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "docs(claude): point the repo map at the Windows plan"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-18T16:44:16Z",
-   "text": "plans: Monday launch checklist (winget timing, website, announce)"
   }
  ]
 }
