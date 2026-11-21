@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-21T11:15:53Z",
+ "generated_at": "2026-11-21T19:23:31Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "starship/starship",
+   "at": "2026-11-21T14:58:27Z",
+   "text": "docs: fix the mise and claude_cost config examples"
+  },
   {
    "kind": "merge",
    "repo": "nextest-rs/nextest",
@@ -55,12 +61,6 @@
    "repo": "rclone/rclone",
    "at": "2026-11-18T11:26:58Z",
    "text": "docs: fix config keys in the hasher and docker examples"
-  },
-  {
-   "kind": "merge",
-   "repo": "irontec/sngrep",
-   "at": "2026-11-18T07:25:36Z",
-   "text": "doc: drop settings the sample sngreprc names but nothing reads"
   }
  ]
 }
