@@ -1,6 +1,6 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-21T19:23:31Z",
+ "generated_at": "2026-11-22T11:35:22Z",
  "entries": [
   {
    "kind": "merge",
@@ -51,16 +51,16 @@
    "text": "docs(inputs): Use emitted field names in metrics lists"
   },
   {
-   "kind": "merge",
-   "repo": "tj/git-extras",
-   "at": "2026-11-19T08:16:04Z",
-   "text": "fix(completion): complete branch names for git graft in fish"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:58:03Z",
+   "text": "feat(export): add active_s column to the sessions CSV"
   },
   {
-   "kind": "merge",
-   "repo": "rclone/rclone",
-   "at": "2026-11-18T11:26:58Z",
-   "text": "docs: fix config keys in the hasher and docker examples"
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-19T08:57:50Z",
+   "text": "fix(history): measure session time as active time, not wall-clock"
   }
  ]
 }
