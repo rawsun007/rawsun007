@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-24T13:52:10Z",
+ "generated_at": "2026-11-24T23:55:43Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "pika/pika",
+   "at": "2026-11-24T23:32:46Z",
+   "text": "Remove Sphinx roles from the blocking adapter docstrings"
+  },
   {
    "kind": "merge",
    "repo": "onthegomap/planetiler",
@@ -55,12 +61,6 @@
    "repo": "influxdata/telegraf",
    "at": "2026-11-19T11:04:02Z",
    "text": "docs(inputs): Use emitted field names in metrics lists"
-  },
-  {
-   "kind": "merge",
-   "repo": "tj/git-extras",
-   "at": "2026-11-19T08:16:04Z",
-   "text": "fix(completion): complete branch names for git graft in fish"
   }
  ]
 }
