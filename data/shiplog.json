@@ -1,54 +1,12 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-23T13:00:12Z",
+ "generated_at": "2026-11-24T13:52:10Z",
  "entries": [
   {
    "kind": "merge",
    "repo": "onthegomap/planetiler",
    "at": "2026-11-23T10:06:58Z",
    "text": "Fix download_chunk_size_mb name in config-example.properties"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:33:17Z",
-   "text": "Easier to try: one-minute quick start in the README; build runs without Chrome or Poppler and says what it skipped"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:28:26Z",
-   "text": "Site copy: plainer, warmer wording"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:25:42Z",
-   "text": "Alignment: equal-height card rows on the site and the care page, links pinned to card bottoms, spaced New/Changed badges"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:21:02Z",
-   "text": "Site: favicons, touch and manifest icons, social preview card (drawn with renderImage), Open Graph and Twitter tags, canonical links, 404 page, robots.txt and sitemap"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:17:42Z",
-   "text": "Site: care file as the sixth card, equal-height rows, English-first copy, links to Dad's outputs"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:12:12Z",
-   "text": "English-first: two English example families lead, Hindi and Arabic shown as an option; spare English wallet card; Spanish example dropped"
-  },
-  {
-   "kind": "commit",
-   "repo": "kin-care-kit",
-   "at": "2026-11-23T09:03:28Z",
-   "text": "GitHub Pages: landing page as a Hyper Elements Page, site build script, deploy workflow"
   },
   {
    "kind": "merge",
@@ -61,6 +19,48 @@
    "repo": "nextest-rs/nextest",
    "at": "2026-11-21T06:48:18Z",
    "text": "[site] fix config examples that do not load"
+  },
+  {
+   "kind": "merge",
+   "repo": "Kozea/Radicale",
+   "at": "2026-11-20T17:26:08Z",
+   "text": "config: fix reference config entries that differ from the defaults"
+  },
+  {
+   "kind": "merge",
+   "repo": "alibaba/MNN",
+   "at": "2026-11-20T09:14:12Z",
+   "text": "[Doc:Bugfix] Remove nonexistent CMake options and fix a QNN flag typo"
+  },
+  {
+   "kind": "merge",
+   "repo": "r0x0r/pywebview",
+   "at": "2026-11-20T08:17:24Z",
+   "text": "[Docs] Match the API reference signatures to the code"
+  },
+  {
+   "kind": "merge",
+   "repo": "envoyproxy/envoy",
+   "at": "2026-11-20T05:20:54Z",
+   "text": "docs: fix the description of --reject-unknown-dynamic-fields"
+  },
+  {
+   "kind": "merge",
+   "repo": "checkpoint-restore/criu",
+   "at": "2026-11-19T13:41:23Z",
+   "text": "Documentation: add -c and -s to compel(1)"
+  },
+  {
+   "kind": "merge",
+   "repo": "influxdata/telegraf",
+   "at": "2026-11-19T11:04:02Z",
+   "text": "docs(inputs): Use emitted field names in metrics lists"
+  },
+  {
+   "kind": "merge",
+   "repo": "tj/git-extras",
+   "at": "2026-11-19T08:16:04Z",
+   "text": "fix(completion): complete branch names for git graft in fish"
   }
  ]
 }
