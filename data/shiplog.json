@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-24T23:55:43Z",
+ "generated_at": "2026-11-25T08:44:29Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "openemr/openemr",
+   "at": "2026-11-25T08:06:46Z",
+   "text": "docs(fhir): use the DocumentReference $docref path in the URL example"
+  },
+  {
+   "kind": "merge",
+   "repo": "enjoy-digital/litex",
+   "at": "2026-11-25T07:18:12Z",
+   "text": "doc/wiki: Fix the main RAM init references (no --integrated-main-ram-init argument)."
+  },
   {
    "kind": "merge",
    "repo": "pika/pika",
@@ -49,18 +61,6 @@
    "repo": "envoyproxy/envoy",
    "at": "2026-11-20T05:20:54Z",
    "text": "docs: fix the description of --reject-unknown-dynamic-fields"
-  },
-  {
-   "kind": "merge",
-   "repo": "checkpoint-restore/criu",
-   "at": "2026-11-19T13:41:23Z",
-   "text": "Documentation: add -c and -s to compel(1)"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-11-19T11:04:02Z",
-   "text": "docs(inputs): Use emitted field names in metrics lists"
   }
  ]
 }
