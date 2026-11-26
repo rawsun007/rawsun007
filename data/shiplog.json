@@ -1,7 +1,13 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-25T08:44:29Z",
+ "generated_at": "2026-11-26T03:37:08Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "conversejs/converse.js",
+   "at": "2026-11-25T19:31:45Z",
+   "text": "docs: correct four documented configuration defaults"
+  },
   {
    "kind": "merge",
    "repo": "openemr/openemr",
@@ -55,12 +61,6 @@
    "repo": "r0x0r/pywebview",
    "at": "2026-11-20T08:17:24Z",
    "text": "[Docs] Match the API reference signatures to the code"
-  },
-  {
-   "kind": "merge",
-   "repo": "envoyproxy/envoy",
-   "at": "2026-11-20T05:20:54Z",
-   "text": "docs: fix the description of --reject-unknown-dynamic-fields"
   }
  ]
 }
