@@ -1,7 +1,43 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-27T01:46:05Z",
+ "generated_at": "2026-11-27T12:36:42Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "django-guardian/django-guardian",
+   "at": "2026-11-27T12:15:48Z",
+   "text": "docs: document the GUARDIAN_*_404 settings"
+  },
+  {
+   "kind": "merge",
+   "repo": "mumble-voip/mumble",
+   "at": "2026-11-27T10:43:18Z",
+   "text": "FIX(server): Escape the hyphen in the default name patterns"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-11-27T07:54:03Z",
+   "text": "released windows-v0.45.6"
+  },
+  {
+   "kind": "release",
+   "repo": "claude-notch",
+   "at": "2026-11-27T07:43:04Z",
+   "text": "released windows-v0.45.5"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-27T02:25:15Z",
+   "text": "docs: website with ClaudeNotch for Windows 0.45.6"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-27T02:14:26Z",
+   "text": "docs: website with ClaudeNotch for Windows 0.45.5"
+  },
   {
    "kind": "merge",
    "repo": "ArduPilot/ardupilot",
@@ -25,42 +61,6 @@
    "repo": "claude-notch",
    "at": "2026-11-26T05:39:38Z",
    "text": "released windows-v0.45.3"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-11-26T05:18:59Z",
-   "text": "released windows-v0.45.2"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-11-26T05:05:59Z",
-   "text": "released windows-v0.45.1"
-  },
-  {
-   "kind": "release",
-   "repo": "claude-notch",
-   "at": "2026-11-26T04:34:47Z",
-   "text": "released windows-v0.45.0"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-26T01:17:13Z",
-   "text": "docs: website with the Windows beta notice"
-  },
-  {
-   "kind": "commit",
-   "repo": "claude-notch",
-   "at": "2026-11-26T01:01:40Z",
-   "text": "docs: website with ClaudeNotch for Windows 0.45.4"
-  },
-  {
-   "kind": "merge",
-   "repo": "conversejs/converse.js",
-   "at": "2026-11-25T19:31:45Z",
-   "text": "docs: correct four documented configuration defaults"
   }
  ]
 }
