@@ -1,7 +1,19 @@
 {
  "user": "rawsun007",
- "generated_at": "2026-11-27T12:36:42Z",
+ "generated_at": "2026-11-27T23:29:58Z",
  "entries": [
+  {
+   "kind": "merge",
+   "repo": "k3s-io/kine",
+   "at": "2026-11-27T22:05:33Z",
+   "text": "Document the credsFile and dataDir NATS endpoint parameters"
+  },
+  {
+   "kind": "commit",
+   "repo": "claude-notch",
+   "at": "2026-11-27T14:53:50Z",
+   "text": "test(linux): keep the Windows path-folding collision case on Windows"
+  },
   {
    "kind": "merge",
    "repo": "django-guardian/django-guardian",
@@ -29,38 +41,26 @@
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-27T02:25:15Z",
-   "text": "docs: website with ClaudeNotch for Windows 0.45.6"
+   "at": "2026-11-27T02:22:06Z",
+   "text": "chore(windows): 0.45.6, with its changelog"
   },
   {
    "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-27T02:14:26Z",
-   "text": "docs: website with ClaudeNotch for Windows 0.45.5"
+   "at": "2026-11-27T02:20:28Z",
+   "text": "fix(state): clear a session's waiting card when it starts a new turn"
   },
   {
-   "kind": "merge",
-   "repo": "ArduPilot/ardupilot",
-   "at": "2026-11-26T22:40:26Z",
-   "text": "AP_Periph: correct two parameter names in the metadata"
-  },
-  {
-   "kind": "merge",
-   "repo": "influxdata/telegraf",
-   "at": "2026-11-26T13:46:26Z",
-   "text": "docs(inputs.smartctl): Fix plugin name in sudo example"
-  },
-  {
-   "kind": "release",
+   "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-26T06:30:12Z",
-   "text": "released windows-v0.45.4"
+   "at": "2026-11-27T02:20:00Z",
+   "text": "fix(state): show the Auto-allowed card for rule matches under Auto-Approve"
   },
   {
-   "kind": "release",
+   "kind": "commit",
    "repo": "claude-notch",
-   "at": "2026-11-26T05:39:38Z",
-   "text": "released windows-v0.45.3"
+   "at": "2026-11-27T02:10:49Z",
+   "text": "chore(windows): 0.45.5, with its changelog"
   }
  ]
 }
